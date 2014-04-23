@@ -47,10 +47,14 @@ void pipeline_transfer(void *r) {
 //printf("TID %d %ld %p \n", local_tid, pthread_self(), req);
 
 ////printf("Thread %d starting... N : %d \n",tid, N);
+    double start, diff;
+    start = MPI_Wtime();
 #pragma omp parallel for
     for (i = 0; i < N; i++) {
         *((double *) rbuf + i) = *((double *) sbuf + i);
     }
+    diff = MPI_Wtime() - start ;
+    printf("elapsed time : %12.3f buffSize: %d  N: %d \n",diff, bufsize, N);
     *(req->r_sync) = 1;
 }
 
