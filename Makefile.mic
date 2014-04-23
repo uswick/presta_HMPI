@@ -32,7 +32,7 @@ com_u: com_u.c util.o
 com_up: com_u_pthread.c util.o transfer.o
 	$(CC) $(CFLAGS) $(LDFLAGS) -O3 -I$(INCDIR) $(LIBS)  -o com_up.mic com_u_pthread.c transfer.o util.o  -D__USE_GNU -D_GNU_SOURCE lib-mic/libhmpiMIC.a
 
-com_uo: com_u_pthread.c util.o transfer_omp.o
+com_uo: com_u_openmp.c util.o transfer_omp.o
 	$(CC) $(CFLAGS) $(LDFLAGS) -O3 -I$(INCDIR) $(LIBS)  -o com_uo.mic com_u_openmp.c transfer_omp.o util.o  -D__USE_GNU -D_GNU_SOURCE -openmp lib-mic/libhmpiMIC.a
 
 com_h: com_hmpi.c util.o
