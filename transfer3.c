@@ -9,26 +9,13 @@ void do_strasnfer(pthrequest* req){
 
     volatile int* offsetptr = req->offsetptr ;
     int* s_sync = req->s_sync ;
-    int* r_sync = req->r_sync ;
-    pthread_t thread[MAX_T];
-    req->tid = 0 ;
-    int i = 0 ; 	
     ++scount ;
-    /*for(i =0 ; i < MAX_T ; i++){
-          pthread_create( &thread[i], NULL, pipeline_transfer, (void*) req);
-    }*/
     pipeline_transfer(req);
-    /*for(i =0 ; i < MAX_T ; i++){
-           pthread_join( thread[i], NULL);
-    } */              
-    //*(req->r_sync) = 2 ;
-    //pipeline_transfer(req);
+
     while(!__sync_bool_compare_and_swap(s_sync, 1 ,0)){
-	
     	//printf("s in loop ! s_sync:  %d r_sync: %d  iter : %d\n",*s_sync,*r_sync, scount);
      }
     //printf("s done ! s_sync:  %d r_sync: %d  iter : %d\n",*s_sync,*r_sync, ++scount);
-    //sleep(2);
 }
 
 void do_rtrasnfer(pthrequest* req){
@@ -37,20 +24,9 @@ void do_rtrasnfer(pthrequest* req){
     int* s_sync = req->s_sync ;
     int* r_sync = req->r_sync ;
 
-    //int i = 0 ;
-    /*for(i =0 ; i < MAX_T ; i++){
-        pthread_create( &thread[i], NULL, pipeline_transfer, (void*) req);
-    }*/
-    //pipeline_transfer(req);
-    //*(req->r_sync) = 2 ;
-    /*for(i =0 ; i < MAX_T ; i++){
-       pthread_join( thread[i], NULL);
-    }*/
-    
     while(!__sync_bool_compare_and_swap(r_sync, 1 ,0));
     //printf("Total tid :%d  count : %d Buffsize : %d offset : %d  \n",req->tid, count, req->bufsize, *(req->offsetptr));
     count = 0 ;
-    req->tid = 0 ;
     *offsetptr = 0 ;
     *s_sync = 1 ;
     //printf("r done ! s_sync:  %d r_sync: %d  iter : %d\n",*s_sync,*r_sync, ++rcount);

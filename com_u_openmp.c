@@ -371,7 +371,14 @@ double runUnicomTest(int procs, int bufsize, int iters, int rank,
      MPI_Barrier(*activeComm);
      MPI_Barrier(*activeComm);
 
-
+    #pragma omp parallel
+       {
+    #pragma omp master
+           {
+               int k = omp_get_num_threads();
+               printf ("Number of Threads requested = %i\n",k);
+           }
+       }
 //     printf("START Comm rank [ %d ] buffsize %d \n", rank, bufsize);
      if ( rank < currtarg )
      {
