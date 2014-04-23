@@ -1,0 +1,93 @@
+Experiment Title : TEMPLATE RUN
+No of Total Runs : 3
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2849618
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849618.KY2d8OLr -machinefile /home1/02636/uswickra/.slurm/job.2849618.hostlist.VXqruEQV  
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2849618
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849618.ifGuK7K2 -machinefile /home1/02636/uswickra/.slurm/job.2849618.hostlist.VHnKytqD  
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2849618
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849618.pDgrJ87M -machinefile /home1/02636/uswickra/.slurm/job.2849618.hostlist.0bb6t8hd  
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

@@ -1,0 +1,6 @@
+slurmd[c408-004]: *** JOB 2921484 CANCELLED AT 2014-03-03T21:30:59 ***
+[mpiexec@c408-004.stampede.tacc.utexas.edu] HYD_pmcd_pmiserv_send_signal (./pm/pmiserv/pmiserv_cb.c:221): assert (!closed) failed
+[mpiexec@c408-004.stampede.tacc.utexas.edu] ui_cmd_cb (./pm/pmiserv/pmiserv_pmci.c:128): unable to send SIGUSR1 downstream
+[mpiexec@c408-004.stampede.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (./tools/demux/demux_poll.c:77): callback returned error status
+[mpiexec@c408-004.stampede.tacc.utexas.edu] HYD_pmci_wait_for_completion (./pm/pmiserv/pmiserv_pmci.c:388): error waiting for event
+[mpiexec@c408-004.stampede.tacc.utexas.edu] main (./ui/mpich/mpiexec.c:745): process manager error waiting for completion

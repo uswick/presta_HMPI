@@ -1,0 +1,467 @@
+Experiment Title : INTER SMP 800 ranks (E5/MIC) - 40 nodes (640 mic 160  e5) (16/mic && 4/e5)
+No of Total Runs : 20
+MIC procs per node : 16  OMP_NUM_THREADS: 2  MIC_OMP_NUM_THREADS : 480
+
+***************************************************
+Experiment 1
+***************************************************
+
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.aX1p1Nrt -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.Umbj7YaK  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.rSzsD65t -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.k1Dt9yL2  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.e8XO4ucB -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.ffQzglwB  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.RJDutk6m -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.cForNbZj  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.fHTU6VHZ -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.dNWgxCjw  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.8FS5e1OE -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.EJdtC1uq  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.N2qRVHzU -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.gWMGiFMM  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.eotO2nZ8 -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.2UqFzjeM  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.JDA4vdbL -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.zBQcclOR  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.1Kc8ekiZ -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.VwVPromf  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.Iuy14prR -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.yhFki59F  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.UMrioY87 -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.8bt2y8HM  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.kvoyRsEj -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.3JLMCCIH  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.9qqThTWK -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.qEfhUIth  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.OqS9amEU -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.tbZ68GQp  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.6AwCBWuS -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.g5uu4Vf0  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.8Jgw8Gp2 -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.F6xcATPE  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.PjHqoLLh -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.c77KRVv3  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.lbD3PtVL -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.Qn1wPq0w  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.ySnCIjUr -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.ylXJeBIh  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+***************************************************
+Experiment 2
+***************************************************
+
+
+
+****************  task 0 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.s12H4Uka -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.zRtojsaE  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.SogyW64x -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.kmEokALr  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.JDEraTtj -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.5Y7eOiIQ  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.uHiamywe -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.oWl2GQzf  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.JnkxT4PH -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.EK1yxV5w  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.bIFFY2mx -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.YPsJidDA  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.8vLRcbt2 -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.4GfhGEJo  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.tzCR3O5o -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.OVFfPCwq  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.ymqaH1bY -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.mfGAxAmp  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.9afIZGKD -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.xogfZiTI  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.gHdWt9vg -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.cRuxBlr7  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.Tt7ssqzQ -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.cmbL9IBj  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.GPCmVBG3 -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.9rJPFgDy  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.dJvApqlT -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.krSGib5y  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.qL09ZCxY -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.voaWVmQY  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.5tx2ZnSD -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.7Lu0cfVi  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.l1j0PDsb -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.RTpQ9jjQ  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.N72aEX3t -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.nSlLJpBS  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.1GDuIyb7 -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.pfJx2MGD  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.FTs3tb8x -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.Lfgq0oWI  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 2921448
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2921448.frz8808K -machinefile /home1/02636/uswickra/.slurm/job.2921448.hostlist.e71bEWIB  
+TACC: MPI job exited with code: 139
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

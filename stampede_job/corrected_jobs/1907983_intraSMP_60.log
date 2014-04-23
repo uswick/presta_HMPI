@@ -1,0 +1,148 @@
+TACC: Starting up job 1907983
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1907983.wQzlwOF6 
+params:  6442450944 2
+params:  6442450944 2
+params:  6442450944 2
+params:  6442450944 2
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--rank: 1  size:4  procsSize:2 .
+rank: 2  size:4  procsSize:2 .
+rank: 3  size:4  procsSize:2 .
+------------------------------------------------------------------------------
+rank: 0  size:4  procsSize:2 .
+Active comm good
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+Active comm good
+rank: 2  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+HMPI_SENDRECV()  exit() 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+HMPI_SENDRECV()  exit() 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  exit() 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+HMPI_SENDRECV()  source: 0 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+HMPI_SENDRECV()  exit() 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+unicom 5
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+HMPI_SENDRECV()  exit() 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+HMPI_SENDRECV()  exit() 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+TACC: MPI job exited with code: 1
+ 
+TACC: Shutdown complete. Exiting.

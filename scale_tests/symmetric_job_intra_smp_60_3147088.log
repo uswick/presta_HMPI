@@ -1,0 +1,143 @@
+Experiment Title : INTRA SMP 60 ranks (MIC) - 1 node with com_u
+No of Total Runs : 10
+MIC procs per node : 60  OMP_NUM_THREADS: 2  MIC_OMP_NUM_THREADS : 60
+
+***************************************************
+Experiment 1
+***************************************************
+
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 3147088
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3147088.1DF933K0 -machinefile /home1/02636/uswickra/.slurm/job.3147088.hostlist.AQrEYCLW  
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 16649400320 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 11280691200 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 30608044032 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 20407496704 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 1080143872 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 22018109440 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 29534302208 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 16112529408 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 7522594816 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 13965045760 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 10206949376 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 25239334912 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 2153885696 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 26313076736 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 26849947648 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 9133207552 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 18796883968 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 12891303936 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 11817562112 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 6448852992 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 19870625792 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 24165593088 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 6402048 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 5911982080 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 5375111168 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 17186271232 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 1617014784 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 22554980352 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 3764498432 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 31681785856 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 20944367616 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 25776205824 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 28997431296 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 13428174848 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 6985723904 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 9670078464 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 27923689472 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 30071173120 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 28460560384 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 2690756608 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 14501916672 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 8059465728 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 23628722176 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 18260013056 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 15038787584 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 17723142144 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 23091851264 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 27386818560 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 543272960 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 19333754880 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 4838240256 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 21481238528 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 24702464000 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 12354433024 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 15575658496 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 4301369344 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 8596336640 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 10743820288 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 31144914944 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+map addr : 6397952 
+params: map_addr : 6397952 sm_region: 6397952 brk : 3227627520 limit : 32218656768 total_size : 32212254720  offset : 4096  ranks : 60 local_size : 536870912 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+
+Current pairs, block allocation
+      0:   30
+

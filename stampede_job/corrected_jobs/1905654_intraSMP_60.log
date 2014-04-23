@@ -1,0 +1,29 @@
+TACC: Starting up job 1905654
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1905654.9hGxsuTe 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+Active comm good
+Active comm good
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+TACC: MPI job exited with code: 1
+ 
+TACC: Shutdown complete. Exiting.

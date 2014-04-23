@@ -1,0 +1,769 @@
+TACC: Starting up job 1707317
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1707317.ZoSubkUd 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32           22.749         0.703
+  Unidirectional          2                    64           52.634         0.608
+  Unidirectional          2                   128           90.995         0.703
+  Unidirectional          2                   256          198.841         0.644
+  Unidirectional          2                   512          340.870         0.751
+  Unidirectional          2                  1024          604.925         0.846
+  Unidirectional          2                  2048          584.349         1.752
+  Unidirectional          2                  4096          731.058         2.801
+  Unidirectional          2                  8192          549.756         7.451
+  Unidirectional          2                 16384         1018.066         8.047
+  Unidirectional          2                 32768         1735.340         9.441
+  Unidirectional          2                 65536         2684.355        12.207
+  Unidirectional          2                131072         3631.148        18.048
+  Unidirectional          2                262144         4496.980        29.147
+  Unidirectional          2                524288         4876.964        53.751
+  Unidirectional          2               1048576         5261.451        99.647
+  Unidirectional          2               2097152         5486.927       191.104
+  Unidirectional          2               4194304         5798.921       361.645
+  Unidirectional          2               8388608         5754.346       728.893
+
+  Unidirectional          4                    32           39.476         0.811
+  Unidirectional          4                    64           90.995         0.703
+  Unidirectional          4                   128          181.990         0.703
+  Unidirectional          4                   256          302.462         0.846
+  Unidirectional          4                   512          394.034         1.299
+  Unidirectional          4                  1024          681.741         1.502
+  Unidirectional          4                  2048          760.171         2.694
+  Unidirectional          4                  4096         1205.605         3.397
+  Unidirectional          4                  8192         1063.769         7.701
+  Unidirectional          4                 16384         1762.038         9.298
+  Unidirectional          4                 32768         2787.808        11.754
+  Unidirectional          4                 65536         3734.754        17.548
+  Unidirectional          4                131072         4647.133        28.205
+  Unidirectional          4                262144         5227.058        50.151
+  Unidirectional          4                524288         5285.478        99.194
+  Unidirectional          4               1048576         5745.701       182.498
+  Unidirectional          4               2097152         5876.795       356.853
+  Unidirectional          4               4194304         5677.554       738.752
+  Unidirectional          4               8388608         5870.911      1428.843
+
+  Unidirectional          8                    32           58.356         1.097
+  Unidirectional          8                    64          127.826         1.001
+  Unidirectional          8                   128          212.622         1.204
+  Unidirectional          8                   256          268.435         1.907
+  Unidirectional          8                   512          456.911         2.241
+  Unidirectional          8                  1024          559.605         3.660
+  Unidirectional          8                  2048          863.310         4.745
+  Unidirectional          8                  4096         1249.445         6.557
+  Unidirectional          8                  8192         1862.316         8.798
+  Unidirectional          8                 16384         3166.796        10.347
+  Unidirectional          8                 32768         4009.889        16.344
+  Unidirectional          8                 65536         4873.722        26.894
+  Unidirectional          8                131072         5355.634        48.947
+  Unidirectional          8                262144         5000.053       104.856
+  Unidirectional          8                524288         5700.274       183.952
+  Unidirectional          8               1048576         5631.482       372.398
+  Unidirectional          8               2097152         5547.660       756.049
+  Unidirectional          8               4194304         5558.484      1509.154
+  Unidirectional          8               8388608         5804.278      2890.491
+
+  Unidirectional         16                    32           65.472         1.955
+  Unidirectional         16                    64          165.191         1.550
+  Unidirectional         16                   128          277.095         1.848
+  Unidirectional         16                   256          310.106         3.302
+  Unidirectional         16                   512          559.605         3.660
+  Unidirectional         16                  1024          890.149         4.601
+  Unidirectional         16                  2048          890.149         9.203
+  Unidirectional         16                  4096         1316.465        12.445
+  Unidirectional         16                  8192         2875.292        11.396
+  Unidirectional         16                 16384         3590.828        18.251
+  Unidirectional         16                 32768         4558.506        28.753
+  Unidirectional         16                 65536         4899.784        53.501
+  Unidirectional         16                131072         5055.807       103.700
+  Unidirectional         16                262144         4405.757       238.001
+  Unidirectional         16                524288         5133.257       408.542
+  Unidirectional         16               1048576         4935.594       849.807
+  Unidirectional         16               2097152         5097.596      1645.601
+  Unidirectional         16               4194304         5062.755      3313.851
+  Unidirectional         16               8388608         5123.363      6549.299
+
+  Unidirectional         32                    32           96.300         2.658
+  Unidirectional         32                    64          352.046         1.454
+  Unidirectional         32                   128          550.637         1.860
+  Unidirectional         32                   256          908.988         2.253
+  Unidirectional         32                   512          973.364         4.208
+  Unidirectional         32                  1024         1411.078         5.805
+  Unidirectional         32                  2048         1613.133        10.157
+  Unidirectional         32                  4096         2684.355        12.207
+  Unidirectional         32                  8192         3581.471        18.299
+  Unidirectional         32                 16384         4792.989        27.347
+  Unidirectional         32                 32768         5155.975        50.843
+  Unidirectional         32                 65536         5527.267        94.855
+  Unidirectional         32                131072         4820.041       217.545
+  Unidirectional         32                262144         5545.912       378.144
+  Unidirectional         32                524288         5325.076       787.652
+  Unidirectional         32               1048576         5526.095      1517.999
+  Unidirectional         32               2097152         5449.893      3078.449
+  Unidirectional         32               4194304         5518.273      6080.604
+  Unidirectional         32               8388608         5509.691     12180.150
+
+  Unidirectional         64                    32           51.192        10.002
+  Unidirectional         64                    64          173.534         5.901
+  Unidirectional         64                   128          341.548         5.996
+  Unidirectional         64                   256          277.767        14.746
+  Unidirectional         64                   512         1050.757         7.796
+  Unidirectional         64                  1024         1647.949         9.942
+  Unidirectional         64                  2048         2373.730        13.804
+  Unidirectional         64                  4096         3621.580        18.096
+  Unidirectional         64                  8192         4045.297        32.401
+  Unidirectional         64                 16384         4394.531        59.652
+  Unidirectional         64                 32768         4890.522       107.205
+  Unidirectional         64                 65536         5011.162       209.248
+  Unidirectional         64                131072         5402.840       388.157
+  Unidirectional         64                262144         5346.438       784.504
+  Unidirectional         64                524288         5012.019      1673.698
+  Unidirectional         64               1048576         4942.476      3394.496
+  Unidirectional         64               2097152         4922.922      6815.958
+  Unidirectional         64               4194304         4898.079     13701.057
+  Unidirectional         64               8388608         4886.135     27469.099
+
+  Unidirectional        128                    32          101.416        10.097
+  Unidirectional        128                    64          324.761         6.306
+  Unidirectional        128                   128          470.681         8.702
+  Unidirectional        128                   256          987.349         8.297
+  Unidirectional        128                   512         1882.725         8.702
+  Unidirectional        128                  1024         2765.371        11.849
+  Unidirectional        128                  2048         3712.058        17.655
+  Unidirectional        128                  4096         4405.095        29.755
+  Unidirectional        128                  8192         7489.861        35.000
+  Unidirectional        128                 16384         9126.471        57.447
+  Unidirectional        128                 32768         9663.912       108.504
+  Unidirectional        128                 65536         9925.070       211.298
+  Unidirectional        128                131072        10936.673       383.508
+  Unidirectional        128                262144        10512.055       797.999
+  Unidirectional        128                524288        10137.324      1654.994
+  Unidirectional        128               1048576         9945.585      3373.802
+  Unidirectional        128               2097152         9833.376      6824.601
+  Unidirectional        128               4194304         9774.837     13730.943
+  Unidirectional        128               8388608         9740.832     27557.755
+
+  Unidirectional        256                    32          206.737         9.906
+  Unidirectional        256                    64          509.033         8.047
+  Unidirectional        256                   128          987.349         8.297
+  Unidirectional        256                   256         1733.152         9.453
+  Unidirectional        256                   512         3307.797         9.906
+  Unidirectional        256                  1024         4268.290        15.354
+  Unidirectional        256                  2048         7759.433        16.892
+  Unidirectional        256                  4096         9782.132        26.798
+  Unidirectional        256                  8192        13155.987        39.852
+  Unidirectional        256                 16384        18249.156        57.459
+  Unidirectional        256                 32768        16126.305       130.045
+  Unidirectional        256                 65536        19160.471       218.904
+  Unidirectional        256                131072        19812.694       423.396
+  Unidirectional        256                262144        18244.897       919.557
+  Unidirectional        256                524288        18493.878      1814.353
+  Unidirectional        256               1048576        18823.288      3565.204
+  Unidirectional        256               2097152        18496.461      7256.401
+  Unidirectional        256               4194304        18318.485     14653.802
+  Unidirectional        256               8388608        18555.086     28933.895
+
+  Unidirectional        320                    32          178.362        14.353
+  Unidirectional        320                    64          585.145         8.750
+  Unidirectional        320                   128         1250.354         8.190
+  Unidirectional        320                   256         2123.593         9.644
+  Unidirectional        320                   512         4262.995         9.608
+  Unidirectional        320                  1024         6913.428        11.849
+  Unidirectional        320                  2048        10017.416        16.356
+  Unidirectional        320                  4096        14996.067        21.851
+  Unidirectional        320                  8192        18258.247        35.894
+  Unidirectional        320                 16384        22216.844        58.997
+  Unidirectional        320                 32768        22365.981       117.207
+  Unidirectional        320                 65536        21145.471       247.943
+  Unidirectional        320                131072        15893.490       659.752
+  Unidirectional        320                262144        25758.736       814.152
+  Unidirectional        320                524288        23777.884      1763.952
+  Unidirectional        320               1048576        23539.027      3563.702
+  Unidirectional        320               2097152        22894.978      7327.902
+  Unidirectional        320               4194304        23598.053     14219.153
+  Unidirectional        320               8388608        22573.040     29729.652
+
+  Bidirectional           2                    32           12.092         5.293
+  Bidirectional           2                    64           26.062         4.911
+  Bidirectional           2                   128           47.301         5.412
+  Bidirectional           2                   256           88.374         5.794
+  Bidirectional           2                   512          165.191         6.199
+  Bidirectional           2                  1024          284.435         7.200
+  Bidirectional           2                  2048          531.884         7.701
+  Bidirectional           2                  4096          854.720         9.584
+  Bidirectional           2                  8192         1063.769        15.402
+  Bidirectional           2                 16384         1810.790        18.096
+  Bidirectional           2                 32768         2825.056        23.198
+  Bidirectional           2                 65536         4352.778        30.112
+  Bidirectional           2                131072         5889.189        44.513
+  Bidirectional           2                262144         7322.755        71.597
+  Bidirectional           2                524288         9329.755       112.391
+  Bidirectional           2               1048576         9812.687       213.718
+  Bidirectional           2               2097152         9389.510       446.701
+  Bidirectional           2               4194304         9399.042       892.496
+  Bidirectional           2               8388608         9152.348      1833.105
+
+  Bidirectional           4                    32           23.755         5.388
+  Bidirectional           4                    64           49.254         5.198
+  Bidirectional           4                   128           93.369         5.484
+  Bidirectional           4                   256          155.053         6.604
+  Bidirectional           4                   512          244.032         8.392
+  Bidirectional           4                  1024          379.247        10.800
+  Bidirectional           4                  2048          639.846        12.803
+  Bidirectional           4                  4096         1162.766        14.091
+  Bidirectional           4                  8192         1250.582        26.202
+  Bidirectional           4                 16384         3431.684        19.097
+  Bidirectional           4                 32768         4647.133        28.205
+  Bidirectional           4                 65536         7262.296        36.097
+  Bidirectional           4                131072         8467.552        61.917
+  Bidirectional           4                262144         9280.537       112.987
+  Bidirectional           4                524288        10265.017       204.301
+  Bidirectional           4               1048576        10928.860       383.782
+  Bidirectional           4               2097152        10139.881       827.289
+  Bidirectional           4               4194304         9053.088      1853.204
+  Bidirectional           4               8388608         9023.890      3718.400
+
+  Bidirectional           8                    32           39.916         6.413
+  Bidirectional           8                    64           85.218         6.008
+  Bidirectional           8                   128          142.217         7.200
+  Bidirectional           8                   256          222.537         9.203
+  Bidirectional           8                   512          330.382        12.398
+  Bidirectional           8                  1024          531.884        15.402
+  Bidirectional           8                  2048         1301.505        12.589
+  Bidirectional           8                  4096         2256.797        14.520
+  Bidirectional           8                  8192         3323.796        19.717
+  Bidirectional           8                 16384         4398.047        29.802
+  Bidirectional           8                 32768         5864.062        44.703
+  Bidirectional           8                 65536         7446.743        70.405
+  Bidirectional           8                131072         9621.629       108.981
+  Bidirectional           8                262144         9691.597       216.389
+  Bidirectional           8                524288        10192.460       411.510
+  Bidirectional           8               1048576         9894.646       847.793
+  Bidirectional           8               2097152         9372.752      1789.999
+  Bidirectional           8               4194304         9259.715      3623.700
+  Bidirectional           8               8388608         8857.626      7576.394
+
+  Bidirectional          16                    32           69.051         7.415
+  Bidirectional          16                    64          123.419         8.297
+  Bidirectional          16                   128          194.783        10.514
+  Bidirectional          16                   256          314.650        13.018
+  Bidirectional          16                   512          503.071        16.284
+  Bidirectional          16                  1024          738.125        22.197
+  Bidirectional          16                  2048         1552.983        21.100
+  Bidirectional          16                  4096         2600.548        25.201
+  Bidirectional          16                  8192         4021.623        32.592
+  Bidirectional          16                 16384         5527.962        47.421
+  Bidirectional          16                 32768         7310.583        71.716
+  Bidirectional          16                 65536         8388.416       125.003
+  Bidirectional          16                131072         9141.647       229.406
+  Bidirectional          16                262144         8818.580       475.621
+  Bidirectional          16                524288         8475.915       989.699
+  Bidirectional          16               1048576         8809.638      1904.416
+  Bidirectional          16               2097152         8991.489      3731.799
+  Bidirectional          16               4194304         9052.738      7413.101
+  Bidirectional          16               8388608         8924.834     15038.681
+
+  Bidirectional          32                    32          111.269         9.203
+  Bidirectional          32                    64          232.790         8.798
+  Bidirectional          32                   128          335.544        12.207
+  Bidirectional          32                   256          589.361        13.900
+  Bidirectional          32                   512          969.245        16.904
+  Bidirectional          32                  1024         1320.259        24.819
+  Bidirectional          32                  2048         2185.039        29.993
+  Bidirectional          32                  4096         3995.318        32.806
+  Bidirectional          32                  8192         5472.930        47.898
+  Bidirectional          32                 16384         7300.874        71.812
+  Bidirectional          32                 32768         8559.841       122.499
+  Bidirectional          32                 65536         7822.226       268.102
+  Bidirectional          32                131072         4879.941       859.499
+  Bidirectional          32                262144         9748.524       860.500
+  Bidirectional          32                524288        10142.073      1654.220
+  Bidirectional          32               1048576        10101.308      3321.791
+  Bidirectional          32               2097152        10034.687      6687.689
+  Bidirectional          32               4194304         9361.825     14336.705
+  Bidirectional          32               8388608         9054.726     29645.896
+
+  Bidirectional          64                    32          107.778        19.002
+  Bidirectional          64                    64          240.952        16.999
+  Bidirectional          64                   128          436.037        18.787
+  Bidirectional          64                   256          776.491        21.100
+  Bidirectional          64                   512         1393.904        23.508
+  Bidirectional          64                  1024         2134.145        30.708
+  Bidirectional          64                  2048         3448.907        38.004
+  Bidirectional          64                  4096         5201.096        50.402
+  Bidirectional          64                  8192         6399.951        81.921
+  Bidirectional          64                 16384         7593.312       138.092
+  Bidirectional          64                 32768         8545.704       245.404
+  Bidirectional          64                 65536         9010.082       465.512
+  Bidirectional          64                131072         9859.433       850.821
+  Bidirectional          64                262144         9555.907      1755.691
+  Bidirectional          64                524288         8771.478      3825.402
+  Bidirectional          64               1048576         8616.282      7788.610
+  Bidirectional          64               2097152         8893.659     15091.395
+  Bidirectional          64               4194304         8600.144     31212.902
+  Bidirectional          64               8388608         8672.677     61903.715
+
+  Bidirectional         128                    32          197.017        20.790
+  Bidirectional         128                    64          420.046        19.503
+  Bidirectional         128                   128          703.372        23.293
+  Bidirectional         128                   256         1388.272        23.603
+  Bidirectional         128                   512         2521.816        25.988
+  Bidirectional         128                  1024         3890.699        33.689
+  Bidirectional         128                  2048         5864.062        44.703
+  Bidirectional         128                  4096         9657.546        54.288
+  Bidirectional         128                  8192        11740.647        89.312
+  Bidirectional         128                 16384        15218.154       137.806
+  Bidirectional         128                 32768        16237.942       258.303
+  Bidirectional         128                 65536        16263.461       515.795
+  Bidirectional         128                131072        17446.940       961.614
+  Bidirectional         128                262144        17295.142      1940.107
+  Bidirectional         128                524288        16588.479      4045.510
+  Bidirectional         128               1048576        16423.500      8172.297
+  Bidirectional         128               2097152        16747.385     16028.500
+  Bidirectional         128               4194304        16067.482     33413.506
+  Bidirectional         128               8388608        16785.342     63969.016
+
+  Bidirectional         256                    32          316.388        25.892
+  Bidirectional         256                    64          780.017        21.005
+  Bidirectional         256                   128         1405.306        23.317
+  Bidirectional         256                   256         2620.380        25.010
+  Bidirectional         256                   512         4311.810        30.398
+  Bidirectional         256                  1024         5864.062        44.703
+  Bidirectional         256                  2048        12395.847        42.295
+  Bidirectional         256                  4096        17684.144        59.295
+  Bidirectional         256                  8192        20522.849       102.186
+  Bidirectional         256                 16384        29452.848       142.407
+  Bidirectional         256                 32768        31884.343       263.095
+  Bidirectional         256                 65536        33654.763       498.509
+  Bidirectional         256                131072        36239.858       925.899
+  Bidirectional         256                262144        33215.522      2020.407
+  Bidirectional         256                524288        33019.529      4064.798
+  Bidirectional         256               1048576        32894.888      8160.400
+  Bidirectional         256               2097152        32895.080     16320.705
+  Bidirectional         256               4194304        32854.932     32681.298
+  Bidirectional         256               8388608        32499.319     66077.805
+
+  Bidirectional         320                    32          188.956        54.193
+  Bidirectional         320                    64          829.144        24.700
+  Bidirectional         320                   128         1699.295        24.104
+  Bidirectional         320                   256         3035.313        26.989
+  Bidirectional         320                   512         5828.624        28.110
+  Bidirectional         320                  1024         8901.487        36.812
+  Bidirectional         320                  2048        14309.105        45.800
+  Bidirectional         320                  4096        23314.496        56.219
+  Bidirectional         320                  8192        28337.929        92.506
+  Bidirectional         320                 16384        36085.055       145.292
+  Bidirectional         320                 32768        38019.074       275.803
+  Bidirectional         320                 65536        35629.022       588.608
+  Bidirectional         320                131072        43782.350       957.990
+  Bidirectional         320                262144        41976.607      1998.401
+  Bidirectional         320                524288        40817.374      4110.312
+  Bidirectional         320               1048576        40641.511      8256.197
+  Bidirectional         320               2097152        39767.530     16875.291
+  Bidirectional         320               4194304        40940.773     32783.389
+  Bidirectional         320               8388608        40166.427     66830.802
+
+Max Unidirectional Bandwith :       25758.74 for message size of  262144 bytes
+Max  Bidirectional Bandwith :       43782.35 for message size of  131072 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       10
+Process pair allocation    :    block
+
+
+Rank id    0 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  160 (c429-603.stampede.tacc.utexas.edu)
+Rank id    1 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  161 (c429-603.stampede.tacc.utexas.edu)
+Rank id    2 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  162 (c429-603.stampede.tacc.utexas.edu)
+Rank id    3 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  163 (c429-603.stampede.tacc.utexas.edu)
+Rank id    4 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  164 (c429-603.stampede.tacc.utexas.edu)
+Rank id    5 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  165 (c429-603.stampede.tacc.utexas.edu)
+Rank id    6 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  166 (c429-603.stampede.tacc.utexas.edu)
+Rank id    7 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  167 (c429-603.stampede.tacc.utexas.edu)
+Rank id    8 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  168 (c429-603.stampede.tacc.utexas.edu)
+Rank id    9 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  169 (c429-603.stampede.tacc.utexas.edu)
+Rank id   10 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  170 (c429-603.stampede.tacc.utexas.edu)
+Rank id   11 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  171 (c429-603.stampede.tacc.utexas.edu)
+Rank id   12 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  172 (c429-603.stampede.tacc.utexas.edu)
+Rank id   13 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  173 (c429-603.stampede.tacc.utexas.edu)
+Rank id   14 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  174 (c429-603.stampede.tacc.utexas.edu)
+Rank id   15 (c402-702.stampede.tacc.utexas.edu) communicated with rank id  175 (c429-603.stampede.tacc.utexas.edu)
+Rank id   16 (c402-702-mic0.stampede.tacc.utexas.edu) communicated with rank id  176 (c429-603-mic0.stampede.tacc.utexas.edu)
+Rank id   17 (c402-702-mic0.stampede.tacc.utexas.edu) communicated with rank id  177 (c429-603-mic0.stampede.tacc.utexas.edu)
+Rank id   18 (c402-702-mic0.stampede.tacc.utexas.edu) communicated with rank id  178 (c429-603-mic0.stampede.tacc.utexas.edu)
+Rank id   19 (c402-702-mic0.stampede.tacc.utexas.edu) communicated with rank id  179 (c429-603-mic0.stampede.tacc.utexas.edu)
+Rank id   20 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  180 (c429-604.stampede.tacc.utexas.edu)
+Rank id   21 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  181 (c429-604.stampede.tacc.utexas.edu)
+Rank id   22 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  182 (c429-604.stampede.tacc.utexas.edu)
+Rank id   23 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  183 (c429-604.stampede.tacc.utexas.edu)
+Rank id   24 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  184 (c429-604.stampede.tacc.utexas.edu)
+Rank id   25 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  185 (c429-604.stampede.tacc.utexas.edu)
+Rank id   26 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  186 (c429-604.stampede.tacc.utexas.edu)
+Rank id   27 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  187 (c429-604.stampede.tacc.utexas.edu)
+Rank id   28 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  188 (c429-604.stampede.tacc.utexas.edu)
+Rank id   29 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  189 (c429-604.stampede.tacc.utexas.edu)
+Rank id   30 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  190 (c429-604.stampede.tacc.utexas.edu)
+Rank id   31 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  191 (c429-604.stampede.tacc.utexas.edu)
+Rank id   32 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  192 (c429-604.stampede.tacc.utexas.edu)
+Rank id   33 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  193 (c429-604.stampede.tacc.utexas.edu)
+Rank id   34 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  194 (c429-604.stampede.tacc.utexas.edu)
+Rank id   35 (c407-102.stampede.tacc.utexas.edu) communicated with rank id  195 (c429-604.stampede.tacc.utexas.edu)
+Rank id   36 (c407-102-mic0.stampede.tacc.utexas.edu) communicated with rank id  196 (c429-604-mic0.stampede.tacc.utexas.edu)
+Rank id   37 (c407-102-mic0.stampede.tacc.utexas.edu) communicated with rank id  197 (c429-604-mic0.stampede.tacc.utexas.edu)
+Rank id   38 (c407-102-mic0.stampede.tacc.utexas.edu) communicated with rank id  198 (c429-604-mic0.stampede.tacc.utexas.edu)
+Rank id   39 (c407-102-mic0.stampede.tacc.utexas.edu) communicated with rank id  199 (c429-604-mic0.stampede.tacc.utexas.edu)
+Rank id   40 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  200 (c429-904.stampede.tacc.utexas.edu)
+Rank id   41 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  201 (c429-904.stampede.tacc.utexas.edu)
+Rank id   42 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  202 (c429-904.stampede.tacc.utexas.edu)
+Rank id   43 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  203 (c429-904.stampede.tacc.utexas.edu)
+Rank id   44 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  204 (c429-904.stampede.tacc.utexas.edu)
+Rank id   45 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  205 (c429-904.stampede.tacc.utexas.edu)
+Rank id   46 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  206 (c429-904.stampede.tacc.utexas.edu)
+Rank id   47 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  207 (c429-904.stampede.tacc.utexas.edu)
+Rank id   48 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  208 (c429-904.stampede.tacc.utexas.edu)
+Rank id   49 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  209 (c429-904.stampede.tacc.utexas.edu)
+Rank id   50 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  210 (c429-904.stampede.tacc.utexas.edu)
+Rank id   51 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  211 (c429-904.stampede.tacc.utexas.edu)
+Rank id   52 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  212 (c429-904.stampede.tacc.utexas.edu)
+Rank id   53 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  213 (c429-904.stampede.tacc.utexas.edu)
+Rank id   54 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  214 (c429-904.stampede.tacc.utexas.edu)
+Rank id   55 (c413-003.stampede.tacc.utexas.edu) communicated with rank id  215 (c429-904.stampede.tacc.utexas.edu)
+Rank id   56 (c413-003-mic0.stampede.tacc.utexas.edu) communicated with rank id  216 (c429-904-mic0.stampede.tacc.utexas.edu)
+Rank id   57 (c413-003-mic0.stampede.tacc.utexas.edu) communicated with rank id  217 (c429-904-mic0.stampede.tacc.utexas.edu)
+Rank id   58 (c413-003-mic0.stampede.tacc.utexas.edu) communicated with rank id  218 (c429-904-mic0.stampede.tacc.utexas.edu)
+Rank id   59 (c413-003-mic0.stampede.tacc.utexas.edu) communicated with rank id  219 (c429-904-mic0.stampede.tacc.utexas.edu)
+Rank id   60 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  220 (c430-202.stampede.tacc.utexas.edu)
+Rank id   61 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  221 (c430-202.stampede.tacc.utexas.edu)
+Rank id   62 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  222 (c430-202.stampede.tacc.utexas.edu)
+Rank id   63 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  223 (c430-202.stampede.tacc.utexas.edu)
+Rank id   64 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  224 (c430-202.stampede.tacc.utexas.edu)
+Rank id   65 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  225 (c430-202.stampede.tacc.utexas.edu)
+Rank id   66 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  226 (c430-202.stampede.tacc.utexas.edu)
+Rank id   67 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  227 (c430-202.stampede.tacc.utexas.edu)
+Rank id   68 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  228 (c430-202.stampede.tacc.utexas.edu)
+Rank id   69 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  229 (c430-202.stampede.tacc.utexas.edu)
+Rank id   70 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  230 (c430-202.stampede.tacc.utexas.edu)
+Rank id   71 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  231 (c430-202.stampede.tacc.utexas.edu)
+Rank id   72 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  232 (c430-202.stampede.tacc.utexas.edu)
+Rank id   73 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  233 (c430-202.stampede.tacc.utexas.edu)
+Rank id   74 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  234 (c430-202.stampede.tacc.utexas.edu)
+Rank id   75 (c424-404.stampede.tacc.utexas.edu) communicated with rank id  235 (c430-202.stampede.tacc.utexas.edu)
+Rank id   76 (c424-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  236 (c430-202-mic0.stampede.tacc.utexas.edu)
+Rank id   77 (c424-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  237 (c430-202-mic0.stampede.tacc.utexas.edu)
+Rank id   78 (c424-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  238 (c430-202-mic0.stampede.tacc.utexas.edu)
+Rank id   79 (c424-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  239 (c430-202-mic0.stampede.tacc.utexas.edu)
+Rank id   80 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  240 (c430-604.stampede.tacc.utexas.edu)
+Rank id   81 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  241 (c430-604.stampede.tacc.utexas.edu)
+Rank id   82 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  242 (c430-604.stampede.tacc.utexas.edu)
+Rank id   83 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  243 (c430-604.stampede.tacc.utexas.edu)
+Rank id   84 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  244 (c430-604.stampede.tacc.utexas.edu)
+Rank id   85 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  245 (c430-604.stampede.tacc.utexas.edu)
+Rank id   86 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  246 (c430-604.stampede.tacc.utexas.edu)
+Rank id   87 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  247 (c430-604.stampede.tacc.utexas.edu)
+Rank id   88 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  248 (c430-604.stampede.tacc.utexas.edu)
+Rank id   89 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  249 (c430-604.stampede.tacc.utexas.edu)
+Rank id   90 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  250 (c430-604.stampede.tacc.utexas.edu)
+Rank id   91 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  251 (c430-604.stampede.tacc.utexas.edu)
+Rank id   92 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  252 (c430-604.stampede.tacc.utexas.edu)
+Rank id   93 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  253 (c430-604.stampede.tacc.utexas.edu)
+Rank id   94 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  254 (c430-604.stampede.tacc.utexas.edu)
+Rank id   95 (c424-903.stampede.tacc.utexas.edu) communicated with rank id  255 (c430-604.stampede.tacc.utexas.edu)
+Rank id   96 (c424-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  256 (c430-604-mic0.stampede.tacc.utexas.edu)
+Rank id   97 (c424-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  257 (c430-604-mic0.stampede.tacc.utexas.edu)
+Rank id   98 (c424-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  258 (c430-604-mic0.stampede.tacc.utexas.edu)
+Rank id   99 (c424-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  259 (c430-604-mic0.stampede.tacc.utexas.edu)
+Rank id  100 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  260 (c430-704.stampede.tacc.utexas.edu)
+Rank id  101 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  261 (c430-704.stampede.tacc.utexas.edu)
+Rank id  102 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  262 (c430-704.stampede.tacc.utexas.edu)
+Rank id  103 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  263 (c430-704.stampede.tacc.utexas.edu)
+Rank id  104 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  264 (c430-704.stampede.tacc.utexas.edu)
+Rank id  105 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  265 (c430-704.stampede.tacc.utexas.edu)
+Rank id  106 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  266 (c430-704.stampede.tacc.utexas.edu)
+Rank id  107 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  267 (c430-704.stampede.tacc.utexas.edu)
+Rank id  108 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  268 (c430-704.stampede.tacc.utexas.edu)
+Rank id  109 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  269 (c430-704.stampede.tacc.utexas.edu)
+Rank id  110 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  270 (c430-704.stampede.tacc.utexas.edu)
+Rank id  111 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  271 (c430-704.stampede.tacc.utexas.edu)
+Rank id  112 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  272 (c430-704.stampede.tacc.utexas.edu)
+Rank id  113 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  273 (c430-704.stampede.tacc.utexas.edu)
+Rank id  114 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  274 (c430-704.stampede.tacc.utexas.edu)
+Rank id  115 (c425-903.stampede.tacc.utexas.edu) communicated with rank id  275 (c430-704.stampede.tacc.utexas.edu)
+Rank id  116 (c425-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  276 (c430-704-mic0.stampede.tacc.utexas.edu)
+Rank id  117 (c425-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  277 (c430-704-mic0.stampede.tacc.utexas.edu)
+Rank id  118 (c425-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  278 (c430-704-mic0.stampede.tacc.utexas.edu)
+Rank id  119 (c425-903-mic0.stampede.tacc.utexas.edu) communicated with rank id  279 (c430-704-mic0.stampede.tacc.utexas.edu)
+Rank id  120 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  280 (c437-404.stampede.tacc.utexas.edu)
+Rank id  121 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  281 (c437-404.stampede.tacc.utexas.edu)
+Rank id  122 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  282 (c437-404.stampede.tacc.utexas.edu)
+Rank id  123 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  283 (c437-404.stampede.tacc.utexas.edu)
+Rank id  124 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  284 (c437-404.stampede.tacc.utexas.edu)
+Rank id  125 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  285 (c437-404.stampede.tacc.utexas.edu)
+Rank id  126 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  286 (c437-404.stampede.tacc.utexas.edu)
+Rank id  127 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  287 (c437-404.stampede.tacc.utexas.edu)
+Rank id  128 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  288 (c437-404.stampede.tacc.utexas.edu)
+Rank id  129 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  289 (c437-404.stampede.tacc.utexas.edu)
+Rank id  130 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  290 (c437-404.stampede.tacc.utexas.edu)
+Rank id  131 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  291 (c437-404.stampede.tacc.utexas.edu)
+Rank id  132 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  292 (c437-404.stampede.tacc.utexas.edu)
+Rank id  133 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  293 (c437-404.stampede.tacc.utexas.edu)
+Rank id  134 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  294 (c437-404.stampede.tacc.utexas.edu)
+Rank id  135 (c426-701.stampede.tacc.utexas.edu) communicated with rank id  295 (c437-404.stampede.tacc.utexas.edu)
+Rank id  136 (c426-701-mic0.stampede.tacc.utexas.edu) communicated with rank id  296 (c437-404-mic0.stampede.tacc.utexas.edu)
+Rank id  137 (c426-701-mic0.stampede.tacc.utexas.edu) communicated with rank id  297 (c437-404-mic0.stampede.tacc.utexas.edu)
+Rank id  138 (c426-701-mic0.stampede.tacc.utexas.edu) communicated with rank id  298 (c437-404-mic0.stampede.tacc.utexas.edu)
+Rank id  139 (c426-701-mic0.stampede.tacc.utexas.edu) communicated with rank id  299 (c437-404-mic0.stampede.tacc.utexas.edu)
+Rank id  140 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  300 (c447-602.stampede.tacc.utexas.edu)
+Rank id  141 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  301 (c447-602.stampede.tacc.utexas.edu)
+Rank id  142 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  302 (c447-602.stampede.tacc.utexas.edu)
+Rank id  143 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  303 (c447-602.stampede.tacc.utexas.edu)
+Rank id  144 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  304 (c447-602.stampede.tacc.utexas.edu)
+Rank id  145 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  305 (c447-602.stampede.tacc.utexas.edu)
+Rank id  146 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  306 (c447-602.stampede.tacc.utexas.edu)
+Rank id  147 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  307 (c447-602.stampede.tacc.utexas.edu)
+Rank id  148 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  308 (c447-602.stampede.tacc.utexas.edu)
+Rank id  149 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  309 (c447-602.stampede.tacc.utexas.edu)
+Rank id  150 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  310 (c447-602.stampede.tacc.utexas.edu)
+Rank id  151 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  311 (c447-602.stampede.tacc.utexas.edu)
+Rank id  152 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  312 (c447-602.stampede.tacc.utexas.edu)
+Rank id  153 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  313 (c447-602.stampede.tacc.utexas.edu)
+Rank id  154 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  314 (c447-602.stampede.tacc.utexas.edu)
+Rank id  155 (c428-904.stampede.tacc.utexas.edu) communicated with rank id  315 (c447-602.stampede.tacc.utexas.edu)
+Rank id  156 (c428-904-mic0.stampede.tacc.utexas.edu) communicated with rank id  316 (c447-602-mic0.stampede.tacc.utexas.edu)
+Rank id  157 (c428-904-mic0.stampede.tacc.utexas.edu) communicated with rank id  317 (c447-602-mic0.stampede.tacc.utexas.edu)
+Rank id  158 (c428-904-mic0.stampede.tacc.utexas.edu) communicated with rank id  318 (c447-602-mic0.stampede.tacc.utexas.edu)
+Rank id  159 (c428-904-mic0.stampede.tacc.utexas.edu) communicated with rank id  319 (c447-602-mic0.stampede.tacc.utexas.edu)
+Rank id  160 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    0 (c402-702.stampede.tacc.utexas.edu)
+Rank id  161 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    1 (c402-702.stampede.tacc.utexas.edu)
+Rank id  162 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    2 (c402-702.stampede.tacc.utexas.edu)
+Rank id  163 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    3 (c402-702.stampede.tacc.utexas.edu)
+Rank id  164 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    4 (c402-702.stampede.tacc.utexas.edu)
+Rank id  165 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    5 (c402-702.stampede.tacc.utexas.edu)
+Rank id  166 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    6 (c402-702.stampede.tacc.utexas.edu)
+Rank id  167 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    7 (c402-702.stampede.tacc.utexas.edu)
+Rank id  168 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    8 (c402-702.stampede.tacc.utexas.edu)
+Rank id  169 (c429-603.stampede.tacc.utexas.edu) communicated with rank id    9 (c402-702.stampede.tacc.utexas.edu)
+Rank id  170 (c429-603.stampede.tacc.utexas.edu) communicated with rank id   10 (c402-702.stampede.tacc.utexas.edu)
+Rank id  171 (c429-603.stampede.tacc.utexas.edu) communicated with rank id   11 (c402-702.stampede.tacc.utexas.edu)
+Rank id  172 (c429-603.stampede.tacc.utexas.edu) communicated with rank id   12 (c402-702.stampede.tacc.utexas.edu)
+Rank id  173 (c429-603.stampede.tacc.utexas.edu) communicated with rank id   13 (c402-702.stampede.tacc.utexas.edu)
+Rank id  174 (c429-603.stampede.tacc.utexas.edu) communicated with rank id   14 (c402-702.stampede.tacc.utexas.edu)
+Rank id  175 (c429-603.stampede.tacc.utexas.edu) communicated with rank id   15 (c402-702.stampede.tacc.utexas.edu)
+Rank id  176 (c429-603-mic0.stampede.tacc.utexas.edu) communicated with rank id   16 (c402-702-mic0.stampede.tacc.utexas.edu)
+Rank id  177 (c429-603-mic0.stampede.tacc.utexas.edu) communicated with rank id   17 (c402-702-mic0.stampede.tacc.utexas.edu)
+Rank id  178 (c429-603-mic0.stampede.tacc.utexas.edu) communicated with rank id   18 (c402-702-mic0.stampede.tacc.utexas.edu)
+Rank id  179 (c429-603-mic0.stampede.tacc.utexas.edu) communicated with rank id   19 (c402-702-mic0.stampede.tacc.utexas.edu)
+Rank id  180 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   20 (c407-102.stampede.tacc.utexas.edu)
+Rank id  181 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   21 (c407-102.stampede.tacc.utexas.edu)
+Rank id  182 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   22 (c407-102.stampede.tacc.utexas.edu)
+Rank id  183 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   23 (c407-102.stampede.tacc.utexas.edu)
+Rank id  184 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   24 (c407-102.stampede.tacc.utexas.edu)
+Rank id  185 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   25 (c407-102.stampede.tacc.utexas.edu)
+Rank id  186 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   26 (c407-102.stampede.tacc.utexas.edu)
+Rank id  187 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   27 (c407-102.stampede.tacc.utexas.edu)
+Rank id  188 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   28 (c407-102.stampede.tacc.utexas.edu)
+Rank id  189 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   29 (c407-102.stampede.tacc.utexas.edu)
+Rank id  190 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   30 (c407-102.stampede.tacc.utexas.edu)
+Rank id  191 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   31 (c407-102.stampede.tacc.utexas.edu)
+Rank id  192 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   32 (c407-102.stampede.tacc.utexas.edu)
+Rank id  193 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   33 (c407-102.stampede.tacc.utexas.edu)
+Rank id  194 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   34 (c407-102.stampede.tacc.utexas.edu)
+Rank id  195 (c429-604.stampede.tacc.utexas.edu) communicated with rank id   35 (c407-102.stampede.tacc.utexas.edu)
+Rank id  196 (c429-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   36 (c407-102-mic0.stampede.tacc.utexas.edu)
+Rank id  197 (c429-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   37 (c407-102-mic0.stampede.tacc.utexas.edu)
+Rank id  198 (c429-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   38 (c407-102-mic0.stampede.tacc.utexas.edu)
+Rank id  199 (c429-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   39 (c407-102-mic0.stampede.tacc.utexas.edu)
+Rank id  200 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   40 (c413-003.stampede.tacc.utexas.edu)
+Rank id  201 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   41 (c413-003.stampede.tacc.utexas.edu)
+Rank id  202 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   42 (c413-003.stampede.tacc.utexas.edu)
+Rank id  203 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   43 (c413-003.stampede.tacc.utexas.edu)
+Rank id  204 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   44 (c413-003.stampede.tacc.utexas.edu)
+Rank id  205 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   45 (c413-003.stampede.tacc.utexas.edu)
+Rank id  206 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   46 (c413-003.stampede.tacc.utexas.edu)
+Rank id  207 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   47 (c413-003.stampede.tacc.utexas.edu)
+Rank id  208 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   48 (c413-003.stampede.tacc.utexas.edu)
+Rank id  209 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   49 (c413-003.stampede.tacc.utexas.edu)
+Rank id  210 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   50 (c413-003.stampede.tacc.utexas.edu)
+Rank id  211 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   51 (c413-003.stampede.tacc.utexas.edu)
+Rank id  212 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   52 (c413-003.stampede.tacc.utexas.edu)
+Rank id  213 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   53 (c413-003.stampede.tacc.utexas.edu)
+Rank id  214 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   54 (c413-003.stampede.tacc.utexas.edu)
+Rank id  215 (c429-904.stampede.tacc.utexas.edu) communicated with rank id   55 (c413-003.stampede.tacc.utexas.edu)
+Rank id  216 (c429-904-mic0.stampede.tacc.utexas.edu) communicated with rank id   56 (c413-003-mic0.stampede.tacc.utexas.edu)
+Rank id  217 (c429-904-mic0.stampede.tacc.utexas.edu) communicated with rank id   57 (c413-003-mic0.stampede.tacc.utexas.edu)
+Rank id  218 (c429-904-mic0.stampede.tacc.utexas.edu) communicated with rank id   58 (c413-003-mic0.stampede.tacc.utexas.edu)
+Rank id  219 (c429-904-mic0.stampede.tacc.utexas.edu) communicated with rank id   59 (c413-003-mic0.stampede.tacc.utexas.edu)
+Rank id  220 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   60 (c424-404.stampede.tacc.utexas.edu)
+Rank id  221 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   61 (c424-404.stampede.tacc.utexas.edu)
+Rank id  222 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   62 (c424-404.stampede.tacc.utexas.edu)
+Rank id  223 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   63 (c424-404.stampede.tacc.utexas.edu)
+Rank id  224 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   64 (c424-404.stampede.tacc.utexas.edu)
+Rank id  225 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   65 (c424-404.stampede.tacc.utexas.edu)
+Rank id  226 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   66 (c424-404.stampede.tacc.utexas.edu)
+Rank id  227 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   67 (c424-404.stampede.tacc.utexas.edu)
+Rank id  228 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   68 (c424-404.stampede.tacc.utexas.edu)
+Rank id  229 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   69 (c424-404.stampede.tacc.utexas.edu)
+Rank id  230 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   70 (c424-404.stampede.tacc.utexas.edu)
+Rank id  231 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   71 (c424-404.stampede.tacc.utexas.edu)
+Rank id  232 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   72 (c424-404.stampede.tacc.utexas.edu)
+Rank id  233 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   73 (c424-404.stampede.tacc.utexas.edu)
+Rank id  234 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   74 (c424-404.stampede.tacc.utexas.edu)
+Rank id  235 (c430-202.stampede.tacc.utexas.edu) communicated with rank id   75 (c424-404.stampede.tacc.utexas.edu)
+Rank id  236 (c430-202-mic0.stampede.tacc.utexas.edu) communicated with rank id   76 (c424-404-mic0.stampede.tacc.utexas.edu)
+Rank id  237 (c430-202-mic0.stampede.tacc.utexas.edu) communicated with rank id   77 (c424-404-mic0.stampede.tacc.utexas.edu)
+Rank id  238 (c430-202-mic0.stampede.tacc.utexas.edu) communicated with rank id   78 (c424-404-mic0.stampede.tacc.utexas.edu)
+Rank id  239 (c430-202-mic0.stampede.tacc.utexas.edu) communicated with rank id   79 (c424-404-mic0.stampede.tacc.utexas.edu)
+Rank id  240 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   80 (c424-903.stampede.tacc.utexas.edu)
+Rank id  241 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   81 (c424-903.stampede.tacc.utexas.edu)
+Rank id  242 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   82 (c424-903.stampede.tacc.utexas.edu)
+Rank id  243 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   83 (c424-903.stampede.tacc.utexas.edu)
+Rank id  244 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   84 (c424-903.stampede.tacc.utexas.edu)
+Rank id  245 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   85 (c424-903.stampede.tacc.utexas.edu)
+Rank id  246 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   86 (c424-903.stampede.tacc.utexas.edu)
+Rank id  247 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   87 (c424-903.stampede.tacc.utexas.edu)
+Rank id  248 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   88 (c424-903.stampede.tacc.utexas.edu)
+Rank id  249 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   89 (c424-903.stampede.tacc.utexas.edu)
+Rank id  250 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   90 (c424-903.stampede.tacc.utexas.edu)
+Rank id  251 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   91 (c424-903.stampede.tacc.utexas.edu)
+Rank id  252 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   92 (c424-903.stampede.tacc.utexas.edu)
+Rank id  253 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   93 (c424-903.stampede.tacc.utexas.edu)
+Rank id  254 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   94 (c424-903.stampede.tacc.utexas.edu)
+Rank id  255 (c430-604.stampede.tacc.utexas.edu) communicated with rank id   95 (c424-903.stampede.tacc.utexas.edu)
+Rank id  256 (c430-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   96 (c424-903-mic0.stampede.tacc.utexas.edu)
+Rank id  257 (c430-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   97 (c424-903-mic0.stampede.tacc.utexas.edu)
+Rank id  258 (c430-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   98 (c424-903-mic0.stampede.tacc.utexas.edu)
+Rank id  259 (c430-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   99 (c424-903-mic0.stampede.tacc.utexas.edu)
+Rank id  260 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  100 (c425-903.stampede.tacc.utexas.edu)
+Rank id  261 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  101 (c425-903.stampede.tacc.utexas.edu)
+Rank id  262 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  102 (c425-903.stampede.tacc.utexas.edu)
+Rank id  263 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  103 (c425-903.stampede.tacc.utexas.edu)
+Rank id  264 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  104 (c425-903.stampede.tacc.utexas.edu)
+Rank id  265 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  105 (c425-903.stampede.tacc.utexas.edu)
+Rank id  266 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  106 (c425-903.stampede.tacc.utexas.edu)
+Rank id  267 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  107 (c425-903.stampede.tacc.utexas.edu)
+Rank id  268 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  108 (c425-903.stampede.tacc.utexas.edu)
+Rank id  269 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  109 (c425-903.stampede.tacc.utexas.edu)
+Rank id  270 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  110 (c425-903.stampede.tacc.utexas.edu)
+Rank id  271 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  111 (c425-903.stampede.tacc.utexas.edu)
+Rank id  272 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  112 (c425-903.stampede.tacc.utexas.edu)
+Rank id  273 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  113 (c425-903.stampede.tacc.utexas.edu)
+Rank id  274 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  114 (c425-903.stampede.tacc.utexas.edu)
+Rank id  275 (c430-704.stampede.tacc.utexas.edu) communicated with rank id  115 (c425-903.stampede.tacc.utexas.edu)
+Rank id  276 (c430-704-mic0.stampede.tacc.utexas.edu) communicated with rank id  116 (c425-903-mic0.stampede.tacc.utexas.edu)
+Rank id  277 (c430-704-mic0.stampede.tacc.utexas.edu) communicated with rank id  117 (c425-903-mic0.stampede.tacc.utexas.edu)
+Rank id  278 (c430-704-mic0.stampede.tacc.utexas.edu) communicated with rank id  118 (c425-903-mic0.stampede.tacc.utexas.edu)
+Rank id  279 (c430-704-mic0.stampede.tacc.utexas.edu) communicated with rank id  119 (c425-903-mic0.stampede.tacc.utexas.edu)
+Rank id  280 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  120 (c426-701.stampede.tacc.utexas.edu)
+Rank id  281 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  121 (c426-701.stampede.tacc.utexas.edu)
+Rank id  282 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  122 (c426-701.stampede.tacc.utexas.edu)
+Rank id  283 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  123 (c426-701.stampede.tacc.utexas.edu)
+Rank id  284 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  124 (c426-701.stampede.tacc.utexas.edu)
+Rank id  285 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  125 (c426-701.stampede.tacc.utexas.edu)
+Rank id  286 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  126 (c426-701.stampede.tacc.utexas.edu)
+Rank id  287 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  127 (c426-701.stampede.tacc.utexas.edu)
+Rank id  288 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  128 (c426-701.stampede.tacc.utexas.edu)
+Rank id  289 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  129 (c426-701.stampede.tacc.utexas.edu)
+Rank id  290 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  130 (c426-701.stampede.tacc.utexas.edu)
+Rank id  291 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  131 (c426-701.stampede.tacc.utexas.edu)
+Rank id  292 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  132 (c426-701.stampede.tacc.utexas.edu)
+Rank id  293 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  133 (c426-701.stampede.tacc.utexas.edu)
+Rank id  294 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  134 (c426-701.stampede.tacc.utexas.edu)
+Rank id  295 (c437-404.stampede.tacc.utexas.edu) communicated with rank id  135 (c426-701.stampede.tacc.utexas.edu)
+Rank id  296 (c437-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  136 (c426-701-mic0.stampede.tacc.utexas.edu)
+Rank id  297 (c437-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  137 (c426-701-mic0.stampede.tacc.utexas.edu)
+Rank id  298 (c437-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  138 (c426-701-mic0.stampede.tacc.utexas.edu)
+Rank id  299 (c437-404-mic0.stampede.tacc.utexas.edu) communicated with rank id  139 (c426-701-mic0.stampede.tacc.utexas.edu)
+Rank id  300 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  140 (c428-904.stampede.tacc.utexas.edu)
+Rank id  301 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  141 (c428-904.stampede.tacc.utexas.edu)
+Rank id  302 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  142 (c428-904.stampede.tacc.utexas.edu)
+Rank id  303 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  143 (c428-904.stampede.tacc.utexas.edu)
+Rank id  304 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  144 (c428-904.stampede.tacc.utexas.edu)
+Rank id  305 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  145 (c428-904.stampede.tacc.utexas.edu)
+Rank id  306 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  146 (c428-904.stampede.tacc.utexas.edu)
+Rank id  307 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  147 (c428-904.stampede.tacc.utexas.edu)
+Rank id  308 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  148 (c428-904.stampede.tacc.utexas.edu)
+Rank id  309 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  149 (c428-904.stampede.tacc.utexas.edu)
+Rank id  310 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  150 (c428-904.stampede.tacc.utexas.edu)
+Rank id  311 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  151 (c428-904.stampede.tacc.utexas.edu)
+Rank id  312 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  152 (c428-904.stampede.tacc.utexas.edu)
+Rank id  313 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  153 (c428-904.stampede.tacc.utexas.edu)
+Rank id  314 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  154 (c428-904.stampede.tacc.utexas.edu)
+Rank id  315 (c447-602.stampede.tacc.utexas.edu) communicated with rank id  155 (c428-904.stampede.tacc.utexas.edu)
+Rank id  316 (c447-602-mic0.stampede.tacc.utexas.edu) communicated with rank id  156 (c428-904-mic0.stampede.tacc.utexas.edu)
+Rank id  317 (c447-602-mic0.stampede.tacc.utexas.edu) communicated with rank id  157 (c428-904-mic0.stampede.tacc.utexas.edu)
+Rank id  318 (c447-602-mic0.stampede.tacc.utexas.edu) communicated with rank id  158 (c428-904-mic0.stampede.tacc.utexas.edu)
+Rank id  319 (c447-602-mic0.stampede.tacc.utexas.edu) communicated with rank id  159 (c428-904-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000043
+Ticks for minimum sample             12
+
+ 
+TACC: Shutdown complete. Exiting.

@@ -1,0 +1,301 @@
+TACC: Starting up job 1919404
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1919404.iUNkIGTc 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+  Unidirectional          2                    32            7.375         2.170
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                    64           15.772         2.029
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+  Unidirectional          2                   128           27.846         2.298
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                   256           44.151         2.899
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+  Unidirectional          2                   512          142.217         1.800
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+  Unidirectional          2                  1024          271.147         1.888
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                  2048          494.812         2.069
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+  Unidirectional          2                  4096          846.299         2.420
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+  Unidirectional          2                  8192         1146.854         3.572
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+  Unidirectional          2                 16384         1878.608         4.361
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+  Unidirectional          2                 32768         1783.069         9.189
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 3 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                 65536         1608.790        20.368
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                131072         1737.864        37.711
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                262144         1707.528        76.761
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2                524288         1501.573       174.580
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2               1048576         1491.652       351.481
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2               2097152         1522.901       688.539
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+RUN_UNICOM  rank: 1 
+RUN_UNICOM  rank: 3 
+  Unidirectional          2               4194304         1542.273      1359.780
+RUN_UNICOM  rank: 0 
+RUN_UNICOM [after]  rank: 0 
+RUN_UNICOM [new_rank]  rank: 0 
+RUN_UNICOM  rank: 2 
+RUN_UNICOM [after]  rank: 2 
+RUN_UNICOM [new_rank]  rank: 1 
+RUN_UNICOM [enter barrier1]  rank: 0 
+RUN_UNICOM [enter barrier2]  rank: 0 
+RUN_UNICOM [enter barrier1]  rank: 2 
+RUN_UNICOM [enter barrier2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 2 
+RUN_UNICOM [exit barrier1,2]  rank: 0 
+  Unidirectional          2               8388608         1549.102      2707.572
+
+TACC: MPI job exited with code: 1
+ 
+TACC: Shutdown complete. Exiting.

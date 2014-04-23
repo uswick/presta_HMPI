@@ -1,0 +1,2732 @@
+TACC: Starting up job 1907730
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1907730.XMPmLF02 
+params:  6442450944 2
+params:  6442450944 2
+rank: 1  size:2  procsSize:1 .
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+rank: 0  size:2  procsSize:1 .
+Active comm good
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+Active comm good
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+  Unidirectional          2                    32            1.621         9.871
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                    64            3.013        10.622
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                   128            5.749        11.132
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                   256           11.501        11.129
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit()   Unidirectional          2                   512           24.172        10.591
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+  Unidirectional          2                  1024           46.583        10.991
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                  2048           88.574        11.561
+rank: 0  runUnicomTest().
+unicom start
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+  Unidirectional          2                  4096          182.532        11.220
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+  Unidirectional          2                  8192          330.827        12.381
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                 16384          525.780        15.581
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+  Unidirectional          2                 32768         1024.593        15.991
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                 65536         1241.769        26.388
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                131072         1391.716        47.090
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+  Unidirectional          2                262144         1126.918       116.310
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                524288          719.562       364.311
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               1048576          738.537       709.901
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               2097152          779.732      1344.790
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+rank: 1  runUnicomTest().
+unicom start
+unicom -2 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               4194304          802.906      2611.952
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               8388608          815.476      5143.380
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+Active comm good
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+Active comm good
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0   Bidirectional           2                    32            1.260        50.802
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                    64            2.377        53.859
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                   128            4.552        56.238
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                   256            8.861        57.783
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+  Bidirectional           2                   512           19.882        51.503
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                  1024           34.746        58.942
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                  2048           75.350        54.359
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                  4096          150.701        54.359
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0   Bidirectional           2                  8192          240.295        68.183
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                 16384          366.602        89.383
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                 32768          581.408       112.720
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                 65536          713.061       183.816
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0   Bidirectional           2                131072          904.754       289.741
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                262144          699.778       749.221
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2                524288          723.675      1448.960
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2               1048576          760.345      2758.160
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2               2097152          785.271      5341.220
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2               4194304          808.983     10369.320
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+HMPI_SENDRECV()  source: 1 HMPI_SENDRECV()  exit() generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+HMPI_SENDRECV()  source: 0 HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI_SENDRECV()  exit() genric barrier 2
+genric barrier return() 
+  Bidirectional           2               8388608          809.347     20729.322
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+Max Unidirectional Bandwith :        1391.72 for message size of  131072 bytes
+Max  Bidirectional Bandwith :         904.75 for message size of  131072 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c557-804-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c557-804-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c557-804-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c557-804-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            987
+
+ 
+TACC: Shutdown complete. Exiting.

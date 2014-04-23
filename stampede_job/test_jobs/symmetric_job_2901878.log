@@ -1,0 +1,96 @@
+Experiment Title : TEMPLATE RUN
+No of Total Runs : 3
+
+****************  task 1 Starting ****************
+ibrun.symm -c "a.out uswick" -m "a.out.mic udayanga"
+TACC: Starting up job 2901878
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901878.Hto52cDd -machinefile /home1/02636/uswickra/.slurm/job.2901878.hostlist.zbShS2k3  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+ibrun.symm -c "a.out uswick" -m "a.out.mic udayanga"
+TACC: Starting up job 2901878
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901878.VL8FGqQ5 -machinefile /home1/02636/uswickra/.slurm/job.2901878.hostlist.MoJiHKUu  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+ibrun.symm -c "a.out uswick" -m "a.out.mic udayanga"
+TACC: Starting up job 2901878
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901878.xQ5Yw334 -machinefile /home1/02636/uswickra/.slurm/job.2901878.hostlist.Q51OwmSo  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

@@ -1,0 +1,93 @@
+Experiment Title : TEMPLATE RUN
+No of Total Runs : 3
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2901906
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901906.KnuTEgRv -machinefile /home1/02636/uswickra/.slurm/job.2901906.hostlist.k0FlTQEE  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2901906
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901906.rE2muAa8 -machinefile /home1/02636/uswickra/.slurm/job.2901906.hostlist.RKZRoYLT  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2901906
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901906.HfD0h0px -machinefile /home1/02636/uswickra/.slurm/job.2901906.hostlist.QyBPWmXT  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

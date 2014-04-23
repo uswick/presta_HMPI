@@ -1,0 +1,54 @@
+#
+#  MPI Bandwidth and Latency Benchmark Makefile
+#
+#  Modify the CC, LIBS, CFLAGS, LDFLAGS, LIBDIR, and INCDIR values,
+#    if necessary, to compile the test applications for the target system
+#
+
+CC=mpicc
+LIBS= 
+CFLAGS= -mmic -g
+LDFLAGS=
+INCDIR=/home1/02636/uswickra/Sync/HMPI/hmpi-svn
+
+RMA  = rma
+MSG  = com laten allred globalop
+EXES = $(MSG) $(RMA)
+
+
+def: $(EXES)
+
+msg: $(MSG)
+
+.c.o:
+	$(CC) $(CFLAGS) $(INCDIR) -I$(INCDIR) $(LIBS) -openmp -D__USE_GNU -D_GNU_SOURCE lib-mic/libhmpiMIC.a -c $<
+
+com: com.c util.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -o com.mic com.c util.o -I$(INCDIR) $(LIBS) lib-mic/libhmpiMIC.a
+
+com_u: com_u.c util.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -O0 -I$(INCDIR) $(LIBS)  -o com_u.mic com_u.c util.o  lib-mic/libhmpiMIC.a
+
+com_up: com_u_pthread.c util.o transfer.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -O3 -I$(INCDIR) $(LIBS)  -o com_up.mic com_u_pthread.c transfer.o util.o  -D__USE_GNU -D_GNU_SOURCE lib-mic/libhmpiMIC.a
+
+com_uo: com_u_pthread.c util.o transfer2.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -O3 -I$(INCDIR) $(LIBS)  -o com_uo.mic com_u_pthread.c transfer2.o util.o  -D__USE_GNU -D_GNU_SOURCE -openmp lib-mic/libhmpiMIC.a
+
+com_h: com_hmpi.c util.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -O0 -I/home1/02636/uswickra/Sync/HMPI/hmpi-svn-mod  $(LIBS)  -o com_u.mic com_hmpi.c util.o  lib-mic-mod/libhmpiMIC.a
+
+rma: rma.c util.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ rma.c util.o $(LIBS)
+
+laten: laten.c util.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -o laten.mic laten.c util.o -I$(INCDIR) $(LIBS) lib-mic/libhmpiMIC.a
+
+allred: allred.c util.o
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ allred.c util.o
+
+globalop: globalop.c 
+	$(CC) $(CFLAGS) $(LDFLAGS) -o $@ globalop.c -lm $(LIBS)
+
+clean:
+	rm -f $(EXES) *.o

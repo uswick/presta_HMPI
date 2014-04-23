@@ -1,0 +1,93 @@
+Experiment Title : TEMPLATE RUN
+No of Total Runs : 3
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2849600
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849600.jL7PD40X -machinefile /home1/02636/uswickra/.slurm/job.2849600.hostlist.nc9pYVaG  
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2849600
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849600.uerMjvX5 -machinefile /home1/02636/uswickra/.slurm/job.2849600.hostlist.mpV1TTxv  
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2849600
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849600.ne9zzOxX -machinefile /home1/02636/uswickra/.slurm/job.2849600.hostlist.iBkWaaNa  
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+helloooo 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

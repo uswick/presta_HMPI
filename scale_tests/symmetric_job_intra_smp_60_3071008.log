@@ -1,0 +1,638 @@
+Experiment Title : INTRA SMP 60 ranks (MIC) - 1 node with com_u
+No of Total Runs : 20
+MIC procs per node : 2  OMP_NUM_THREADS: 2  MIC_OMP_NUM_THREADS : 60
+
+***************************************************
+Experiment 1
+***************************************************
+
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.elWaewZT -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.aNcOq47F  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [0] bufsize [4096] 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.qYdZ2wFs -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.w6pjZByo  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 32218652672 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 48324780032 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 48324780032 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 64430907392 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.paMNkRRg -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.HhXYhTZl  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 64430907392 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 80537034752 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 80537034752 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 96643162112 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.XU9ATmwF -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.49ALFJCJ  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 96643162112 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 112749289472 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 112749289472 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 128855416832 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.GrtvDrxT -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.QX5mssVg  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 128855416832 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 144961544192 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 144961544192 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 161067671552 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.Q3P7Y9up -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.x5VPWL6n  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 161067671552 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 177173798912 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 177173798912 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 193279926272 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.0MVzD233 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.x06GuSqs  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 193279926272 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 209386053632 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 209386053632 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 225492180992 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.jmYMEn4e -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.WxD8U3pj  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 241598308352 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 257704435712 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 225492180992 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 241598308352 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.Tm1MRLjP -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.8ENbQ9ge  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 257704435712 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 273810563072 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 273810563072 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 289916690432 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.EpMrordH -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.Ohb6Pms6  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 289916690432 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 306022817792 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 306022817792 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 322128945152 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.MEtDP5EI -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.hF3kCxcf  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 322128945152 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 338235072512 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 338235072512 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 354341199872 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.oIlO4V04 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.szTVdXdq  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 354341199872 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 370447327232 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 370447327232 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 386553454592 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.nZhPusw7 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.mQ485BHc  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 386553454592 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 402659581952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 402659581952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 418765709312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.vLInHiuR -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.HE1bAOzi  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 418765709312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 434871836672 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 434871836672 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 450977964032 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.qO2vE7Y5 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.SNqZqL4n  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 450977964032 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 467084091392 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 467084091392 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 483190218752 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.R3TN0WxI -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.0v6WMq2p  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 499296346112 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 515402473472 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 483190218752 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 499296346112 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.B5DEhyb7 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.kx8es7js  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 515402473472 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 531508600832 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 531508600832 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 547614728192 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.QStbbU93 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.rgsvoKbv  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 547614728192 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 563720855552 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 563720855552 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 579826982912 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.Z8zf5ddJ -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.1II6AwMa  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 579826982912 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 595933110272 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 595933110272 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 612039237632 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.79TwX5DI -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.KqnMBKkj  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 612039237632 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 628145364992 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 628145364992 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+ERROR !!! ==> params:sm_lower : 6393856 sm_upper : 32218652672  map_addr : 6393856 sm_region: 6393856 brk : 644251492352 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+***************************************************
+Experiment 2
+***************************************************
+
+
+
+****************  task 0 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.K3joLag6 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.JUYYvM33  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.vf6AhxDe -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.gl3bvJYI  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.J0hHQtvw -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.VH28vNGS  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.SnuroVIi -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.zWfzCbxy  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.EJgZyuOT -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.eQBIZA5J  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.XwPJZrge -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.LBhTNShQ  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.odN6XFbi -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.cOLxNjro  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.rKK2wqa0 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.y0lKvopj  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.EoPu576U -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.kXRDJmFu  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.KZ0pLRYv -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.TOEn5saj  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.j8aUsYUU -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.LM2BZ9Dw  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.tcn7Weww -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.JfIAyH6n  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.XBxu0xV7 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.Bxcwtlww  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.eWB90mRJ -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.tvwCI9x4  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.Dl1TL421 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.EP50QXaX  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.SegjuQPq -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.7c70zFwu  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.6SuiYwoX -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.jKqvi7LE  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.6J61zLvC -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.AF65gQGV  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.myIaABv7 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.adNiWkRt  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.FEYvgkDf -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.7TIBokE5  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 3071008
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071008.G2hQW0S7 -machinefile /home1/02636/uswickra/.slurm/job.3071008.hostlist.rgdQU5Tt  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

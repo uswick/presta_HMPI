@@ -1,0 +1,385 @@
+TACC: Starting up job 1707088
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1707088.AkYZZ0Mj 
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            2.208         7.248
+  Unidirectional          2                    64           17.777         1.800
+  Unidirectional          2                   128           29.020         2.205
+  Unidirectional          2                   256           29.099         4.399
+  Unidirectional          2                   512           76.423         3.350
+  Unidirectional          2                  1024          176.023         2.909
+  Unidirectional          2                  2048          293.172         3.493
+  Unidirectional          2                  4096          305.692         6.700
+  Unidirectional          2                  8192          644.648         6.354
+  Unidirectional          2                 16384          660.129        12.410
+  Unidirectional          2                 32768          848.913        19.300
+  Unidirectional          2                 65536         1662.903        19.705
+  Unidirectional          2                131072         1964.817        33.355
+  Unidirectional          2                262144         2436.321        53.799
+  Unidirectional          2                524288         1581.121       165.796
+  Unidirectional          2               1048576         1851.341       283.194
+  Unidirectional          2               2097152         2185.908       479.698
+  Unidirectional          2               4194304         2279.991       919.807
+  Unidirectional          2               8388608         2356.023      1780.248
+
+  Unidirectional          4                    32            5.711         5.603
+  Unidirectional          4                    64           20.649         3.099
+  Unidirectional          4                   128           49.254         2.599
+  Unidirectional          4                   256           86.592         2.956
+  Unidirectional          4                   512          155.053         3.302
+  Unidirectional          4                  1024          292.175         3.505
+  Unidirectional          4                  2048          641.040         3.195
+  Unidirectional          4                  4096          644.648         6.354
+  Unidirectional          4                  8192         1240.424         6.604
+  Unidirectional          4                 16384         1343.489        12.195
+  Unidirectional          4                 32768         1967.630        16.654
+  Unidirectional          4                 65536         3692.114        17.750
+  Unidirectional          4                131072         4680.765        28.002
+  Unidirectional          4                262144         4300.847        60.952
+  Unidirectional          4                524288         3140.564       166.941
+  Unidirectional          4               1048576         3803.880       275.660
+  Unidirectional          4               2097152         4218.750       497.103
+  Unidirectional          4               4194304         4459.419       940.549
+  Unidirectional          4               8388608         4616.614      1817.048
+
+  Unidirectional          8                    32            6.874         9.310
+  Unidirectional          8                    64           40.065         3.195
+  Unidirectional          8                   128           74.307         3.445
+  Unidirectional          8                   256          162.074         3.159
+  Unidirectional          8                   512          258.733         3.958
+  Unidirectional          8                  1024          517.466         3.958
+  Unidirectional          8                  2048          987.349         4.148
+  Unidirectional          8                  4096         1160.802         7.057
+  Unidirectional          8                  8192         2199.023         7.451
+  Unidirectional          8                 16384         3007.417        10.896
+  Unidirectional          8                 32768         3486.086        18.799
+  Unidirectional          8                 65536         6704.339        19.550
+  Unidirectional          8                131072         8496.999        30.851
+  Unidirectional          8                262144         8736.684        60.010
+  Unidirectional          8                524288         5927.686       176.895
+  Unidirectional          8               1048576         7533.159       278.389
+  Unidirectional          8               2097152         8355.150       502.002
+  Unidirectional          8               4194304         8851.526       947.702
+  Unidirectional          8               8388608         9113.824      1840.854
+
+  Unidirectional         16                    32           10.044        12.743
+  Unidirectional         16                    64           65.672         3.898
+  Unidirectional         16                   128          111.269         4.601
+  Unidirectional         16                   256          232.790         4.399
+  Unidirectional         16                   512          470.681         4.351
+  Unidirectional         16                  1024          780.903         5.245
+  Unidirectional         16                  2048         1688.439         4.852
+  Unidirectional         16                  4096         1849.784         8.857
+  Unidirectional         16                  8192         3483.877         9.406
+  Unidirectional         16                 16384         5002.328        13.101
+  Unidirectional         16                 32768         5811.372        22.554
+  Unidirectional         16                 65536        11323.498        23.150
+  Unidirectional         16                131072        14873.340        35.250
+  Unidirectional         16                262144        19708.925        53.203
+  Unidirectional         16                524288        11898.672       176.251
+  Unidirectional         16               1048576        14423.371       290.799
+  Unidirectional         16               2097152        16296.606       514.746
+  Unidirectional         16               4194304        17394.756       964.499
+  Unidirectional         16               8388608        17808.785      1884.151
+
+  Unidirectional         32                    32            9.240        27.704
+  Unidirectional         32                    64          105.527         4.852
+  Unidirectional         32                   128          211.055         4.852
+  Unidirectional         32                   256          397.682         5.150
+  Unidirectional         32                   512          705.539         5.805
+  Unidirectional         32                  1024         1411.078         5.805
+  Unidirectional         32                  2048         2663.546         6.151
+  Unidirectional         32                  4096         2357.443        13.900
+  Unidirectional         32                  8192         4735.192        13.840
+  Unidirectional         32                 16384         6098.234        21.493
+  Unidirectional         32                 32768         6998.801        37.456
+  Unidirectional         32                 65536        15308.202        34.249
+  Unidirectional         32                131072        22594.639        46.408
+  Unidirectional         32                262144        37083.023        56.553
+  Unidirectional         32                524288        22363.422       187.552
+  Unidirectional         32               1048576        26153.551       320.745
+  Unidirectional         32               2097152        29683.938       565.195
+  Unidirectional         32               4194304        31210.496      1075.101
+  Unidirectional         32               8388608        32075.641      2092.206
+
+  Unidirectional         60                    32            4.817        99.647
+  Unidirectional         60                    64          164.014         5.853
+  Unidirectional         60                   128          346.368         5.543
+  Unidirectional         60                   256          644.245         5.960
+  Unidirectional         60                   512         1278.264         6.008
+  Unidirectional         60                  1024         2292.687         6.700
+  Unidirectional         60                  2048         4834.860         6.354
+  Unidirectional         60                  4096         2946.804        20.850
+  Unidirectional         60                  8192         5920.690        20.754
+  Unidirectional         60                 16384         7052.974        34.845
+  Unidirectional         60                 32768         7180.719        68.450
+  Unidirectional         60                 65536        19822.926        49.591
+  Unidirectional         60                131072        28313.604        69.439
+  Unidirectional         60                262144        43712.363        89.955
+  Unidirectional         60                524288        29709.839       264.704
+  Unidirectional         60               1048576        35844.874       438.797
+  Unidirectional         60               2097152        38805.151       810.647
+  Unidirectional         60               4194304        39469.733      1593.995
+  Unidirectional         60               8388608        39623.082      3175.652
+
+  Bidirectional           2                    32            5.569        11.492
+  Bidirectional           2                    64           13.909         9.203
+  Bidirectional           2                   128           20.145        12.708
+  Bidirectional           2                   256           51.131        10.014
+  Bidirectional           2                   512           92.167        11.110
+  Bidirectional           2                  1024          141.050        14.520
+  Bidirectional           2                  2048          267.599        15.306
+  Bidirectional           2                  4096          370.655        22.101
+  Bidirectional           2                  8192          683.096        23.985
+  Bidirectional           2                 16384          873.738        37.503
+  Bidirectional           2                 32768         1124.245        58.293
+  Bidirectional           2                 65536         1569.834        83.494
+  Bidirectional           2                131072         1424.607       184.011
+  Bidirectional           2                262144         1512.604       346.613
+  Bidirectional           2                524288         1695.600       618.410
+  Bidirectional           2               1048576         1958.299      1070.905
+  Bidirectional           2               2097152         2156.883      1944.613
+  Bidirectional           2               4194304         2263.650      3705.788
+  Bidirectional           2               8388608         2311.606      7257.819
+
+  Bidirectional           4                    32           12.692        10.085
+  Bidirectional           4                    64           22.846        11.206
+  Bidirectional           4                   128           42.357        12.088
+  Bidirectional           4                   256           81.965        12.493
+  Bidirectional           4                   512          135.702        15.092
+  Bidirectional           4                  1024          257.569        15.903
+  Bidirectional           4                  2048          546.260        14.997
+  Bidirectional           4                  4096          814.212        20.123
+  Bidirectional           4                  8192         1530.501        21.410
+  Bidirectional           4                 16384         1973.280        33.212
+  Bidirectional           4                 32768         2382.990        55.003
+  Bidirectional           4                 65536         3467.397        75.603
+  Bidirectional           4                131072         2935.554       178.599
+  Bidirectional           4                262144         3016.700       347.590
+  Bidirectional           4                524288         3352.297       625.587
+  Bidirectional           4               1048576         3838.826      1092.601
+  Bidirectional           4               2097152         4218.396      1988.578
+  Bidirectional           4               4194304         4395.739      3816.700
+  Bidirectional           4               8388608         4432.202      7570.601
+
+  Bidirectional           8                    32           21.518        11.897
+  Bidirectional           8                    64           32.004        15.998
+  Bidirectional           8                   128           68.719        14.901
+  Bidirectional           8                   256          139.447        14.687
+  Bidirectional           8                   512          276.648        14.806
+  Bidirectional           8                  1024          541.952        15.116
+  Bidirectional           8                  2048         1018.066        16.093
+  Bidirectional           8                  4096         1255.150        26.107
+  Bidirectional           8                  8192         2323.566        28.205
+  Bidirectional           8                 16384         3831.051        34.213
+  Bidirectional           8                 32768         4375.295        59.915
+  Bidirectional           8                 65536         6677.872        78.511
+  Bidirectional           8                131072         5878.170       178.385
+  Bidirectional           8                262144         5915.726       354.505
+  Bidirectional           8                524288         6528.924       642.419
+  Bidirectional           8               1048576         7428.819      1129.198
+  Bidirectional           8               2097152         8223.722      2040.100
+  Bidirectional           8               4194304         8698.507      3857.493
+  Bidirectional           8               8388608         8782.727      7641.006
+
+  Bidirectional          16                    32           35.554        14.400
+  Bidirectional          16                    64           73.168        13.995
+  Bidirectional          16                   128          141.282        14.496
+  Bidirectional          16                   256          251.168        16.308
+  Bidirectional          16                   512          479.215        17.095
+  Bidirectional          16                  1024          924.892        17.715
+  Bidirectional          16                  2048         1893.099        17.309
+  Bidirectional          16                  4096         2267.970        28.896
+  Bidirectional          16                  8192         4891.066        26.798
+  Bidirectional          16                 16384         6315.403        41.509
+  Bidirectional          16                 32768         7313.014        71.692
+  Bidirectional          16                 65536        11822.706        88.692
+  Bidirectional          16                131072        11190.958       187.397
+  Bidirectional          16                262144        11163.971       375.700
+  Bidirectional          16                524288        12201.544       687.504
+  Bidirectional          16               1048576        13907.966      1206.303
+  Bidirectional          16               2097152        15387.032      2180.696
+  Bidirectional          16               4194304        16550.050      4054.904
+  Bidirectional          16               8388608        16926.142      7929.611
+
+  Bidirectional          32                    32           60.922        16.809
+  Bidirectional          32                    64          144.126        14.210
+  Bidirectional          32                   128          263.900        15.521
+  Bidirectional          32                   256          484.623        16.904
+  Bidirectional          32                   512          819.064        20.003
+  Bidirectional          32                  1024         1645.975        19.908
+  Bidirectional          32                  2048         3061.001        21.410
+  Bidirectional          32                  4096         3650.437        35.906
+  Bidirectional          32                  8192         7144.325        36.693
+  Bidirectional          32                 16384         8623.621        60.797
+  Bidirectional          32                 32768         9030.896       116.110
+  Bidirectional          32                 65536        17490.740       119.901
+  Bidirectional          32                131072        18268.106       229.597
+  Bidirectional          32                262144        19417.424       432.014
+  Bidirectional          32                524288        21556.410       778.294
+  Bidirectional          32               1048576        24579.962      1365.113
+  Bidirectional          32               2097152        27690.875      2423.501
+  Bidirectional          32               4194304        29511.984      4547.906
+  Bidirectional          32               8388608        30140.299      8906.198
+
+  Bidirectional          60                    32           98.448        19.503
+  Bidirectional          60                    64          214.462        17.905
+  Bidirectional          60                   128          402.150        19.097
+  Bidirectional          60                   256          673.192        22.817
+  Bidirectional          60                   512         1342.177        22.888
+  Bidirectional          60                  1024         2548.942        24.104
+  Bidirectional          60                  2048         4955.731        24.796
+  Bidirectional          60                  4096         4303.934        57.101
+  Bidirectional          60                  8192         8122.870        60.511
+  Bidirectional          60                 16384        10208.390        96.297
+  Bidirectional          60                 32768        10737.418       183.105
+  Bidirectional          60                 65536        20672.693       190.210
+  Bidirectional          60                131072        26067.132       301.695
+  Bidirectional          60                262144        24840.236       633.192
+  Bidirectional          60                524288        28605.181      1099.706
+  Bidirectional          60               1048576        33104.110      1900.506
+  Bidirectional          60               2097152        35310.548      3563.499
+  Bidirectional          60               4194304        36735.210      6850.600
+  Bidirectional          60               8388608        37525.927     13412.499
+
+Max Unidirectional Bandwith :       43712.36 for message size of  262144 bytes
+Max  Bidirectional Bandwith :       37525.93 for message size of 8388608 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       10
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   30 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   31 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    2 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   32 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    3 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   33 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    4 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   34 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    5 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   35 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    6 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   36 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    7 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   37 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    8 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   38 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    9 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   39 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   10 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   40 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   11 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   41 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   12 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   42 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   13 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   43 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   14 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   44 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   15 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   45 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   16 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   46 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   17 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   47 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   18 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   48 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   19 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   49 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   20 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   50 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   21 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   51 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   22 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   52 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   23 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   53 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   24 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   54 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   25 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   55 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   26 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   56 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   27 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   57 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   28 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   58 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   29 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   59 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   30 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   31 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   32 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    2 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   33 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    3 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   34 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    4 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   35 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    5 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   36 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    6 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   37 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    7 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   38 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    8 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   39 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    9 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   40 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   10 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   41 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   11 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   42 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   12 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   43 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   13 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   44 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   14 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   45 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   15 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   46 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   16 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   47 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   17 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   48 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   18 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   49 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   19 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   50 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   20 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   51 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   21 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   52 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   22 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   53 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   23 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   54 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   24 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   55 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   25 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   56 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   26 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   57 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   27 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   58 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   28 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id   59 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id   29 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample             36
+
+ 
+TACC: Shutdown complete. Exiting.

@@ -1,0 +1,111 @@
+TACC: Starting up job 1880928
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1880928.5gZqx7Mq 
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  6442450944 4
+params:  25769803776 20
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  25769803776 20
+params:  25769803776 20
+params:  25769803776 20
+params:  25769803776 20
+params:  25769803776 20
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            7.440         2.151
+  Unidirectional          2                    64           97.259         0.329
+  Unidirectional          2                   128          187.717         0.341
+  Unidirectional          2                   256          389.037         0.329
+  Unidirectional          2                   512          735.440         0.348
+  Unidirectional          2                  1024         1460.873         0.350
+  Unidirectional          2                  2048         2701.237         0.379
+  Unidirectional          2                  4096         3594.115         0.570
+  Unidirectional          2                  8192          769.707         5.322
+  Unidirectional          2                 16384         1372.194         5.970
+  Unidirectional          2                 32768         2216.757         7.391
+  Unidirectional          2                 65536         3243.780        10.102
+  Unidirectional          2                131072         3775.277        17.359
+  Unidirectional          2                262144         4369.383        29.998
+  Unidirectional          2                524288         4555.862        57.540
+  Unidirectional          2               1048576         4834.399       108.449
+  Unidirectional          2               2097152         4987.805       210.228
+  Unidirectional          2               4194304         5068.012       413.802
+  Unidirectional          2               8388608         5105.607       821.509
+APPLICATION TERMINATED WITH THE EXIT STRING: Segmentation fault (signal 11)
+TACC: MPI job exited with code: 11
+ 
+TACC: Shutdown complete. Exiting.

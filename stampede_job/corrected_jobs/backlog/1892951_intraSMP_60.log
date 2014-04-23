@@ -1,0 +1,180 @@
+TACC: Starting up job 1892951
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1892951.IxvThpDy 
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            7.840         2.041
+  Unidirectional          2                    64           19.622         1.631
+  Unidirectional          2                   128           28.957         2.210
+  Unidirectional          2                   256           58.997         2.170
+  Unidirectional          2                   512          160.021         1.600
+  Unidirectional          2                  1024          295.797         1.731
+  Unidirectional          2                  2048          591.593         1.731
+  Unidirectional          2                  4096          926.638         2.210
+  Unidirectional          2                  8192         1605.595         2.551
+  Unidirectional          2                 16384         1927.075         4.251
+  Unidirectional          2                 32768         2935.475         5.581
+  Unidirectional          2                 65536         3293.529         9.949
+  Unidirectional          2                131072         4927.010        13.301
+  Unidirectional          2                262144         3038.164        43.142
+  Unidirectional          2                524288          873.988       299.940
+  Unidirectional          2               1048576          811.451       646.112
+  Unidirectional          2               2097152          831.233      1261.470
+  Unidirectional          2               4194304          804.111      2608.039
+  Unidirectional          2               8388608          811.205      5170.460
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm comm NULL  
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm_free() 
+TACC: MPI job exited with code: 1
+ 
+TACC: Shutdown complete. Exiting.

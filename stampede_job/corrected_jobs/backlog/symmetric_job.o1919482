@@ -1,0 +1,6 @@
+Fatal error in PMPI_Comm_free: Invalid communicator, error stack:
+PMPI_Comm_free(153): MPI_Comm_free(comm=0x120620d30) failed
+PMPI_Comm_free(94).: Null communicator
+Fatal error in PMPI_Comm_free: Invalid communicator, error stack:
+PMPI_Comm_free(153): MPI_Comm_free(comm=0x60620d30) failed
+PMPI_Comm_free(94).: Null communicator

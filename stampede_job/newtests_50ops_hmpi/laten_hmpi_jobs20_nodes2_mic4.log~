@@ -1,0 +1,50 @@
+TACC: Starting up job 1779624
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1779624.kDvjdi3r 
+params:  6442450944 2
+params:  6442450944 2
+params:  6442450944 2
+params:  6442450944 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               2.272
+                     4               2.019
+                     8               2.069
+                    16               2.151
+                    20               7.312
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   10 (c478-903.stampede.tacc.utexas.edu)
+Rank id    1 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   11 (c478-903.stampede.tacc.utexas.edu)
+Rank id    2 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   12 (c478-903.stampede.tacc.utexas.edu)
+Rank id    3 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   13 (c478-903.stampede.tacc.utexas.edu)
+Rank id    4 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   14 (c478-903.stampede.tacc.utexas.edu)
+Rank id    5 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   15 (c478-903.stampede.tacc.utexas.edu)
+Rank id    6 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   16 (c478-903.stampede.tacc.utexas.edu)
+Rank id    7 (c478-902.stampede.tacc.utexas.edu) communicated with rank id   17 (c478-903.stampede.tacc.utexas.edu)
+Rank id    8 (c478-902-mic0.stampede.tacc.utexas.edu) communicated with rank id   18 (c478-903-mic0.stampede.tacc.utexas.edu)
+Rank id    9 (c478-902-mic0.stampede.tacc.utexas.edu) communicated with rank id   19 (c478-903-mic0.stampede.tacc.utexas.edu)
+Rank id   10 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    0 (c478-902.stampede.tacc.utexas.edu)
+Rank id   11 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    1 (c478-902.stampede.tacc.utexas.edu)
+Rank id   12 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    2 (c478-902.stampede.tacc.utexas.edu)
+Rank id   13 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    3 (c478-902.stampede.tacc.utexas.edu)
+Rank id   14 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    4 (c478-902.stampede.tacc.utexas.edu)
+Rank id   15 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    5 (c478-902.stampede.tacc.utexas.edu)
+Rank id   16 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    6 (c478-902.stampede.tacc.utexas.edu)
+Rank id   17 (c478-903.stampede.tacc.utexas.edu) communicated with rank id    7 (c478-902.stampede.tacc.utexas.edu)
+Rank id   18 (c478-903-mic0.stampede.tacc.utexas.edu) communicated with rank id    8 (c478-902-mic0.stampede.tacc.utexas.edu)
+Rank id   19 (c478-903-mic0.stampede.tacc.utexas.edu) communicated with rank id    9 (c478-902-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000045
+Ticks for minimum sample            202
+
+ 
+TACC: Shutdown complete. Exiting.

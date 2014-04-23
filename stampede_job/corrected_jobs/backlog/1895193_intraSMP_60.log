@@ -1,0 +1,306 @@
+TACC: Starting up job 1895193
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1895193.cP25C0LL 
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+params:  6442450944 60
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            3.306         4.840
+  Unidirectional          2                    64           16.408         1.950
+  Unidirectional          2                   128           31.843         2.010
+  Unidirectional          2                   256           59.257         2.160
+  Unidirectional          2                   512          161.952         1.581
+  Unidirectional          2                  1024          330.382         1.550
+  Unidirectional          2                  2048          635.350         1.612
+  Unidirectional          2                  4096         1137.740         1.800
+  Unidirectional          2                  8192         1495.202         2.739
+  Unidirectional          2                 16384         2528.310         3.240
+  Unidirectional          2                 32768         3938.079         4.160
+  Unidirectional          2                 65536         4075.888         8.039
+  Unidirectional          2                131072         4274.929        15.330
+  Unidirectional          2                262144         1664.414        78.750
+  Unidirectional          2                524288          931.805       281.329
+  Unidirectional          2               1048576          810.249       647.070
+  Unidirectional          2               2097152          816.255      1284.618
+  Unidirectional          2               4194304          828.250      2532.029
+  Unidirectional          2               8388608          832.438      5038.579
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.

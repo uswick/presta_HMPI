@@ -1,0 +1,414 @@
+TACC: Starting up job 1707176
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1707176.tuUIaeVR 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.147
+                     4               2.801
+                     8               3.505
+                    16               3.552
+                    32               3.850
+                    64              16.260
+                   128              18.704
+                   256              20.897
+                   320              20.742
+
+Test Parameters
+---------------
+Operations per measurement :       10
+Process pair allocation    :    block
+
+
+Rank id    0 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  160 (c558-403.stampede.tacc.utexas.edu)
+Rank id    1 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  161 (c558-403.stampede.tacc.utexas.edu)
+Rank id    2 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  162 (c558-403.stampede.tacc.utexas.edu)
+Rank id    3 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  163 (c558-403.stampede.tacc.utexas.edu)
+Rank id    4 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  164 (c558-403.stampede.tacc.utexas.edu)
+Rank id    5 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  165 (c558-403.stampede.tacc.utexas.edu)
+Rank id    6 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  166 (c558-403.stampede.tacc.utexas.edu)
+Rank id    7 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  167 (c558-403.stampede.tacc.utexas.edu)
+Rank id    8 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  168 (c558-403.stampede.tacc.utexas.edu)
+Rank id    9 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  169 (c558-403.stampede.tacc.utexas.edu)
+Rank id   10 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  170 (c558-403.stampede.tacc.utexas.edu)
+Rank id   11 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  171 (c558-403.stampede.tacc.utexas.edu)
+Rank id   12 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  172 (c558-403.stampede.tacc.utexas.edu)
+Rank id   13 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  173 (c558-403.stampede.tacc.utexas.edu)
+Rank id   14 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  174 (c558-403.stampede.tacc.utexas.edu)
+Rank id   15 (c557-302.stampede.tacc.utexas.edu) communicated with rank id  175 (c558-403.stampede.tacc.utexas.edu)
+Rank id   16 (c557-302-mic0.stampede.tacc.utexas.edu) communicated with rank id  176 (c558-403-mic0.stampede.tacc.utexas.edu)
+Rank id   17 (c557-302-mic0.stampede.tacc.utexas.edu) communicated with rank id  177 (c558-403-mic0.stampede.tacc.utexas.edu)
+Rank id   18 (c557-302-mic0.stampede.tacc.utexas.edu) communicated with rank id  178 (c558-403-mic0.stampede.tacc.utexas.edu)
+Rank id   19 (c557-302-mic0.stampede.tacc.utexas.edu) communicated with rank id  179 (c558-403-mic0.stampede.tacc.utexas.edu)
+Rank id   20 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  180 (c558-503.stampede.tacc.utexas.edu)
+Rank id   21 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  181 (c558-503.stampede.tacc.utexas.edu)
+Rank id   22 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  182 (c558-503.stampede.tacc.utexas.edu)
+Rank id   23 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  183 (c558-503.stampede.tacc.utexas.edu)
+Rank id   24 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  184 (c558-503.stampede.tacc.utexas.edu)
+Rank id   25 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  185 (c558-503.stampede.tacc.utexas.edu)
+Rank id   26 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  186 (c558-503.stampede.tacc.utexas.edu)
+Rank id   27 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  187 (c558-503.stampede.tacc.utexas.edu)
+Rank id   28 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  188 (c558-503.stampede.tacc.utexas.edu)
+Rank id   29 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  189 (c558-503.stampede.tacc.utexas.edu)
+Rank id   30 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  190 (c558-503.stampede.tacc.utexas.edu)
+Rank id   31 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  191 (c558-503.stampede.tacc.utexas.edu)
+Rank id   32 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  192 (c558-503.stampede.tacc.utexas.edu)
+Rank id   33 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  193 (c558-503.stampede.tacc.utexas.edu)
+Rank id   34 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  194 (c558-503.stampede.tacc.utexas.edu)
+Rank id   35 (c557-401.stampede.tacc.utexas.edu) communicated with rank id  195 (c558-503.stampede.tacc.utexas.edu)
+Rank id   36 (c557-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  196 (c558-503-mic0.stampede.tacc.utexas.edu)
+Rank id   37 (c557-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  197 (c558-503-mic0.stampede.tacc.utexas.edu)
+Rank id   38 (c557-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  198 (c558-503-mic0.stampede.tacc.utexas.edu)
+Rank id   39 (c557-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  199 (c558-503-mic0.stampede.tacc.utexas.edu)
+Rank id   40 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  200 (c559-604.stampede.tacc.utexas.edu)
+Rank id   41 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  201 (c559-604.stampede.tacc.utexas.edu)
+Rank id   42 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  202 (c559-604.stampede.tacc.utexas.edu)
+Rank id   43 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  203 (c559-604.stampede.tacc.utexas.edu)
+Rank id   44 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  204 (c559-604.stampede.tacc.utexas.edu)
+Rank id   45 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  205 (c559-604.stampede.tacc.utexas.edu)
+Rank id   46 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  206 (c559-604.stampede.tacc.utexas.edu)
+Rank id   47 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  207 (c559-604.stampede.tacc.utexas.edu)
+Rank id   48 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  208 (c559-604.stampede.tacc.utexas.edu)
+Rank id   49 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  209 (c559-604.stampede.tacc.utexas.edu)
+Rank id   50 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  210 (c559-604.stampede.tacc.utexas.edu)
+Rank id   51 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  211 (c559-604.stampede.tacc.utexas.edu)
+Rank id   52 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  212 (c559-604.stampede.tacc.utexas.edu)
+Rank id   53 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  213 (c559-604.stampede.tacc.utexas.edu)
+Rank id   54 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  214 (c559-604.stampede.tacc.utexas.edu)
+Rank id   55 (c557-402.stampede.tacc.utexas.edu) communicated with rank id  215 (c559-604.stampede.tacc.utexas.edu)
+Rank id   56 (c557-402-mic0.stampede.tacc.utexas.edu) communicated with rank id  216 (c559-604-mic0.stampede.tacc.utexas.edu)
+Rank id   57 (c557-402-mic0.stampede.tacc.utexas.edu) communicated with rank id  217 (c559-604-mic0.stampede.tacc.utexas.edu)
+Rank id   58 (c557-402-mic0.stampede.tacc.utexas.edu) communicated with rank id  218 (c559-604-mic0.stampede.tacc.utexas.edu)
+Rank id   59 (c557-402-mic0.stampede.tacc.utexas.edu) communicated with rank id  219 (c559-604-mic0.stampede.tacc.utexas.edu)
+Rank id   60 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  220 (c560-701.stampede.tacc.utexas.edu)
+Rank id   61 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  221 (c560-701.stampede.tacc.utexas.edu)
+Rank id   62 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  222 (c560-701.stampede.tacc.utexas.edu)
+Rank id   63 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  223 (c560-701.stampede.tacc.utexas.edu)
+Rank id   64 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  224 (c560-701.stampede.tacc.utexas.edu)
+Rank id   65 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  225 (c560-701.stampede.tacc.utexas.edu)
+Rank id   66 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  226 (c560-701.stampede.tacc.utexas.edu)
+Rank id   67 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  227 (c560-701.stampede.tacc.utexas.edu)
+Rank id   68 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  228 (c560-701.stampede.tacc.utexas.edu)
+Rank id   69 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  229 (c560-701.stampede.tacc.utexas.edu)
+Rank id   70 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  230 (c560-701.stampede.tacc.utexas.edu)
+Rank id   71 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  231 (c560-701.stampede.tacc.utexas.edu)
+Rank id   72 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  232 (c560-701.stampede.tacc.utexas.edu)
+Rank id   73 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  233 (c560-701.stampede.tacc.utexas.edu)
+Rank id   74 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  234 (c560-701.stampede.tacc.utexas.edu)
+Rank id   75 (c557-403.stampede.tacc.utexas.edu) communicated with rank id  235 (c560-701.stampede.tacc.utexas.edu)
+Rank id   76 (c557-403-mic0.stampede.tacc.utexas.edu) communicated with rank id  236 (c560-701-mic0.stampede.tacc.utexas.edu)
+Rank id   77 (c557-403-mic0.stampede.tacc.utexas.edu) communicated with rank id  237 (c560-701-mic0.stampede.tacc.utexas.edu)
+Rank id   78 (c557-403-mic0.stampede.tacc.utexas.edu) communicated with rank id  238 (c560-701-mic0.stampede.tacc.utexas.edu)
+Rank id   79 (c557-403-mic0.stampede.tacc.utexas.edu) communicated with rank id  239 (c560-701-mic0.stampede.tacc.utexas.edu)
+Rank id   80 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  240 (c560-801.stampede.tacc.utexas.edu)
+Rank id   81 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  241 (c560-801.stampede.tacc.utexas.edu)
+Rank id   82 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  242 (c560-801.stampede.tacc.utexas.edu)
+Rank id   83 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  243 (c560-801.stampede.tacc.utexas.edu)
+Rank id   84 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  244 (c560-801.stampede.tacc.utexas.edu)
+Rank id   85 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  245 (c560-801.stampede.tacc.utexas.edu)
+Rank id   86 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  246 (c560-801.stampede.tacc.utexas.edu)
+Rank id   87 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  247 (c560-801.stampede.tacc.utexas.edu)
+Rank id   88 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  248 (c560-801.stampede.tacc.utexas.edu)
+Rank id   89 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  249 (c560-801.stampede.tacc.utexas.edu)
+Rank id   90 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  250 (c560-801.stampede.tacc.utexas.edu)
+Rank id   91 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  251 (c560-801.stampede.tacc.utexas.edu)
+Rank id   92 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  252 (c560-801.stampede.tacc.utexas.edu)
+Rank id   93 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  253 (c560-801.stampede.tacc.utexas.edu)
+Rank id   94 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  254 (c560-801.stampede.tacc.utexas.edu)
+Rank id   95 (c557-901.stampede.tacc.utexas.edu) communicated with rank id  255 (c560-801.stampede.tacc.utexas.edu)
+Rank id   96 (c557-901-mic0.stampede.tacc.utexas.edu) communicated with rank id  256 (c560-801-mic0.stampede.tacc.utexas.edu)
+Rank id   97 (c557-901-mic0.stampede.tacc.utexas.edu) communicated with rank id  257 (c560-801-mic0.stampede.tacc.utexas.edu)
+Rank id   98 (c557-901-mic0.stampede.tacc.utexas.edu) communicated with rank id  258 (c560-801-mic0.stampede.tacc.utexas.edu)
+Rank id   99 (c557-901-mic0.stampede.tacc.utexas.edu) communicated with rank id  259 (c560-801-mic0.stampede.tacc.utexas.edu)
+Rank id  100 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  260 (c560-802.stampede.tacc.utexas.edu)
+Rank id  101 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  261 (c560-802.stampede.tacc.utexas.edu)
+Rank id  102 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  262 (c560-802.stampede.tacc.utexas.edu)
+Rank id  103 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  263 (c560-802.stampede.tacc.utexas.edu)
+Rank id  104 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  264 (c560-802.stampede.tacc.utexas.edu)
+Rank id  105 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  265 (c560-802.stampede.tacc.utexas.edu)
+Rank id  106 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  266 (c560-802.stampede.tacc.utexas.edu)
+Rank id  107 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  267 (c560-802.stampede.tacc.utexas.edu)
+Rank id  108 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  268 (c560-802.stampede.tacc.utexas.edu)
+Rank id  109 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  269 (c560-802.stampede.tacc.utexas.edu)
+Rank id  110 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  270 (c560-802.stampede.tacc.utexas.edu)
+Rank id  111 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  271 (c560-802.stampede.tacc.utexas.edu)
+Rank id  112 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  272 (c560-802.stampede.tacc.utexas.edu)
+Rank id  113 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  273 (c560-802.stampede.tacc.utexas.edu)
+Rank id  114 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  274 (c560-802.stampede.tacc.utexas.edu)
+Rank id  115 (c558-004.stampede.tacc.utexas.edu) communicated with rank id  275 (c560-802.stampede.tacc.utexas.edu)
+Rank id  116 (c558-004-mic0.stampede.tacc.utexas.edu) communicated with rank id  276 (c560-802-mic0.stampede.tacc.utexas.edu)
+Rank id  117 (c558-004-mic0.stampede.tacc.utexas.edu) communicated with rank id  277 (c560-802-mic0.stampede.tacc.utexas.edu)
+Rank id  118 (c558-004-mic0.stampede.tacc.utexas.edu) communicated with rank id  278 (c560-802-mic0.stampede.tacc.utexas.edu)
+Rank id  119 (c558-004-mic0.stampede.tacc.utexas.edu) communicated with rank id  279 (c560-802-mic0.stampede.tacc.utexas.edu)
+Rank id  120 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  280 (c560-803.stampede.tacc.utexas.edu)
+Rank id  121 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  281 (c560-803.stampede.tacc.utexas.edu)
+Rank id  122 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  282 (c560-803.stampede.tacc.utexas.edu)
+Rank id  123 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  283 (c560-803.stampede.tacc.utexas.edu)
+Rank id  124 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  284 (c560-803.stampede.tacc.utexas.edu)
+Rank id  125 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  285 (c560-803.stampede.tacc.utexas.edu)
+Rank id  126 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  286 (c560-803.stampede.tacc.utexas.edu)
+Rank id  127 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  287 (c560-803.stampede.tacc.utexas.edu)
+Rank id  128 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  288 (c560-803.stampede.tacc.utexas.edu)
+Rank id  129 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  289 (c560-803.stampede.tacc.utexas.edu)
+Rank id  130 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  290 (c560-803.stampede.tacc.utexas.edu)
+Rank id  131 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  291 (c560-803.stampede.tacc.utexas.edu)
+Rank id  132 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  292 (c560-803.stampede.tacc.utexas.edu)
+Rank id  133 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  293 (c560-803.stampede.tacc.utexas.edu)
+Rank id  134 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  294 (c560-803.stampede.tacc.utexas.edu)
+Rank id  135 (c558-303.stampede.tacc.utexas.edu) communicated with rank id  295 (c560-803.stampede.tacc.utexas.edu)
+Rank id  136 (c558-303-mic0.stampede.tacc.utexas.edu) communicated with rank id  296 (c560-803-mic0.stampede.tacc.utexas.edu)
+Rank id  137 (c558-303-mic0.stampede.tacc.utexas.edu) communicated with rank id  297 (c560-803-mic0.stampede.tacc.utexas.edu)
+Rank id  138 (c558-303-mic0.stampede.tacc.utexas.edu) communicated with rank id  298 (c560-803-mic0.stampede.tacc.utexas.edu)
+Rank id  139 (c558-303-mic0.stampede.tacc.utexas.edu) communicated with rank id  299 (c560-803-mic0.stampede.tacc.utexas.edu)
+Rank id  140 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  300 (c560-804.stampede.tacc.utexas.edu)
+Rank id  141 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  301 (c560-804.stampede.tacc.utexas.edu)
+Rank id  142 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  302 (c560-804.stampede.tacc.utexas.edu)
+Rank id  143 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  303 (c560-804.stampede.tacc.utexas.edu)
+Rank id  144 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  304 (c560-804.stampede.tacc.utexas.edu)
+Rank id  145 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  305 (c560-804.stampede.tacc.utexas.edu)
+Rank id  146 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  306 (c560-804.stampede.tacc.utexas.edu)
+Rank id  147 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  307 (c560-804.stampede.tacc.utexas.edu)
+Rank id  148 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  308 (c560-804.stampede.tacc.utexas.edu)
+Rank id  149 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  309 (c560-804.stampede.tacc.utexas.edu)
+Rank id  150 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  310 (c560-804.stampede.tacc.utexas.edu)
+Rank id  151 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  311 (c560-804.stampede.tacc.utexas.edu)
+Rank id  152 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  312 (c560-804.stampede.tacc.utexas.edu)
+Rank id  153 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  313 (c560-804.stampede.tacc.utexas.edu)
+Rank id  154 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  314 (c560-804.stampede.tacc.utexas.edu)
+Rank id  155 (c558-401.stampede.tacc.utexas.edu) communicated with rank id  315 (c560-804.stampede.tacc.utexas.edu)
+Rank id  156 (c558-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  316 (c560-804-mic0.stampede.tacc.utexas.edu)
+Rank id  157 (c558-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  317 (c560-804-mic0.stampede.tacc.utexas.edu)
+Rank id  158 (c558-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  318 (c560-804-mic0.stampede.tacc.utexas.edu)
+Rank id  159 (c558-401-mic0.stampede.tacc.utexas.edu) communicated with rank id  319 (c560-804-mic0.stampede.tacc.utexas.edu)
+Rank id  160 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    0 (c557-302.stampede.tacc.utexas.edu)
+Rank id  161 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    1 (c557-302.stampede.tacc.utexas.edu)
+Rank id  162 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    2 (c557-302.stampede.tacc.utexas.edu)
+Rank id  163 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    3 (c557-302.stampede.tacc.utexas.edu)
+Rank id  164 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    4 (c557-302.stampede.tacc.utexas.edu)
+Rank id  165 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    5 (c557-302.stampede.tacc.utexas.edu)
+Rank id  166 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    6 (c557-302.stampede.tacc.utexas.edu)
+Rank id  167 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    7 (c557-302.stampede.tacc.utexas.edu)
+Rank id  168 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    8 (c557-302.stampede.tacc.utexas.edu)
+Rank id  169 (c558-403.stampede.tacc.utexas.edu) communicated with rank id    9 (c557-302.stampede.tacc.utexas.edu)
+Rank id  170 (c558-403.stampede.tacc.utexas.edu) communicated with rank id   10 (c557-302.stampede.tacc.utexas.edu)
+Rank id  171 (c558-403.stampede.tacc.utexas.edu) communicated with rank id   11 (c557-302.stampede.tacc.utexas.edu)
+Rank id  172 (c558-403.stampede.tacc.utexas.edu) communicated with rank id   12 (c557-302.stampede.tacc.utexas.edu)
+Rank id  173 (c558-403.stampede.tacc.utexas.edu) communicated with rank id   13 (c557-302.stampede.tacc.utexas.edu)
+Rank id  174 (c558-403.stampede.tacc.utexas.edu) communicated with rank id   14 (c557-302.stampede.tacc.utexas.edu)
+Rank id  175 (c558-403.stampede.tacc.utexas.edu) communicated with rank id   15 (c557-302.stampede.tacc.utexas.edu)
+Rank id  176 (c558-403-mic0.stampede.tacc.utexas.edu) communicated with rank id   16 (c557-302-mic0.stampede.tacc.utexas.edu)
+Rank id  177 (c558-403-mic0.stampede.tacc.utexas.edu) communicated with rank id   17 (c557-302-mic0.stampede.tacc.utexas.edu)
+Rank id  178 (c558-403-mic0.stampede.tacc.utexas.edu) communicated with rank id   18 (c557-302-mic0.stampede.tacc.utexas.edu)
+Rank id  179 (c558-403-mic0.stampede.tacc.utexas.edu) communicated with rank id   19 (c557-302-mic0.stampede.tacc.utexas.edu)
+Rank id  180 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   20 (c557-401.stampede.tacc.utexas.edu)
+Rank id  181 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   21 (c557-401.stampede.tacc.utexas.edu)
+Rank id  182 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   22 (c557-401.stampede.tacc.utexas.edu)
+Rank id  183 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   23 (c557-401.stampede.tacc.utexas.edu)
+Rank id  184 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   24 (c557-401.stampede.tacc.utexas.edu)
+Rank id  185 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   25 (c557-401.stampede.tacc.utexas.edu)
+Rank id  186 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   26 (c557-401.stampede.tacc.utexas.edu)
+Rank id  187 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   27 (c557-401.stampede.tacc.utexas.edu)
+Rank id  188 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   28 (c557-401.stampede.tacc.utexas.edu)
+Rank id  189 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   29 (c557-401.stampede.tacc.utexas.edu)
+Rank id  190 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   30 (c557-401.stampede.tacc.utexas.edu)
+Rank id  191 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   31 (c557-401.stampede.tacc.utexas.edu)
+Rank id  192 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   32 (c557-401.stampede.tacc.utexas.edu)
+Rank id  193 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   33 (c557-401.stampede.tacc.utexas.edu)
+Rank id  194 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   34 (c557-401.stampede.tacc.utexas.edu)
+Rank id  195 (c558-503.stampede.tacc.utexas.edu) communicated with rank id   35 (c557-401.stampede.tacc.utexas.edu)
+Rank id  196 (c558-503-mic0.stampede.tacc.utexas.edu) communicated with rank id   36 (c557-401-mic0.stampede.tacc.utexas.edu)
+Rank id  197 (c558-503-mic0.stampede.tacc.utexas.edu) communicated with rank id   37 (c557-401-mic0.stampede.tacc.utexas.edu)
+Rank id  198 (c558-503-mic0.stampede.tacc.utexas.edu) communicated with rank id   38 (c557-401-mic0.stampede.tacc.utexas.edu)
+Rank id  199 (c558-503-mic0.stampede.tacc.utexas.edu) communicated with rank id   39 (c557-401-mic0.stampede.tacc.utexas.edu)
+Rank id  200 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   40 (c557-402.stampede.tacc.utexas.edu)
+Rank id  201 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   41 (c557-402.stampede.tacc.utexas.edu)
+Rank id  202 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   42 (c557-402.stampede.tacc.utexas.edu)
+Rank id  203 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   43 (c557-402.stampede.tacc.utexas.edu)
+Rank id  204 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   44 (c557-402.stampede.tacc.utexas.edu)
+Rank id  205 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   45 (c557-402.stampede.tacc.utexas.edu)
+Rank id  206 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   46 (c557-402.stampede.tacc.utexas.edu)
+Rank id  207 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   47 (c557-402.stampede.tacc.utexas.edu)
+Rank id  208 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   48 (c557-402.stampede.tacc.utexas.edu)
+Rank id  209 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   49 (c557-402.stampede.tacc.utexas.edu)
+Rank id  210 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   50 (c557-402.stampede.tacc.utexas.edu)
+Rank id  211 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   51 (c557-402.stampede.tacc.utexas.edu)
+Rank id  212 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   52 (c557-402.stampede.tacc.utexas.edu)
+Rank id  213 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   53 (c557-402.stampede.tacc.utexas.edu)
+Rank id  214 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   54 (c557-402.stampede.tacc.utexas.edu)
+Rank id  215 (c559-604.stampede.tacc.utexas.edu) communicated with rank id   55 (c557-402.stampede.tacc.utexas.edu)
+Rank id  216 (c559-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   56 (c557-402-mic0.stampede.tacc.utexas.edu)
+Rank id  217 (c559-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   57 (c557-402-mic0.stampede.tacc.utexas.edu)
+Rank id  218 (c559-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   58 (c557-402-mic0.stampede.tacc.utexas.edu)
+Rank id  219 (c559-604-mic0.stampede.tacc.utexas.edu) communicated with rank id   59 (c557-402-mic0.stampede.tacc.utexas.edu)
+Rank id  220 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   60 (c557-403.stampede.tacc.utexas.edu)
+Rank id  221 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   61 (c557-403.stampede.tacc.utexas.edu)
+Rank id  222 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   62 (c557-403.stampede.tacc.utexas.edu)
+Rank id  223 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   63 (c557-403.stampede.tacc.utexas.edu)
+Rank id  224 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   64 (c557-403.stampede.tacc.utexas.edu)
+Rank id  225 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   65 (c557-403.stampede.tacc.utexas.edu)
+Rank id  226 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   66 (c557-403.stampede.tacc.utexas.edu)
+Rank id  227 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   67 (c557-403.stampede.tacc.utexas.edu)
+Rank id  228 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   68 (c557-403.stampede.tacc.utexas.edu)
+Rank id  229 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   69 (c557-403.stampede.tacc.utexas.edu)
+Rank id  230 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   70 (c557-403.stampede.tacc.utexas.edu)
+Rank id  231 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   71 (c557-403.stampede.tacc.utexas.edu)
+Rank id  232 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   72 (c557-403.stampede.tacc.utexas.edu)
+Rank id  233 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   73 (c557-403.stampede.tacc.utexas.edu)
+Rank id  234 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   74 (c557-403.stampede.tacc.utexas.edu)
+Rank id  235 (c560-701.stampede.tacc.utexas.edu) communicated with rank id   75 (c557-403.stampede.tacc.utexas.edu)
+Rank id  236 (c560-701-mic0.stampede.tacc.utexas.edu) communicated with rank id   76 (c557-403-mic0.stampede.tacc.utexas.edu)
+Rank id  237 (c560-701-mic0.stampede.tacc.utexas.edu) communicated with rank id   77 (c557-403-mic0.stampede.tacc.utexas.edu)
+Rank id  238 (c560-701-mic0.stampede.tacc.utexas.edu) communicated with rank id   78 (c557-403-mic0.stampede.tacc.utexas.edu)
+Rank id  239 (c560-701-mic0.stampede.tacc.utexas.edu) communicated with rank id   79 (c557-403-mic0.stampede.tacc.utexas.edu)
+Rank id  240 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   80 (c557-901.stampede.tacc.utexas.edu)
+Rank id  241 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   81 (c557-901.stampede.tacc.utexas.edu)
+Rank id  242 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   82 (c557-901.stampede.tacc.utexas.edu)
+Rank id  243 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   83 (c557-901.stampede.tacc.utexas.edu)
+Rank id  244 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   84 (c557-901.stampede.tacc.utexas.edu)
+Rank id  245 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   85 (c557-901.stampede.tacc.utexas.edu)
+Rank id  246 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   86 (c557-901.stampede.tacc.utexas.edu)
+Rank id  247 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   87 (c557-901.stampede.tacc.utexas.edu)
+Rank id  248 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   88 (c557-901.stampede.tacc.utexas.edu)
+Rank id  249 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   89 (c557-901.stampede.tacc.utexas.edu)
+Rank id  250 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   90 (c557-901.stampede.tacc.utexas.edu)
+Rank id  251 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   91 (c557-901.stampede.tacc.utexas.edu)
+Rank id  252 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   92 (c557-901.stampede.tacc.utexas.edu)
+Rank id  253 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   93 (c557-901.stampede.tacc.utexas.edu)
+Rank id  254 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   94 (c557-901.stampede.tacc.utexas.edu)
+Rank id  255 (c560-801.stampede.tacc.utexas.edu) communicated with rank id   95 (c557-901.stampede.tacc.utexas.edu)
+Rank id  256 (c560-801-mic0.stampede.tacc.utexas.edu) communicated with rank id   96 (c557-901-mic0.stampede.tacc.utexas.edu)
+Rank id  257 (c560-801-mic0.stampede.tacc.utexas.edu) communicated with rank id   97 (c557-901-mic0.stampede.tacc.utexas.edu)
+Rank id  258 (c560-801-mic0.stampede.tacc.utexas.edu) communicated with rank id   98 (c557-901-mic0.stampede.tacc.utexas.edu)
+Rank id  259 (c560-801-mic0.stampede.tacc.utexas.edu) communicated with rank id   99 (c557-901-mic0.stampede.tacc.utexas.edu)
+Rank id  260 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  100 (c558-004.stampede.tacc.utexas.edu)
+Rank id  261 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  101 (c558-004.stampede.tacc.utexas.edu)
+Rank id  262 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  102 (c558-004.stampede.tacc.utexas.edu)
+Rank id  263 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  103 (c558-004.stampede.tacc.utexas.edu)
+Rank id  264 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  104 (c558-004.stampede.tacc.utexas.edu)
+Rank id  265 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  105 (c558-004.stampede.tacc.utexas.edu)
+Rank id  266 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  106 (c558-004.stampede.tacc.utexas.edu)
+Rank id  267 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  107 (c558-004.stampede.tacc.utexas.edu)
+Rank id  268 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  108 (c558-004.stampede.tacc.utexas.edu)
+Rank id  269 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  109 (c558-004.stampede.tacc.utexas.edu)
+Rank id  270 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  110 (c558-004.stampede.tacc.utexas.edu)
+Rank id  271 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  111 (c558-004.stampede.tacc.utexas.edu)
+Rank id  272 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  112 (c558-004.stampede.tacc.utexas.edu)
+Rank id  273 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  113 (c558-004.stampede.tacc.utexas.edu)
+Rank id  274 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  114 (c558-004.stampede.tacc.utexas.edu)
+Rank id  275 (c560-802.stampede.tacc.utexas.edu) communicated with rank id  115 (c558-004.stampede.tacc.utexas.edu)
+Rank id  276 (c560-802-mic0.stampede.tacc.utexas.edu) communicated with rank id  116 (c558-004-mic0.stampede.tacc.utexas.edu)
+Rank id  277 (c560-802-mic0.stampede.tacc.utexas.edu) communicated with rank id  117 (c558-004-mic0.stampede.tacc.utexas.edu)
+Rank id  278 (c560-802-mic0.stampede.tacc.utexas.edu) communicated with rank id  118 (c558-004-mic0.stampede.tacc.utexas.edu)
+Rank id  279 (c560-802-mic0.stampede.tacc.utexas.edu) communicated with rank id  119 (c558-004-mic0.stampede.tacc.utexas.edu)
+Rank id  280 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  120 (c558-303.stampede.tacc.utexas.edu)
+Rank id  281 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  121 (c558-303.stampede.tacc.utexas.edu)
+Rank id  282 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  122 (c558-303.stampede.tacc.utexas.edu)
+Rank id  283 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  123 (c558-303.stampede.tacc.utexas.edu)
+Rank id  284 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  124 (c558-303.stampede.tacc.utexas.edu)
+Rank id  285 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  125 (c558-303.stampede.tacc.utexas.edu)
+Rank id  286 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  126 (c558-303.stampede.tacc.utexas.edu)
+Rank id  287 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  127 (c558-303.stampede.tacc.utexas.edu)
+Rank id  288 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  128 (c558-303.stampede.tacc.utexas.edu)
+Rank id  289 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  129 (c558-303.stampede.tacc.utexas.edu)
+Rank id  290 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  130 (c558-303.stampede.tacc.utexas.edu)
+Rank id  291 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  131 (c558-303.stampede.tacc.utexas.edu)
+Rank id  292 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  132 (c558-303.stampede.tacc.utexas.edu)
+Rank id  293 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  133 (c558-303.stampede.tacc.utexas.edu)
+Rank id  294 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  134 (c558-303.stampede.tacc.utexas.edu)
+Rank id  295 (c560-803.stampede.tacc.utexas.edu) communicated with rank id  135 (c558-303.stampede.tacc.utexas.edu)
+Rank id  296 (c560-803-mic0.stampede.tacc.utexas.edu) communicated with rank id  136 (c558-303-mic0.stampede.tacc.utexas.edu)
+Rank id  297 (c560-803-mic0.stampede.tacc.utexas.edu) communicated with rank id  137 (c558-303-mic0.stampede.tacc.utexas.edu)
+Rank id  298 (c560-803-mic0.stampede.tacc.utexas.edu) communicated with rank id  138 (c558-303-mic0.stampede.tacc.utexas.edu)
+Rank id  299 (c560-803-mic0.stampede.tacc.utexas.edu) communicated with rank id  139 (c558-303-mic0.stampede.tacc.utexas.edu)
+Rank id  300 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  140 (c558-401.stampede.tacc.utexas.edu)
+Rank id  301 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  141 (c558-401.stampede.tacc.utexas.edu)
+Rank id  302 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  142 (c558-401.stampede.tacc.utexas.edu)
+Rank id  303 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  143 (c558-401.stampede.tacc.utexas.edu)
+Rank id  304 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  144 (c558-401.stampede.tacc.utexas.edu)
+Rank id  305 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  145 (c558-401.stampede.tacc.utexas.edu)
+Rank id  306 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  146 (c558-401.stampede.tacc.utexas.edu)
+Rank id  307 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  147 (c558-401.stampede.tacc.utexas.edu)
+Rank id  308 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  148 (c558-401.stampede.tacc.utexas.edu)
+Rank id  309 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  149 (c558-401.stampede.tacc.utexas.edu)
+Rank id  310 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  150 (c558-401.stampede.tacc.utexas.edu)
+Rank id  311 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  151 (c558-401.stampede.tacc.utexas.edu)
+Rank id  312 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  152 (c558-401.stampede.tacc.utexas.edu)
+Rank id  313 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  153 (c558-401.stampede.tacc.utexas.edu)
+Rank id  314 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  154 (c558-401.stampede.tacc.utexas.edu)
+Rank id  315 (c560-804.stampede.tacc.utexas.edu) communicated with rank id  155 (c558-401.stampede.tacc.utexas.edu)
+Rank id  316 (c560-804-mic0.stampede.tacc.utexas.edu) communicated with rank id  156 (c558-401-mic0.stampede.tacc.utexas.edu)
+Rank id  317 (c560-804-mic0.stampede.tacc.utexas.edu) communicated with rank id  157 (c558-401-mic0.stampede.tacc.utexas.edu)
+Rank id  318 (c560-804-mic0.stampede.tacc.utexas.edu) communicated with rank id  158 (c558-401-mic0.stampede.tacc.utexas.edu)
+Rank id  319 (c560-804-mic0.stampede.tacc.utexas.edu) communicated with rank id  159 (c558-401-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000043
+Ticks for minimum sample             56
+
+ 
+TACC: Shutdown complete. Exiting.

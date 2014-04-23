@@ -1,0 +1,50 @@
+TACC: Starting up job 1895244
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1895244.RiLhXsnz 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            9.927         1.612
+  Unidirectional          2                    64           18.615         1.719
+  Unidirectional          2                   128           31.692         2.019
+  Unidirectional          2                   256           53.314         2.401
+  Unidirectional          2                   512          156.980         1.631
+  Unidirectional          2                  1024          308.104         1.662
+  Unidirectional          2                  2048          617.093         1.659
+  Unidirectional          2                  4096         1176.703         1.740
+  Unidirectional          2                  8192         1728.357         2.370
+  Unidirectional          2                 16384         2740.011         2.990
+  Unidirectional          2                 32768         4357.608         3.760
+  Unidirectional          2                 65536         5120.676         6.399
+  Unidirectional          2                131072         6057.248        10.819
+  Unidirectional          2                262144         1470.093        89.159
+  Unidirectional          2                524288          951.003       275.650
+  Unidirectional          2               1048576          851.823       615.489
+  Unidirectional          2               2097152          859.425      1220.090
+  Unidirectional          2               4194304          865.587      2422.810
+  Unidirectional          2               8388608          868.255      4830.730
+HMPI comm_free() 
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.

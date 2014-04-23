@@ -1,0 +1,6 @@
+Fatal error in PMPI_Comm_rank: Invalid communicator, error stack:
+PMPI_Comm_rank(121): MPI_Comm_rank(MPI_COMM_NULL, rank=0x120620d44) failed
+PMPI_Comm_rank(73).: Null communicator
+Fatal error in PMPI_Comm_rank: Invalid communicator, error stack:
+PMPI_Comm_rank(121): MPI_Comm_rank(MPI_COMM_NULL, rank=0xc0620d44) failed
+PMPI_Comm_rank(73).: Null communicator

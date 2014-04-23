@@ -1,0 +1,22 @@
+TACC: Starting up job 1703924
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1703924.1cXuKfkn 
+ERROR sm_malloc.c:376 Got local base 0x4616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x6616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x8616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0xa616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0xc616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0xe616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x10616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x12616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x14616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x16616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x18616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x1a616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x20616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x1e616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x22616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x1c616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x24616000 outside of range 0x615000 -> 0x4616000
+ERROR sm_malloc.c:376 Got local base 0x26616000 outside of range 0x615000 -> 0x4616000
+slurmd[c557-701]: *** JOB 1703924 CANCELLED AT 2013-09-17T00:08:15 DUE TO TIME LIMIT ***

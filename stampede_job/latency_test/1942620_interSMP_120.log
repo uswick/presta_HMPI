@@ -1,0 +1,230 @@
+TACC: Starting up job 1942620
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1942620.PfMOBgll 
+params:  25769803776 1
+params:  25769803776 1
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 1  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 1  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+RECV source rank: 0  hmpi:             0.000  mpi:             0.000
+SEND dest rank: 0  hmpi:             0.000  mpi:             0.000
+                     2             113.530
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c401-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c401-102-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c401-102-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c401-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000003099
+Ticks for minimum sample          11353
+
+ 
+TACC: Shutdown complete. Exiting.

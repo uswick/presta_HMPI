@@ -1,0 +1,81 @@
+Experiment Title : TEMPLATE RUN
+No of Total Runs : 3
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2849616
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849616.dr6k3MPH -machinefile /home1/02636/uswickra/.slurm/job.2849616.hostlist.oQ2fnRu2  
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2849616
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849616.9IQgRgON -machinefile /home1/02636/uswickra/.slurm/job.2849616.hostlist.ECp9LKd0  
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2849616
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2849616.gp7AvdDF -machinefile /home1/02636/uswickra/.slurm/job.2849616.hostlist.ZX8bYytZ  
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+helloooo (null) 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

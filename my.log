@@ -1,0 +1,9841 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+typedef unsigned long size_t;
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+typedef unsigned char __u_char;
+typedef unsigned short int __u_short;
+typedef unsigned int __u_int;
+typedef unsigned long int __u_long;
+
+ 
+typedef signed char __int8_t;
+typedef unsigned char __uint8_t;
+typedef signed short int __int16_t;
+typedef unsigned short int __uint16_t;
+typedef signed int __int32_t;
+typedef unsigned int __uint32_t;
+typedef signed long int __int64_t;
+typedef unsigned long int __uint64_t;
+
+ 
+typedef long int __quad_t;
+typedef unsigned long int __u_quad_t;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+typedef unsigned long int __dev_t;	 
+typedef unsigned int __uid_t;	 
+typedef unsigned int __gid_t;	 
+typedef unsigned long int __ino_t;	 
+typedef unsigned long int __ino64_t;	 
+typedef unsigned int __mode_t;	 
+typedef unsigned long int __nlink_t;	 
+typedef long int __off_t;	 
+typedef long int __off64_t;	 
+typedef int __pid_t;	 
+typedef struct { int __val[2]; } __fsid_t;	 
+typedef long int __clock_t;	 
+typedef unsigned long int __rlim_t;	 
+typedef unsigned long int __rlim64_t;	 
+typedef unsigned int __id_t;		 
+typedef long int __time_t;	 
+typedef unsigned int __useconds_t;  
+typedef long int __suseconds_t;  
+
+typedef int __daddr_t;	 
+typedef long int __swblk_t;	 
+typedef int __key_t;	 
+
+ 
+typedef int __clockid_t;
+
+ 
+typedef void * __timer_t;
+
+ 
+typedef long int __blksize_t;
+
+ 
+
+ 
+typedef long int __blkcnt_t;
+typedef long int __blkcnt64_t;
+
+ 
+typedef unsigned long int __fsblkcnt_t;
+typedef unsigned long int __fsblkcnt64_t;
+
+ 
+typedef unsigned long int __fsfilcnt_t;
+typedef unsigned long int __fsfilcnt64_t;
+
+typedef long int __ssize_t;  
+
+
+ 
+typedef __off64_t __loff_t;	 
+typedef __quad_t *__qaddr_t;
+typedef char *__caddr_t;
+
+ 
+typedef long int __intptr_t;
+
+ 
+typedef unsigned int __socklen_t;
+
+
+
+
+
+
+ 
+struct _IO_FILE;
+
+
+ 
+typedef struct _IO_FILE FILE;
+
+
+
+
+
+
+ 
+typedef struct _IO_FILE __FILE;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+typedef struct
+{
+  int __count;
+  union
+  {
+    unsigned int __wch;
+    char __wchb[4];
+  } __value;		 
+} __mbstate_t;
+
+
+
+ 
+
+
+
+ 
+typedef struct
+{
+  __off_t __pos;
+  __mbstate_t __state;
+} _G_fpos_t;
+typedef struct
+{
+  __off64_t __pos;
+  __mbstate_t __state;
+} _G_fpos64_t;
+
+typedef int _G_int16_t __attribute__ ((__mode__ (__HI__)));
+typedef int _G_int32_t __attribute__ ((__mode__ (__SI__)));
+typedef unsigned int _G_uint16_t __attribute__ ((__mode__ (__HI__)));
+typedef unsigned int _G_uint32_t __attribute__ ((__mode__ (__SI__)));
+
+
+
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+typedef __builtin_va_list __gnuc_va_list;
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+struct _IO_jump_t;  struct _IO_FILE;
+
+ 
+typedef void _IO_lock_t;
+
+
+ 
+
+struct _IO_marker {
+  struct _IO_marker *_next;
+  struct _IO_FILE *_sbuf;
+  
+ 
+   
+  int _pos;
+};
+
+ 
+enum __codecvt_result
+{
+  __codecvt_ok,
+  __codecvt_partial,
+  __codecvt_error,
+  __codecvt_noconv
+};
+
+
+struct _IO_FILE {
+  int _flags;		 
+
+   
+   
+  char* _IO_read_ptr;	 
+  char* _IO_read_end;	 
+  char* _IO_read_base;	 
+  char* _IO_write_base;	 
+  char* _IO_write_ptr;	 
+  char* _IO_write_end;	 
+  char* _IO_buf_base;	 
+  char* _IO_buf_end;	 
+   
+  char *_IO_save_base;  
+  char *_IO_backup_base;   
+  char *_IO_save_end;  
+
+  struct _IO_marker *_markers;
+
+  struct _IO_FILE *_chain;
+
+  int _fileno;
+  int _flags2;
+  __off_t _old_offset;  
+
+   
+  unsigned short _cur_column;
+  signed char _vtable_offset;
+  char _shortbuf[1];
+
+   
+
+  _IO_lock_t *_lock;
+  __off64_t _offset;
+  void *__pad1;
+  void *__pad2;
+  void *__pad3;
+  void *__pad4;
+  size_t __pad5;
+  int _mode;
+   
+  char _unused2[15 * sizeof (int) - 4 * sizeof (void *) - sizeof (size_t)];
+};
+
+typedef struct _IO_FILE _IO_FILE;
+
+struct _IO_FILE_plus;
+
+extern struct _IO_FILE_plus _IO_2_1_stdin_;
+extern struct _IO_FILE_plus _IO_2_1_stdout_;
+extern struct _IO_FILE_plus _IO_2_1_stderr_;
+
+
+ 
+
+
+ 
+typedef __ssize_t __io_read_fn (void *__cookie, char *__buf, size_t __nbytes);
+
+
+
+
+
+
+ 
+typedef __ssize_t __io_write_fn (void *__cookie, __const char *__buf,
+				 size_t __n);
+
+
+
+
+
+
+ 
+typedef int __io_seek_fn (void *__cookie, __off64_t *__pos, int __w);
+
+ 
+typedef int __io_close_fn (void *__cookie);
+
+
+
+
+
+extern int __underflow (_IO_FILE *);
+extern int __uflow (_IO_FILE *);
+extern int __overflow (_IO_FILE *, int);
+
+
+
+
+
+extern int _IO_getc (_IO_FILE *__fp);
+extern int _IO_putc (int __c, _IO_FILE *__fp);
+extern int _IO_feof (_IO_FILE *__fp) __attribute__ ((__nothrow__));
+extern int _IO_ferror (_IO_FILE *__fp) __attribute__ ((__nothrow__));
+
+extern int _IO_peekc_locked (_IO_FILE *__fp);
+
+ 
+
+extern void _IO_flockfile (_IO_FILE *) __attribute__ ((__nothrow__));
+extern void _IO_funlockfile (_IO_FILE *) __attribute__ ((__nothrow__));
+extern int _IO_ftrylockfile (_IO_FILE *) __attribute__ ((__nothrow__));
+
+
+extern int _IO_vfscanf (_IO_FILE * __restrict, const char * __restrict,
+			__gnuc_va_list, int *__restrict);
+extern int _IO_vfprintf (_IO_FILE *__restrict, const char *__restrict,
+			 __gnuc_va_list);
+extern __ssize_t _IO_padn (_IO_FILE *, int, __ssize_t);
+extern size_t _IO_sgetn (_IO_FILE *, void *, size_t);
+
+extern __off64_t _IO_seekoff (_IO_FILE *, __off64_t, int, int);
+extern __off64_t _IO_seekpos (_IO_FILE *, __off64_t, int);
+
+extern void _IO_free_backup_area (_IO_FILE *) __attribute__ ((__nothrow__));
+
+
+
+
+
+typedef __gnuc_va_list va_list;
+
+typedef __off_t off_t;
+
+typedef __ssize_t ssize_t;
+
+ 
+
+typedef _G_fpos_t fpos_t;
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+extern struct _IO_FILE *stdin;		 
+extern struct _IO_FILE *stdout;		 
+extern struct _IO_FILE *stderr;		 
+ 
+
+
+ 
+extern int remove (__const char *__filename) __attribute__ ((__nothrow__));
+ 
+extern int rename (__const char *__old, __const char *__new) __attribute__ ((__nothrow__));
+
+
+ 
+extern int renameat (int __oldfd, __const char *__old, int __newfd,
+		     __const char *__new) __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+extern FILE *tmpfile (void) ;
+
+
+ 
+extern char *tmpnam (char *__s) __attribute__ ((__nothrow__)) ;
+
+
+
+ 
+extern char *tmpnam_r (char *__s) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+
+
+
+ 
+extern char *tempnam (__const char *__dir, __const char *__pfx)
+     __attribute__ ((__nothrow__)) __attribute__ ((__malloc__)) ;
+
+
+
+
+
+
+ 
+extern int fclose (FILE *__stream);
+
+
+
+ 
+extern int fflush (FILE *__stream);
+
+
+
+
+
+
+
+ 
+extern int fflush_unlocked (FILE *__stream);
+
+
+
+
+
+
+
+ 
+extern FILE *fopen (__const char *__restrict __filename,
+		    __const char *__restrict __modes) ;
+
+
+
+ 
+extern FILE *freopen (__const char *__restrict __filename,
+		      __const char *__restrict __modes,
+		      FILE *__restrict __stream) ;
+
+
+ 
+extern FILE *fdopen (int __fd, __const char *__modes) __attribute__ ((__nothrow__)) ;
+
+
+ 
+extern FILE *fmemopen (void *__s, size_t __len, __const char *__modes)
+  __attribute__ ((__nothrow__)) ;
+
+
+
+ 
+extern FILE *open_memstream (char **__bufloc, size_t *__sizeloc) __attribute__ ((__nothrow__)) ;
+
+
+
+
+ 
+extern void setbuf (FILE *__restrict __stream, char *__restrict __buf) __attribute__ ((__nothrow__));
+
+
+ 
+extern int setvbuf (FILE *__restrict __stream, char *__restrict __buf,
+		    int __modes, size_t __n) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern void setbuffer (FILE *__restrict __stream, char *__restrict __buf,
+		       size_t __size) __attribute__ ((__nothrow__));
+
+ 
+extern void setlinebuf (FILE *__stream) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+ 
+extern int fprintf (FILE *__restrict __stream,
+		    __const char *__restrict __format, ...);
+
+
+
+ 
+extern int printf (__const char *__restrict __format, ...);
+ 
+extern int sprintf (char *__restrict __s,
+		    __const char *__restrict __format, ...) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern int vfprintf (FILE *__restrict __s, __const char *__restrict __format,
+		     __gnuc_va_list __arg);
+
+
+
+ 
+extern int vprintf (__const char *__restrict __format, __gnuc_va_list __arg);
+ 
+extern int vsprintf (char *__restrict __s, __const char *__restrict __format,
+		     __gnuc_va_list __arg) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int snprintf (char *__restrict __s, size_t __maxlen,
+		     __const char *__restrict __format, ...)
+     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 4)));
+
+extern int vsnprintf (char *__restrict __s, size_t __maxlen,
+		      __const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__printf__, 3, 0)));
+
+
+
+
+
+
+
+
+ 
+extern int vdprintf (int __fd, __const char *__restrict __fmt,
+		     __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__printf__, 2, 0)));
+extern int dprintf (int __fd, __const char *__restrict __fmt, ...)
+     __attribute__ ((__format__ (__printf__, 2, 3)));
+
+
+
+
+
+
+ 
+extern int fscanf (FILE *__restrict __stream,
+		   __const char *__restrict __format, ...) ;
+
+
+
+ 
+extern int scanf (__const char *__restrict __format, ...) ;
+ 
+extern int sscanf (__const char *__restrict __s,
+		   __const char *__restrict __format, ...) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int fscanf (FILE *__restrict __stream, __const char *__restrict __format, ...) __asm__ ("" "__isoc99_fscanf") ;
+extern int scanf (__const char *__restrict __format, ...) __asm__ ("" "__isoc99_scanf") ;
+extern int sscanf (__const char *__restrict __s, __const char *__restrict __format, ...) __asm__ ("" "__isoc99_sscanf") __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+ 
+extern int vfscanf (FILE *__restrict __s, __const char *__restrict __format,
+		    __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+
+
+
+
+ 
+extern int vscanf (__const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+
+ 
+extern int vsscanf (__const char *__restrict __s,
+		    __const char *__restrict __format, __gnuc_va_list __arg)
+     __attribute__ ((__nothrow__)) __attribute__ ((__format__ (__scanf__, 2, 0)));
+
+
+
+ 
+extern int vfscanf (FILE *__restrict __s, __const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vfscanf")
+     __attribute__ ((__format__ (__scanf__, 2, 0))) ;
+extern int vscanf (__const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vscanf")
+     __attribute__ ((__format__ (__scanf__, 1, 0))) ;
+extern int vsscanf (__const char *__restrict __s, __const char *__restrict __format, __gnuc_va_list __arg) __asm__ ("" "__isoc99_vsscanf") __attribute__ ((__nothrow__))
+     __attribute__ ((__format__ (__scanf__, 2, 0)));
+
+
+
+
+
+
+
+
+ 
+extern int fgetc (FILE *__stream);
+extern int getc (FILE *__stream);
+
+
+
+
+ 
+extern int getchar (void);
+
+
+
+ 
+
+
+
+
+ 
+extern int getc_unlocked (FILE *__stream);
+extern int getchar_unlocked (void);
+
+
+
+
+
+
+ 
+extern int fgetc_unlocked (FILE *__stream);
+
+
+
+
+
+
+
+
+
+ 
+extern int fputc (int __c, FILE *__stream);
+extern int putc (int __c, FILE *__stream);
+
+
+
+
+ 
+extern int putchar (int __c);
+
+
+
+ 
+
+
+
+
+
+
+ 
+extern int fputc_unlocked (int __c, FILE *__stream);
+
+
+
+
+ 
+extern int putc_unlocked (int __c, FILE *__stream);
+extern int putchar_unlocked (int __c);
+
+
+ 
+extern int getw (FILE *__stream);
+
+ 
+extern int putw (int __w, FILE *__stream);
+
+
+
+
+
+
+ 
+extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+     ;
+
+
+
+
+
+ 
+extern char *gets (char *__s) ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern __ssize_t __getdelim (char **__restrict __lineptr,
+			       size_t *__restrict __n, int __delimiter,
+			       FILE *__restrict __stream) ;
+extern __ssize_t getdelim (char **__restrict __lineptr,
+			     size_t *__restrict __n, int __delimiter,
+			     FILE *__restrict __stream) ;
+
+
+
+
+
+
+ 
+extern __ssize_t getline (char **__restrict __lineptr,
+			    size_t *__restrict __n,
+			    FILE *__restrict __stream) ;
+
+
+
+
+
+
+ 
+extern int fputs (__const char *__restrict __s, FILE *__restrict __stream);
+
+
+
+
+ 
+extern int puts (__const char *__s);
+
+
+
+
+
+ 
+extern int ungetc (int __c, FILE *__stream);
+
+
+
+
+
+ 
+extern size_t fread (void *__restrict __ptr, size_t __size,
+		     size_t __n, FILE *__restrict __stream) ;
+
+
+
+ 
+extern size_t fwrite (__const void *__restrict __ptr, size_t __size,
+		      size_t __n, FILE *__restrict __s) ;
+
+
+
+
+
+
+
+
+ 
+extern size_t fread_unlocked (void *__restrict __ptr, size_t __size,
+			      size_t __n, FILE *__restrict __stream) ;
+extern size_t fwrite_unlocked (__const void *__restrict __ptr, size_t __size,
+			       size_t __n, FILE *__restrict __stream) ;
+
+
+
+
+
+
+ 
+extern int fseek (FILE *__stream, long int __off, int __whence);
+
+
+
+ 
+extern long int ftell (FILE *__stream) ;
+
+
+
+ 
+extern void rewind (FILE *__stream);
+
+
+
+
+
+ 
+
+
+
+
+ 
+extern int fseeko (FILE *__stream, __off_t __off, int __whence);
+
+
+
+ 
+extern __off_t ftello (FILE *__stream) ;
+
+
+
+
+
+ 
+extern int fgetpos (FILE *__restrict __stream, fpos_t *__restrict __pos);
+
+
+
+ 
+extern int fsetpos (FILE *__stream, __const fpos_t *__pos);
+
+
+
+
+ 
+extern void clearerr (FILE *__stream) __attribute__ ((__nothrow__));
+ 
+extern int feof (FILE *__stream) __attribute__ ((__nothrow__)) ;
+ 
+extern int ferror (FILE *__stream) __attribute__ ((__nothrow__)) ;
+
+
+ 
+extern void clearerr_unlocked (FILE *__stream) __attribute__ ((__nothrow__));
+extern int feof_unlocked (FILE *__stream) __attribute__ ((__nothrow__)) ;
+extern int ferror_unlocked (FILE *__stream) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+
+ 
+extern void perror (__const char *__s);
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+extern int sys_nerr;
+extern __const char *__const sys_errlist[];
+
+
+ 
+extern int fileno (FILE *__stream) __attribute__ ((__nothrow__)) ;
+
+ 
+extern int fileno_unlocked (FILE *__stream) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+ 
+extern FILE *popen (__const char *__command, __const char *__modes) ;
+
+
+
+
+ 
+extern int pclose (FILE *__stream);
+
+
+ 
+extern char *ctermid (char *__s) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+ 
+
+ 
+extern void flockfile (FILE *__stream) __attribute__ ((__nothrow__));
+
+
+ 
+extern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__)) ;
+
+ 
+extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+typedef int wchar_t;
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+union wait
+  {
+    int w_status;
+    struct
+      {
+	unsigned int __w_termsig:7;  
+	unsigned int __w_coredump:1;  
+	unsigned int __w_retcode:8;  
+	unsigned int:16;
+      } __wait_terminated;
+    struct
+      {
+	unsigned int __w_stopval:8;  
+	unsigned int __w_stopsig:8;  
+	unsigned int:16;
+      } __wait_stopped;
+  };
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+typedef union
+  {
+    union wait *__uptr;
+    int *__iptr;
+  } __WAIT_STATUS __attribute__ ((__transparent_union__));
+
+
+ 
+
+
+ 
+typedef struct
+  {
+    int quot;			 
+    int rem;			 
+  } div_t;
+
+ 
+typedef struct
+  {
+    long int quot;		 
+    long int rem;		 
+  } ldiv_t;
+
+
+
+ 
+__extension__ typedef struct
+  {
+    long long int quot;		 
+    long long int rem;		 
+  } lldiv_t;
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+extern size_t __ctype_get_mb_cur_max (void) __attribute__ ((__nothrow__)) ;
+
+
+
+ 
+extern double atof (__const char *__nptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+ 
+extern int atoi (__const char *__nptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+ 
+extern long int atol (__const char *__nptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+__extension__ extern long long int atoll (__const char *__nptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+extern double strtod (__const char *__restrict __nptr,
+		      char **__restrict __endptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+extern float strtof (__const char *__restrict __nptr,
+		     char **__restrict __endptr) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+extern long double strtold (__const char *__restrict __nptr,
+			    char **__restrict __endptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+extern long int strtol (__const char *__restrict __nptr,
+			char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+ 
+extern unsigned long int strtoul (__const char *__restrict __nptr,
+				  char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+ 
+__extension__
+extern long long int strtoq (__const char *__restrict __nptr,
+			     char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+ 
+__extension__
+extern unsigned long long int strtouq (__const char *__restrict __nptr,
+				       char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+ 
+__extension__
+extern long long int strtoll (__const char *__restrict __nptr,
+			      char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+ 
+__extension__
+extern unsigned long long int strtoull (__const char *__restrict __nptr,
+					char **__restrict __endptr, int __base)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+
+
+
+ 
+extern char *l64a (long int __n) __attribute__ ((__nothrow__)) ;
+
+ 
+extern long int a64l (__const char *__s)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+typedef __u_char u_char;
+typedef __u_short u_short;
+typedef __u_int u_int;
+typedef __u_long u_long;
+typedef __quad_t quad_t;
+typedef __u_quad_t u_quad_t;
+typedef __fsid_t fsid_t;
+
+typedef __loff_t loff_t;
+
+typedef __ino_t ino_t;
+
+typedef __dev_t dev_t;
+
+typedef __gid_t gid_t;
+
+typedef __mode_t mode_t;
+
+typedef __nlink_t nlink_t;
+
+typedef __uid_t uid_t;
+
+
+typedef __pid_t pid_t;
+
+typedef __id_t id_t;
+
+
+typedef __daddr_t daddr_t;
+typedef __caddr_t caddr_t;
+
+typedef __key_t key_t;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+typedef __clock_t clock_t;
+
+
+
+
+
+
+
+ 
+typedef __time_t time_t;
+
+
+
+
+
+
+ 
+typedef __clockid_t clockid_t;
+
+
+
+
+ 
+typedef __timer_t timer_t;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+typedef unsigned long int ulong;
+typedef unsigned short int ushort;
+typedef unsigned int uint;
+
+ 
+
+
+ 
+
+typedef int int8_t __attribute__ ((__mode__ (__QI__)));
+typedef int int16_t __attribute__ ((__mode__ (__HI__)));
+typedef int int32_t __attribute__ ((__mode__ (__SI__)));
+typedef int int64_t __attribute__ ((__mode__ (__DI__)));
+
+typedef unsigned int u_int8_t __attribute__ ((__mode__ (__QI__)));
+typedef unsigned int u_int16_t __attribute__ ((__mode__ (__HI__)));
+typedef unsigned int u_int32_t __attribute__ ((__mode__ (__SI__)));
+typedef unsigned int u_int64_t __attribute__ ((__mode__ (__DI__)));
+
+typedef int register_t __attribute__ ((__mode__ (__word__)));
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+typedef int __sig_atomic_t;
+
+ 
+
+typedef struct
+  {
+    unsigned long int __val[(1024 / (8 * sizeof (unsigned long int)))];
+  } __sigset_t;
+
+
+
+
+
+
+
+ 
+
+
+typedef __sigset_t sigset_t;
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+struct timespec
+  {
+    __time_t tv_sec;		 
+    long int tv_nsec;		 
+  };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+struct timeval
+  {
+    __time_t tv_sec;		 
+    __suseconds_t tv_usec;	 
+  };
+
+
+
+typedef __suseconds_t suseconds_t;
+
+
+ 
+typedef long int __fd_mask;
+
+ 
+ 
+
+ 
+typedef struct
+  {
+    
+ 
+    __fd_mask __fds_bits[1024 / (8 * (int) sizeof (__fd_mask))];
+  } fd_set;
+
+ 
+
+ 
+typedef __fd_mask fd_mask;
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern int select (int __nfds, fd_set *__restrict __readfds,
+		   fd_set *__restrict __writefds,
+		   fd_set *__restrict __exceptfds,
+		   struct timeval *__restrict __timeout);
+
+
+
+
+
+
+ 
+extern int pselect (int __nfds, fd_set *__restrict __readfds,
+		    fd_set *__restrict __writefds,
+		    fd_set *__restrict __exceptfds,
+		    const struct timespec *__restrict __timeout,
+		    const __sigset_t *__restrict __sigmask);
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+__extension__
+extern unsigned int gnu_dev_major (unsigned long long int __dev)
+     __attribute__ ((__nothrow__));
+__extension__
+extern unsigned int gnu_dev_minor (unsigned long long int __dev)
+     __attribute__ ((__nothrow__));
+__extension__
+extern unsigned long long int gnu_dev_makedev (unsigned int __major,
+					       unsigned int __minor)
+     __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+
+typedef __blksize_t blksize_t;
+
+ 
+typedef __blkcnt_t blkcnt_t;	  
+typedef __fsblkcnt_t fsblkcnt_t;  
+typedef __fsfilcnt_t fsfilcnt_t;  
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+typedef unsigned long int pthread_t;
+
+
+typedef union
+{
+  char __size[56];
+  long int __align;
+} pthread_attr_t;
+
+
+typedef struct __pthread_internal_list
+{
+  struct __pthread_internal_list *__prev;
+  struct __pthread_internal_list *__next;
+} __pthread_list_t;
+
+
+
+ 
+typedef union
+{
+  struct __pthread_mutex_s
+  {
+    int __lock;
+    unsigned int __count;
+    int __owner;
+    unsigned int __nusers;
+    
+ 
+    int __kind;
+    int __spins;
+    __pthread_list_t __list;
+  } __data;
+  char __size[40];
+  long int __align;
+} pthread_mutex_t;
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_mutexattr_t;
+
+
+
+ 
+typedef union
+{
+  struct
+  {
+    int __lock;
+    unsigned int __futex;
+    __extension__ unsigned long long int __total_seq;
+    __extension__ unsigned long long int __wakeup_seq;
+    __extension__ unsigned long long int __woken_seq;
+    void *__mutex;
+    unsigned int __nwaiters;
+    unsigned int __broadcast_seq;
+  } __data;
+  char __size[48];
+  __extension__ long long int __align;
+} pthread_cond_t;
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_condattr_t;
+
+
+ 
+typedef unsigned int pthread_key_t;
+
+
+ 
+typedef int pthread_once_t;
+
+
+
+ 
+typedef union
+{
+  struct
+  {
+    int __lock;
+    unsigned int __nr_readers;
+    unsigned int __readers_wakeup;
+    unsigned int __writer_wakeup;
+    unsigned int __nr_readers_queued;
+    unsigned int __nr_writers_queued;
+    int __writer;
+    int __shared;
+    unsigned long int __pad1;
+    unsigned long int __pad2;
+    
+ 
+    unsigned int __flags;
+  } __data;
+  char __size[56];
+  long int __align;
+} pthread_rwlock_t;
+
+typedef union
+{
+  char __size[8];
+  long int __align;
+} pthread_rwlockattr_t;
+
+
+ 
+typedef volatile int pthread_spinlock_t;
+
+
+
+ 
+typedef union
+{
+  char __size[32];
+  long int __align;
+} pthread_barrier_t;
+
+typedef union
+{
+  char __size[4];
+  int __align;
+} pthread_barrierattr_t;
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+extern long int random (void) __attribute__ ((__nothrow__));
+
+ 
+extern void srandom (unsigned int __seed) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern char *initstate (unsigned int __seed, char *__statebuf,
+			size_t __statelen) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+
+ 
+extern char *setstate (char *__statebuf) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+ 
+
+struct random_data
+  {
+    int32_t *fptr;		 
+    int32_t *rptr;		 
+    int32_t *state;		 
+    int rand_type;		 
+    int rand_deg;		 
+    int rand_sep;		 
+    int32_t *end_ptr;		 
+  };
+
+extern int random_r (struct random_data *__restrict __buf,
+		     int32_t *__restrict __result) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+extern int srandom_r (unsigned int __seed, struct random_data *__buf)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+extern int initstate_r (unsigned int __seed, char *__restrict __statebuf,
+			size_t __statelen,
+			struct random_data *__restrict __buf)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2, 4)));
+
+extern int setstate_r (char *__restrict __statebuf,
+		       struct random_data *__restrict __buf)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+ 
+extern int rand (void) __attribute__ ((__nothrow__));
+ 
+extern void srand (unsigned int __seed) __attribute__ ((__nothrow__));
+
+
+ 
+extern int rand_r (unsigned int *__seed) __attribute__ ((__nothrow__));
+
+
+ 
+
+ 
+extern double drand48 (void) __attribute__ ((__nothrow__));
+extern double erand48 (unsigned short int __xsubi[3]) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern long int lrand48 (void) __attribute__ ((__nothrow__));
+extern long int nrand48 (unsigned short int __xsubi[3])
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern long int mrand48 (void) __attribute__ ((__nothrow__));
+extern long int jrand48 (unsigned short int __xsubi[3])
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern void srand48 (long int __seedval) __attribute__ ((__nothrow__));
+extern unsigned short int *seed48 (unsigned short int __seed16v[3])
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+extern void lcong48 (unsigned short int __param[7]) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+struct drand48_data
+  {
+    unsigned short int __x[3];	 
+    unsigned short int __old_x[3];  
+    unsigned short int __c;	 
+    unsigned short int __init;	 
+    unsigned long long int __a;	 
+  };
+
+ 
+extern int drand48_r (struct drand48_data *__restrict __buffer,
+		      double *__restrict __result) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int erand48_r (unsigned short int __xsubi[3],
+		      struct drand48_data *__restrict __buffer,
+		      double *__restrict __result) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern int lrand48_r (struct drand48_data *__restrict __buffer,
+		      long int *__restrict __result)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int nrand48_r (unsigned short int __xsubi[3],
+		      struct drand48_data *__restrict __buffer,
+		      long int *__restrict __result)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern int mrand48_r (struct drand48_data *__restrict __buffer,
+		      long int *__restrict __result)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+extern int jrand48_r (unsigned short int __xsubi[3],
+		      struct drand48_data *__restrict __buffer,
+		      long int *__restrict __result)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern int srand48_r (long int __seedval, struct drand48_data *__buffer)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+extern int seed48_r (unsigned short int __seed16v[3],
+		     struct drand48_data *__buffer) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+extern int lcong48_r (unsigned short int __param[7],
+		      struct drand48_data *__buffer)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+ 
+extern void *malloc (size_t __size) __attribute__ ((__nothrow__)) __attribute__ ((__malloc__)) ;
+ 
+extern void *calloc (size_t __nmemb, size_t __size)
+     __attribute__ ((__nothrow__)) __attribute__ ((__malloc__)) ;
+
+
+
+
+ 
+
+
+ 
+extern void *realloc (void *__ptr, size_t __size)
+     __attribute__ ((__nothrow__)) __attribute__ ((__warn_unused_result__));
+ 
+extern void free (void *__ptr) __attribute__ ((__nothrow__));
+
+
+ 
+extern void cfree (void *__ptr) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+extern void *alloca (size_t __size) __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+extern void *valloc (size_t __size) __attribute__ ((__nothrow__)) __attribute__ ((__malloc__)) ;
+
+ 
+extern int posix_memalign (void **__memptr, size_t __alignment, size_t __size)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+ 
+extern void abort (void) __attribute__ ((__nothrow__)) __attribute__ ((__noreturn__));
+
+
+ 
+extern int atexit (void (*__func) (void)) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+ 
+extern int on_exit (void (*__func) (int __status, void *__arg), void *__arg)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+ 
+extern void exit (int __status) __attribute__ ((__nothrow__)) __attribute__ ((__noreturn__));
+
+
+
+
+
+ 
+extern void _Exit (int __status) __attribute__ ((__nothrow__)) __attribute__ ((__noreturn__));
+
+
+
+
+ 
+extern char *getenv (__const char *__name) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+extern char *__secure_getenv (__const char *__name)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+ 
+
+ 
+extern int putenv (char *__string) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+ 
+extern int setenv (__const char *__name, __const char *__value, int __replace)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+ 
+extern int unsetenv (__const char *__name) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+extern int clearenv (void) __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+extern char *mktemp (char *__template) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+
+
+ 
+extern int mkstemp (char *__template) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+ 
+extern int mkstemps (char *__template, int __suffixlen) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+ 
+extern char *mkdtemp (char *__template) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+
+ 
+extern int system (__const char *__command) ;
+
+
+
+
+
+
+
+
+ 
+extern char *realpath (__const char *__restrict __name,
+		       char *__restrict __resolved) __attribute__ ((__nothrow__)) ;
+
+
+ 
+typedef int (*__compar_fn_t) (__const void *, __const void *);
+
+
+
+
+ 
+extern void *bsearch (__const void *__key, __const void *__base,
+		      size_t __nmemb, size_t __size, __compar_fn_t __compar)
+     __attribute__ ((__nonnull__ (1, 2, 5))) ;
+
+
+ 
+extern void qsort (void *__base, size_t __nmemb, size_t __size,
+		   __compar_fn_t __compar) __attribute__ ((__nonnull__ (1, 4)));
+
+
+ 
+extern int abs (int __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)) ;
+extern long int labs (long int __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)) ;
+
+
+__extension__ extern long long int llabs (long long int __x)
+     __attribute__ ((__nothrow__)) __attribute__ ((__const__)) ;
+
+
+
+
+ 
+ 
+extern div_t div (int __numer, int __denom)
+     __attribute__ ((__nothrow__)) __attribute__ ((__const__)) ;
+extern ldiv_t ldiv (long int __numer, long int __denom)
+     __attribute__ ((__nothrow__)) __attribute__ ((__const__)) ;
+
+
+
+__extension__ extern lldiv_t lldiv (long long int __numer,
+				    long long int __denom)
+     __attribute__ ((__nothrow__)) __attribute__ ((__const__)) ;
+
+
+
+
+ 
+
+
+
+ 
+extern char *ecvt (double __value, int __ndigit, int *__restrict __decpt,
+		   int *__restrict __sign) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4))) ;
+
+
+
+ 
+extern char *fcvt (double __value, int __ndigit, int *__restrict __decpt,
+		   int *__restrict __sign) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4))) ;
+
+
+
+ 
+extern char *gcvt (double __value, int __ndigit, char *__buf)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3))) ;
+
+
+ 
+extern char *qecvt (long double __value, int __ndigit,
+		    int *__restrict __decpt, int *__restrict __sign)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qfcvt (long double __value, int __ndigit,
+		    int *__restrict __decpt, int *__restrict __sign)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4))) ;
+extern char *qgcvt (long double __value, int __ndigit, char *__buf)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3))) ;
+
+
+
+ 
+extern int ecvt_r (double __value, int __ndigit, int *__restrict __decpt,
+		   int *__restrict __sign, char *__restrict __buf,
+		   size_t __len) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int fcvt_r (double __value, int __ndigit, int *__restrict __decpt,
+		   int *__restrict __sign, char *__restrict __buf,
+		   size_t __len) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+
+extern int qecvt_r (long double __value, int __ndigit,
+		    int *__restrict __decpt, int *__restrict __sign,
+		    char *__restrict __buf, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+extern int qfcvt_r (long double __value, int __ndigit,
+		    int *__restrict __decpt, int *__restrict __sign,
+		    char *__restrict __buf, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (3, 4, 5)));
+
+
+
+
+ 
+extern int mblen (__const char *__s, size_t __n) __attribute__ ((__nothrow__)) ;
+
+ 
+extern int mbtowc (wchar_t *__restrict __pwc,
+		   __const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__)) ;
+
+ 
+extern int wctomb (char *__s, wchar_t __wchar) __attribute__ ((__nothrow__)) ;
+
+
+ 
+extern size_t mbstowcs (wchar_t *__restrict  __pwcs,
+			__const char *__restrict __s, size_t __n) __attribute__ ((__nothrow__));
+ 
+extern size_t wcstombs (char *__restrict __s,
+			__const wchar_t *__restrict __pwcs, size_t __n)
+     __attribute__ ((__nothrow__));
+
+
+
+
+
+
+ 
+extern int rpmatch (__const char *__response) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+
+ 
+extern int getsubopt (char **__restrict __optionp,
+		      char *__const *__restrict __tokens,
+		      char **__restrict __valuep)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2, 3))) ;
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+extern int getloadavg (double __loadavg[], int __nelem)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+typedef float float_t;		 
+typedef double double_t;	
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+extern double acos (double __x) __attribute__ ((__nothrow__)); extern double __acos (double __x) __attribute__ ((__nothrow__));
+ 
+extern double asin (double __x) __attribute__ ((__nothrow__)); extern double __asin (double __x) __attribute__ ((__nothrow__));
+ 
+extern double atan (double __x) __attribute__ ((__nothrow__)); extern double __atan (double __x) __attribute__ ((__nothrow__));
+ 
+extern double atan2 (double __y, double __x) __attribute__ ((__nothrow__)); extern double __atan2 (double __y, double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double cos (double __x) __attribute__ ((__nothrow__)); extern double __cos (double __x) __attribute__ ((__nothrow__));
+ 
+extern double sin (double __x) __attribute__ ((__nothrow__)); extern double __sin (double __x) __attribute__ ((__nothrow__));
+ 
+extern double tan (double __x) __attribute__ ((__nothrow__)); extern double __tan (double __x) __attribute__ ((__nothrow__));
+
+ 
+
+ 
+extern double cosh (double __x) __attribute__ ((__nothrow__)); extern double __cosh (double __x) __attribute__ ((__nothrow__));
+ 
+extern double sinh (double __x) __attribute__ ((__nothrow__)); extern double __sinh (double __x) __attribute__ ((__nothrow__));
+ 
+extern double tanh (double __x) __attribute__ ((__nothrow__)); extern double __tanh (double __x) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern double acosh (double __x) __attribute__ ((__nothrow__)); extern double __acosh (double __x) __attribute__ ((__nothrow__));
+ 
+extern double asinh (double __x) __attribute__ ((__nothrow__)); extern double __asinh (double __x) __attribute__ ((__nothrow__));
+ 
+extern double atanh (double __x) __attribute__ ((__nothrow__)); extern double __atanh (double __x) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+ 
+extern double exp (double __x) __attribute__ ((__nothrow__)); extern double __exp (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double frexp (double __x, int *__exponent) __attribute__ ((__nothrow__)); extern double __frexp (double __x, int *__exponent) __attribute__ ((__nothrow__));
+
+ 
+extern double ldexp (double __x, int __exponent) __attribute__ ((__nothrow__)); extern double __ldexp (double __x, int __exponent) __attribute__ ((__nothrow__));
+
+ 
+extern double log (double __x) __attribute__ ((__nothrow__)); extern double __log (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double log10 (double __x) __attribute__ ((__nothrow__)); extern double __log10 (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double modf (double __x, double *__iptr) __attribute__ ((__nothrow__)); extern double __modf (double __x, double *__iptr) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern double expm1 (double __x) __attribute__ ((__nothrow__)); extern double __expm1 (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double log1p (double __x) __attribute__ ((__nothrow__)); extern double __log1p (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double logb (double __x) __attribute__ ((__nothrow__)); extern double __logb (double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double exp2 (double __x) __attribute__ ((__nothrow__)); extern double __exp2 (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double log2 (double __x) __attribute__ ((__nothrow__)); extern double __log2 (double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+ 
+extern double pow (double __x, double __y) __attribute__ ((__nothrow__)); extern double __pow (double __x, double __y) __attribute__ ((__nothrow__));
+
+ 
+extern double sqrt (double __x) __attribute__ ((__nothrow__)); extern double __sqrt (double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double hypot (double __x, double __y) __attribute__ ((__nothrow__)); extern double __hypot (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double cbrt (double __x) __attribute__ ((__nothrow__)); extern double __cbrt (double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+ 
+extern double ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __ceil (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern double fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __fabs (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern double floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __floor (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern double fmod (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmod (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int __isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int __finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int isinf (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int finite (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern double drem (double __x, double __y) __attribute__ ((__nothrow__)); extern double __drem (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+ 
+extern double significand (double __x) __attribute__ ((__nothrow__)); extern double __significand (double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern double copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __copysign (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern double nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nan (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int __isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int isnan (double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern double j0 (double) __attribute__ ((__nothrow__)); extern double __j0 (double) __attribute__ ((__nothrow__));
+extern double j1 (double) __attribute__ ((__nothrow__)); extern double __j1 (double) __attribute__ ((__nothrow__));
+extern double jn (int, double) __attribute__ ((__nothrow__)); extern double __jn (int, double) __attribute__ ((__nothrow__));
+extern double y0 (double) __attribute__ ((__nothrow__)); extern double __y0 (double) __attribute__ ((__nothrow__));
+extern double y1 (double) __attribute__ ((__nothrow__)); extern double __y1 (double) __attribute__ ((__nothrow__));
+extern double yn (int, double) __attribute__ ((__nothrow__)); extern double __yn (int, double) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double erf (double) __attribute__ ((__nothrow__)); extern double __erf (double) __attribute__ ((__nothrow__));
+extern double erfc (double) __attribute__ ((__nothrow__)); extern double __erfc (double) __attribute__ ((__nothrow__));
+extern double lgamma (double) __attribute__ ((__nothrow__)); extern double __lgamma (double) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double tgamma (double) __attribute__ ((__nothrow__)); extern double __tgamma (double) __attribute__ ((__nothrow__));
+
+
+ 
+extern double gamma (double) __attribute__ ((__nothrow__)); extern double __gamma (double) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__)); extern double __lgamma_r (double, int *__signgamp) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern double rint (double __x) __attribute__ ((__nothrow__)); extern double __rint (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nextafter (double __x, double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+extern double nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __nexttoward (double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern double remainder (double __x, double __y) __attribute__ ((__nothrow__)); extern double __remainder (double __x, double __y) __attribute__ ((__nothrow__));
+
+ 
+extern double scalbn (double __x, int __n) __attribute__ ((__nothrow__)); extern double __scalbn (double __x, int __n) __attribute__ ((__nothrow__));
+
+ 
+extern int ilogb (double __x) __attribute__ ((__nothrow__)); extern int __ilogb (double __x) __attribute__ ((__nothrow__));
+
+ 
+extern double scalbln (double __x, long int __n) __attribute__ ((__nothrow__)); extern double __scalbln (double __x, long int __n) __attribute__ ((__nothrow__));
+
+
+ 
+extern double nearbyint (double __x) __attribute__ ((__nothrow__)); extern double __nearbyint (double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern double round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __round (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+ 
+extern double trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern double __trunc (double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern double remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__)); extern double __remquo (double __x, double __y, int *__quo) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+ 
+extern long int lrint (double __x) __attribute__ ((__nothrow__)); extern long int __lrint (double __x) __attribute__ ((__nothrow__));
+extern long long int llrint (double __x) __attribute__ ((__nothrow__)); extern long long int __llrint (double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern long int lround (double __x) __attribute__ ((__nothrow__)); extern long int __lround (double __x) __attribute__ ((__nothrow__));
+extern long long int llround (double __x) __attribute__ ((__nothrow__)); extern long long int __llround (double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern double fdim (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fdim (double __x, double __y) __attribute__ ((__nothrow__));
+
+ 
+extern double fmax (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmax (double __x, double __y) __attribute__ ((__nothrow__));
+
+ 
+extern double fmin (double __x, double __y) __attribute__ ((__nothrow__)); extern double __fmin (double __x, double __y) __attribute__ ((__nothrow__));
+
+
+ 
+extern int __fpclassify (double __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+ 
+extern int __signbit (double __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+ 
+extern double fma (double __x, double __y, double __z) __attribute__ ((__nothrow__)); extern double __fma (double __x, double __y, double __z) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern double scalb (double __x, double __n) __attribute__ ((__nothrow__)); extern double __scalb (double __x, double __n) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+extern float acosf (float __x) __attribute__ ((__nothrow__)); extern float __acosf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float asinf (float __x) __attribute__ ((__nothrow__)); extern float __asinf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float atanf (float __x) __attribute__ ((__nothrow__)); extern float __atanf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float atan2f (float __y, float __x) __attribute__ ((__nothrow__)); extern float __atan2f (float __y, float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float cosf (float __x) __attribute__ ((__nothrow__)); extern float __cosf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float sinf (float __x) __attribute__ ((__nothrow__)); extern float __sinf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float tanf (float __x) __attribute__ ((__nothrow__)); extern float __tanf (float __x) __attribute__ ((__nothrow__));
+
+ 
+
+ 
+extern float coshf (float __x) __attribute__ ((__nothrow__)); extern float __coshf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float sinhf (float __x) __attribute__ ((__nothrow__)); extern float __sinhf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float tanhf (float __x) __attribute__ ((__nothrow__)); extern float __tanhf (float __x) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern float acoshf (float __x) __attribute__ ((__nothrow__)); extern float __acoshf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float asinhf (float __x) __attribute__ ((__nothrow__)); extern float __asinhf (float __x) __attribute__ ((__nothrow__));
+ 
+extern float atanhf (float __x) __attribute__ ((__nothrow__)); extern float __atanhf (float __x) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+ 
+extern float expf (float __x) __attribute__ ((__nothrow__)); extern float __expf (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__)); extern float __frexpf (float __x, int *__exponent) __attribute__ ((__nothrow__));
+
+ 
+extern float ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__)); extern float __ldexpf (float __x, int __exponent) __attribute__ ((__nothrow__));
+
+ 
+extern float logf (float __x) __attribute__ ((__nothrow__)); extern float __logf (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float log10f (float __x) __attribute__ ((__nothrow__)); extern float __log10f (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float modff (float __x, float *__iptr) __attribute__ ((__nothrow__)); extern float __modff (float __x, float *__iptr) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern float expm1f (float __x) __attribute__ ((__nothrow__)); extern float __expm1f (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float log1pf (float __x) __attribute__ ((__nothrow__)); extern float __log1pf (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float logbf (float __x) __attribute__ ((__nothrow__)); extern float __logbf (float __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float exp2f (float __x) __attribute__ ((__nothrow__)); extern float __exp2f (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float log2f (float __x) __attribute__ ((__nothrow__)); extern float __log2f (float __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+ 
+extern float powf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __powf (float __x, float __y) __attribute__ ((__nothrow__));
+
+ 
+extern float sqrtf (float __x) __attribute__ ((__nothrow__)); extern float __sqrtf (float __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float hypotf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __hypotf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float cbrtf (float __x) __attribute__ ((__nothrow__)); extern float __cbrtf (float __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+ 
+extern float ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __ceilf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern float fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __fabsf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern float floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __floorf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern float fmodf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmodf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int __isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int __finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int isinff (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int finitef (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern float dremf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __dremf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+ 
+extern float significandf (float __x) __attribute__ ((__nothrow__)); extern float __significandf (float __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern float copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __copysignf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern float nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nanf (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int __isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int isnanf (float __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern float j0f (float) __attribute__ ((__nothrow__)); extern float __j0f (float) __attribute__ ((__nothrow__));
+extern float j1f (float) __attribute__ ((__nothrow__)); extern float __j1f (float) __attribute__ ((__nothrow__));
+extern float jnf (int, float) __attribute__ ((__nothrow__)); extern float __jnf (int, float) __attribute__ ((__nothrow__));
+extern float y0f (float) __attribute__ ((__nothrow__)); extern float __y0f (float) __attribute__ ((__nothrow__));
+extern float y1f (float) __attribute__ ((__nothrow__)); extern float __y1f (float) __attribute__ ((__nothrow__));
+extern float ynf (int, float) __attribute__ ((__nothrow__)); extern float __ynf (int, float) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float erff (float) __attribute__ ((__nothrow__)); extern float __erff (float) __attribute__ ((__nothrow__));
+extern float erfcf (float) __attribute__ ((__nothrow__)); extern float __erfcf (float) __attribute__ ((__nothrow__));
+extern float lgammaf (float) __attribute__ ((__nothrow__)); extern float __lgammaf (float) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float tgammaf (float) __attribute__ ((__nothrow__)); extern float __tgammaf (float) __attribute__ ((__nothrow__));
+
+
+ 
+extern float gammaf (float) __attribute__ ((__nothrow__)); extern float __gammaf (float) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__)); extern float __lgammaf_r (float, int *__signgamp) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern float rintf (float __x) __attribute__ ((__nothrow__)); extern float __rintf (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nextafterf (float __x, float __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+extern float nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __nexttowardf (float __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern float remainderf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __remainderf (float __x, float __y) __attribute__ ((__nothrow__));
+
+ 
+extern float scalbnf (float __x, int __n) __attribute__ ((__nothrow__)); extern float __scalbnf (float __x, int __n) __attribute__ ((__nothrow__));
+
+ 
+extern int ilogbf (float __x) __attribute__ ((__nothrow__)); extern int __ilogbf (float __x) __attribute__ ((__nothrow__));
+
+ 
+extern float scalblnf (float __x, long int __n) __attribute__ ((__nothrow__)); extern float __scalblnf (float __x, long int __n) __attribute__ ((__nothrow__));
+
+
+ 
+extern float nearbyintf (float __x) __attribute__ ((__nothrow__)); extern float __nearbyintf (float __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern float roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __roundf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+ 
+extern float truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern float __truncf (float __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern float remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__)); extern float __remquof (float __x, float __y, int *__quo) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+ 
+extern long int lrintf (float __x) __attribute__ ((__nothrow__)); extern long int __lrintf (float __x) __attribute__ ((__nothrow__));
+extern long long int llrintf (float __x) __attribute__ ((__nothrow__)); extern long long int __llrintf (float __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern long int lroundf (float __x) __attribute__ ((__nothrow__)); extern long int __lroundf (float __x) __attribute__ ((__nothrow__));
+extern long long int llroundf (float __x) __attribute__ ((__nothrow__)); extern long long int __llroundf (float __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern float fdimf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fdimf (float __x, float __y) __attribute__ ((__nothrow__));
+
+ 
+extern float fmaxf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fmaxf (float __x, float __y) __attribute__ ((__nothrow__));
+
+ 
+extern float fminf (float __x, float __y) __attribute__ ((__nothrow__)); extern float __fminf (float __x, float __y) __attribute__ ((__nothrow__));
+
+
+ 
+extern int __fpclassifyf (float __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+ 
+extern int __signbitf (float __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+ 
+extern float fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__)); extern float __fmaf (float __x, float __y, float __z) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern float scalbf (float __x, float __n) __attribute__ ((__nothrow__)); extern float __scalbf (float __x, float __n) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+extern long double acosl (long double __x) __attribute__ ((__nothrow__)); extern long double __acosl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double asinl (long double __x) __attribute__ ((__nothrow__)); extern long double __asinl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double atanl (long double __x) __attribute__ ((__nothrow__)); extern long double __atanl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double atan2l (long double __y, long double __x) __attribute__ ((__nothrow__)); extern long double __atan2l (long double __y, long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double cosl (long double __x) __attribute__ ((__nothrow__)); extern long double __cosl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double sinl (long double __x) __attribute__ ((__nothrow__)); extern long double __sinl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double tanl (long double __x) __attribute__ ((__nothrow__)); extern long double __tanl (long double __x) __attribute__ ((__nothrow__));
+
+ 
+
+ 
+extern long double coshl (long double __x) __attribute__ ((__nothrow__)); extern long double __coshl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double sinhl (long double __x) __attribute__ ((__nothrow__)); extern long double __sinhl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double tanhl (long double __x) __attribute__ ((__nothrow__)); extern long double __tanhl (long double __x) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern long double acoshl (long double __x) __attribute__ ((__nothrow__)); extern long double __acoshl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double asinhl (long double __x) __attribute__ ((__nothrow__)); extern long double __asinhl (long double __x) __attribute__ ((__nothrow__));
+ 
+extern long double atanhl (long double __x) __attribute__ ((__nothrow__)); extern long double __atanhl (long double __x) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+ 
+extern long double expl (long double __x) __attribute__ ((__nothrow__)); extern long double __expl (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double frexpl (long double __x, int *__exponent) __attribute__ ((__nothrow__)); extern long double __frexpl (long double __x, int *__exponent) __attribute__ ((__nothrow__));
+
+ 
+extern long double ldexpl (long double __x, int __exponent) __attribute__ ((__nothrow__)); extern long double __ldexpl (long double __x, int __exponent) __attribute__ ((__nothrow__));
+
+ 
+extern long double logl (long double __x) __attribute__ ((__nothrow__)); extern long double __logl (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double log10l (long double __x) __attribute__ ((__nothrow__)); extern long double __log10l (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double modfl (long double __x, long double *__iptr) __attribute__ ((__nothrow__)); extern long double __modfl (long double __x, long double *__iptr) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern long double expm1l (long double __x) __attribute__ ((__nothrow__)); extern long double __expm1l (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double log1pl (long double __x) __attribute__ ((__nothrow__)); extern long double __log1pl (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double logbl (long double __x) __attribute__ ((__nothrow__)); extern long double __logbl (long double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double exp2l (long double __x) __attribute__ ((__nothrow__)); extern long double __exp2l (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double log2l (long double __x) __attribute__ ((__nothrow__)); extern long double __log2l (long double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+ 
+extern long double powl (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __powl (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+ 
+extern long double sqrtl (long double __x) __attribute__ ((__nothrow__)); extern long double __sqrtl (long double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double hypotl (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __hypotl (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double cbrtl (long double __x) __attribute__ ((__nothrow__)); extern long double __cbrtl (long double __x) __attribute__ ((__nothrow__));
+
+
+
+ 
+
+
+ 
+extern long double ceill (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __ceill (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern long double fabsl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __fabsl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern long double floorl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __floorl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern long double fmodl (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __fmodl (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int __isinfl (long double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int __finitel (long double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int isinfl (long double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int finitel (long double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern long double dreml (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __dreml (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+
+ 
+extern long double significandl (long double __x) __attribute__ ((__nothrow__)); extern long double __significandl (long double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern long double copysignl (long double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __copysignl (long double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern long double nanl (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __nanl (__const char *__tagb) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int __isnanl (long double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern int isnanl (long double __value) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern long double j0l (long double) __attribute__ ((__nothrow__)); extern long double __j0l (long double) __attribute__ ((__nothrow__));
+extern long double j1l (long double) __attribute__ ((__nothrow__)); extern long double __j1l (long double) __attribute__ ((__nothrow__));
+extern long double jnl (int, long double) __attribute__ ((__nothrow__)); extern long double __jnl (int, long double) __attribute__ ((__nothrow__));
+extern long double y0l (long double) __attribute__ ((__nothrow__)); extern long double __y0l (long double) __attribute__ ((__nothrow__));
+extern long double y1l (long double) __attribute__ ((__nothrow__)); extern long double __y1l (long double) __attribute__ ((__nothrow__));
+extern long double ynl (int, long double) __attribute__ ((__nothrow__)); extern long double __ynl (int, long double) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double erfl (long double) __attribute__ ((__nothrow__)); extern long double __erfl (long double) __attribute__ ((__nothrow__));
+extern long double erfcl (long double) __attribute__ ((__nothrow__)); extern long double __erfcl (long double) __attribute__ ((__nothrow__));
+extern long double lgammal (long double) __attribute__ ((__nothrow__)); extern long double __lgammal (long double) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double tgammal (long double) __attribute__ ((__nothrow__)); extern long double __tgammal (long double) __attribute__ ((__nothrow__));
+
+
+ 
+extern long double gammal (long double) __attribute__ ((__nothrow__)); extern long double __gammal (long double) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double lgammal_r (long double, int *__signgamp) __attribute__ ((__nothrow__)); extern long double __lgammal_r (long double, int *__signgamp) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern long double rintl (long double __x) __attribute__ ((__nothrow__)); extern long double __rintl (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double nextafterl (long double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __nextafterl (long double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+extern long double nexttowardl (long double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __nexttowardl (long double __x, long double __y) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+ 
+extern long double remainderl (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __remainderl (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+ 
+extern long double scalbnl (long double __x, int __n) __attribute__ ((__nothrow__)); extern long double __scalbnl (long double __x, int __n) __attribute__ ((__nothrow__));
+
+ 
+extern int ilogbl (long double __x) __attribute__ ((__nothrow__)); extern int __ilogbl (long double __x) __attribute__ ((__nothrow__));
+
+ 
+extern long double scalblnl (long double __x, long int __n) __attribute__ ((__nothrow__)); extern long double __scalblnl (long double __x, long int __n) __attribute__ ((__nothrow__));
+
+
+ 
+extern long double nearbyintl (long double __x) __attribute__ ((__nothrow__)); extern long double __nearbyintl (long double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern long double roundl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __roundl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+ 
+extern long double truncl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__)); extern long double __truncl (long double __x) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern long double remquol (long double __x, long double __y, int *__quo) __attribute__ ((__nothrow__)); extern long double __remquol (long double __x, long double __y, int *__quo) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+ 
+extern long int lrintl (long double __x) __attribute__ ((__nothrow__)); extern long int __lrintl (long double __x) __attribute__ ((__nothrow__));
+extern long long int llrintl (long double __x) __attribute__ ((__nothrow__)); extern long long int __llrintl (long double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern long int lroundl (long double __x) __attribute__ ((__nothrow__)); extern long int __lroundl (long double __x) __attribute__ ((__nothrow__));
+extern long long int llroundl (long double __x) __attribute__ ((__nothrow__)); extern long long int __llroundl (long double __x) __attribute__ ((__nothrow__));
+
+
+ 
+extern long double fdiml (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __fdiml (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+ 
+extern long double fmaxl (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __fmaxl (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+ 
+extern long double fminl (long double __x, long double __y) __attribute__ ((__nothrow__)); extern long double __fminl (long double __x, long double __y) __attribute__ ((__nothrow__));
+
+
+ 
+extern int __fpclassifyl (long double __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+ 
+extern int __signbitl (long double __value) __attribute__ ((__nothrow__))
+     __attribute__ ((__const__));
+
+
+ 
+extern long double fmal (long double __x, long double __y, long double __z) __attribute__ ((__nothrow__)); extern long double __fmal (long double __x, long double __y, long double __z) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern long double scalbl (long double __x, long double __n) __attribute__ ((__nothrow__)); extern long double __scalbl (long double __x, long double __n) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern int signgam;
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+enum
+  {
+    FP_NAN,
+    FP_INFINITE,
+    FP_ZERO,
+    FP_SUBNORMAL,
+    FP_NORMAL
+  };
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+ 
+typedef enum
+{
+  _IEEE_ = -1,	 
+  _SVID_,	 
+  _XOPEN_,	 
+  _POSIX_,
+  _ISOC_	 
+} _LIB_VERSION_TYPE;
+
+
+
+ 
+extern _LIB_VERSION_TYPE _LIB_VERSION;
+
+
+
+
+
+
+ 
+struct exception
+  {
+    int type;
+    char *name;
+    double arg1;
+    double arg2;
+    double retval;
+  };
+
+extern int matherr (struct exception *__exc);
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+extern int fpclassifyf    ( float              __x ) ;
+extern int fpclassify     ( double           __x ) ;
+extern int fpclassifyd    ( double             __x ) ;
+extern int fpclassifyl    ( long double            __x ) ;
+
+extern int __fpclassifyf  ( float              __x ) ;
+extern int __fpclassify   ( double           __x ) ;
+extern int __fpclassifyd  ( double             __x ) ;
+extern int __fpclassifyl  ( long double            __x ) ;
+
+extern int isinff         ( float              __x ) ;
+extern int isinf          ( double           __x ) ;
+extern int isinfd         ( double             __x ) ;
+extern int isinfl         ( long double            __x ) ;
+
+extern int __isinff       ( float              __x ) ;
+extern int __isinf        ( double           __x ) ;
+extern int __isinfd       ( double             __x ) ;
+extern int __isinfl       ( long double            __x ) ;
+
+extern int isnanf         ( float              __x ) ;
+extern int isnan          ( double           __x ) ;
+extern int isnand         ( double             __x ) ;
+extern int isnanl         ( long double            __x ) ;
+
+extern int __isnanf       ( float              __x ) ;
+extern int __isnan        ( double           __x ) ;
+extern int __isnand       ( double             __x ) ;
+extern int __isnanl       ( long double            __x ) ;
+
+extern int isnormalf      ( float              __x ) ;
+extern int isnormal       ( double           __x ) ;
+extern int isnormald      ( double             __x ) ;
+extern int isnormall      ( long double            __x ) ;
+
+extern int __isnormalf    ( float              __x ) ;
+extern int __isnormal     ( double           __x ) ;
+extern int __isnormald    ( double             __x ) ;
+extern int __isnormall    ( long double            __x ) ;
+
+extern int isfinitef      ( float              __x ) ;
+extern int isfinite       ( double           __x ) ;
+extern int isfinited      ( double             __x ) ;
+extern int isfinitel      ( long double            __x ) ;
+
+extern int __isfinitef    ( float              __x ) ;
+extern int __isfinite     ( double           __x ) ;
+extern int __isfinited    ( double             __x ) ;
+extern int __isfinitel    ( long double            __x ) ;
+
+extern int finitef        ( float              __x ) ;
+extern int finite         ( double             __x ) ;
+extern int finited        ( double             __x ) ;
+extern int finitel        ( long double            __x ) ;
+
+extern int __finitef      ( float              __x ) ;
+extern int __finite       ( double             __x ) ;
+extern int __finited      ( double             __x ) ;
+extern int __finitel      ( long double            __x ) ;
+
+extern int signbitf       ( float              __x ) ;
+extern int signbit        ( double             __x ) ;
+extern int signbitd       ( double             __x ) ;
+extern int signbitl       ( long double            __x ) ;
+
+extern int __signbitf     ( float              __x ) ;
+extern int __signbit      ( double             __x ) ;
+extern int __signbitd     ( double             __x ) ;
+extern int __signbitl     ( long double            __x ) ;
+
+
+
+
+
+
+
+ 
+
+extern int isgreaterf( float __xf, float __yf );
+extern int isgreater( double __xd, double __yd );
+extern int isgreaterl( long double __xl, long double __yl );
+extern int __isgreaterf( float __xf, float __yf );
+extern int __isgreater( double __xd, double __yd );
+extern int __isgreaterl( long double __xl, long double __yl );
+
+extern int isgreaterequalf( float __xf, float __yf );
+extern int isgreaterequal( double __xd, double __yd );
+extern int isgreaterequall( long double __xl, long double __yl );
+extern int __isgreaterequalf( float __xf, float __yf );
+extern int __isgreaterequal( double __xd, double __yd );
+extern int __isgreaterequall( long double __xl, long double __yl );
+
+extern int islessf( float __xf, float __yf );
+extern int isless( double __xd, double __yd );
+extern int islessl( long double __xl, long double __yl );
+extern int __islessf( float __xf, float __yf );
+extern int __isless( double __xd, double __yd );
+extern int __islessl( long double __xl, long double __yl );
+
+extern int islessequalf( float __xf, float __yf );
+extern int islessequal( double __xd, double __yd );
+extern int islessequall( long double __xl, long double __yl );
+extern int __islessequalf( float __xf, float __yf );
+extern int __islessequal( double __xd, double __yd );
+extern int __islessequall( long double __xl, long double __yl );
+
+extern int islessgreaterf( float __xf, float __yf );
+extern int islessgreater( double __xd, double __yd );
+extern int islessgreaterl( long double __xl, long double __yl );
+extern int __islessgreaterf( float __xf, float __yf );
+extern int __islessgreater( double __xd, double __yd );
+extern int __islessgreaterl( long double __xl, long double __yl );
+
+extern int isunorderedf( float __xf, float __yf );
+extern int isunordered( double __xd, double __yd );
+extern int isunorderedl( long double __xl, long double __yl );
+extern int __isunorderedf( float __xf, float __yf );
+extern int __isunordered( double __xd, double __yd );
+extern int __isunorderedl( long double __xl, long double __yl );
+
+
+
+ 
+
+ 
+
+
+
+extern double    cot( double __x );
+extern float     cotf( float __x );
+extern long double   cotl( long double __x );
+
+
+ 
+
+extern double    cosd( double __x );
+extern float     cosdf( float __x );
+extern long double   cosdl( long double __x );
+
+extern double    sind( double __x );
+extern float     sindf( float __x );
+extern long double   sindl( long double __x );
+
+extern double    tand( double __x );
+extern float     tandf( float __x );
+extern long double   tandl( long double __x );
+
+extern double    cotd( double __x );
+extern float     cotdf( float __x );
+extern long double   cotdl( long double __x );
+
+extern double    acosd( double __x );
+extern float     acosdf( float __x );
+extern long double   acosdl( long double __x );
+
+extern double    asind( double __x );
+extern float     asindf( float __x );
+extern long double   asindl( long double __x );
+
+extern double    atand( double __x );
+extern float     atandf( float __x );
+extern long double   atandl( long double __x );
+
+extern double    atand2( double __y, double __x );
+extern float     atand2f( float __y, float __x );
+extern long double   atand2l( long double __y, long double __x );
+
+extern double    atan2d( double __y, double __x );
+extern float     atan2df( float __y, float __x );
+extern long double   atan2dl( long double __y, long double __x );
+
+extern void      sincosd( double __x, double *__psin, double *__pcos );
+extern void      sincosdf( float __x, float *__psin, float *__pcos );
+extern void      sincosdl( long double __x, long double *__psin, long double *__pcos );
+
+ 
+
+
+extern void      sinhcosh( double __x, double *__psinh, double *__pcosh );
+extern void      sinhcoshf( float __x, float *__psinh, float *__pcosh );
+extern void      sinhcoshl( long double __x, long double *__psinh, long double *__pcosh );
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+extern double    invsqrt( double __x );
+extern float     invsqrtf( float __x );
+extern long double   invsqrtl( long double __x );
+
+ 
+
+
+extern double    cdfnorm( double __x );
+extern float     cdfnormf( float __x );
+extern double    cdfnorminv( double __x );
+extern float     cdfnorminvf( float __x );
+
+extern double    erfinv( double __x );
+extern float     erfinvf( float __x );
+extern long double   erfinvl( long double __x );
+extern double    erfcinv( double __x );
+extern float     erfcinvf( float __x );
+
+extern double    gamma_r( double __x, int *__signgam );
+extern float     gammaf_r( float __x, int *__signgam );
+extern long double   gammal_r( long double __x, int *__signgam );
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+ 
+
+extern double    annuity( double __x, double __y );
+extern double    compound( double __x, double __y );
+
+extern float     annuityf( float __x, float __y );
+extern long double   annuityl( long double __x, long double __y );
+
+extern float     compoundf( float __x, float __y );
+extern long double   compoundl( long double __x, long double __y );
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+typedef struct ____exception {
+    int     type;
+    const char  *name;
+    double  arg1;
+    double  arg2;
+    double  retval;
+} ___exception;
+
+
+typedef struct ____exceptionf {
+    int    type;
+    const char *name;
+    float  arg1;
+    float  arg2;
+    float  retval;
+} ___exceptionf;
+
+typedef struct ____exceptionl {
+    int      type;
+    const char   *name;
+    long double  arg1;
+    long double  arg2;
+    long double  retval;
+} ___exceptionl;
+
+extern int  matherrf( struct ____exceptionf *__e );
+extern int  matherrl( struct ____exceptionl *__e );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+typedef int (  *___pmatherr )( struct ____exception  *__e );
+typedef int (  *___pmatherrf )( struct ____exceptionf *__e );
+typedef int (  *___pmatherrl )( struct ____exceptionl *__e );
+
+extern ___pmatherr   __libm_setusermatherr( ___pmatherr  __user_matherr );
+extern ___pmatherrf  __libm_setusermatherrf( ___pmatherrf __user_matherrf );
+extern ___pmatherrl  __libm_setusermatherrl( ___pmatherrl __user_matherrl );
+
+ 
+
+
+extern _LIB_VERSION_TYPE  _LIB_VERSIONIMF;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+extern void *memcpy (void *__restrict __dest,
+		     __const void *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern void *memmove (void *__dest, __const void *__src, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+ 
+extern void *memccpy (void *__restrict __dest, __const void *__restrict __src,
+		      int __c, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+ 
+extern void *memset (void *__s, int __c, size_t __n) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern int memcmp (__const void *__s1, __const void *__s2, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern void *memchr (__const void *__s, int __c, size_t __n)
+      __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+ 
+extern char *strcpy (char *__restrict __dest, __const char *__restrict __src)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+ 
+extern char *strncpy (char *__restrict __dest,
+		      __const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern char *strcat (char *__restrict __dest, __const char *__restrict __src)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+ 
+extern char *strncat (char *__restrict __dest, __const char *__restrict __src,
+		      size_t __n) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern int strcmp (__const char *__s1, __const char *__s2)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+ 
+extern int strncmp (__const char *__s1, __const char *__s2, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern int strcoll (__const char *__s1, __const char *__s2)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+ 
+extern size_t strxfrm (char *__restrict __dest,
+		       __const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+typedef struct __locale_struct
+{
+   
+  struct __locale_data *__locales[13];  
+
+   
+  const unsigned short int *__ctype_b;
+  const int *__ctype_tolower;
+  const int *__ctype_toupper;
+
+   
+  const char *__names[13];
+} *__locale_t;
+
+ 
+typedef __locale_t locale_t;
+
+
+ 
+extern int strcoll_l (__const char *__s1, __const char *__s2, __locale_t __l)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2, 3)));
+ 
+extern size_t strxfrm_l (char *__dest, __const char *__src, size_t __n,
+			 __locale_t __l) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2, 4)));
+
+ 
+extern char *strdup (__const char *__s)
+     __attribute__ ((__nothrow__)) __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+extern char *strndup (__const char *__string, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__malloc__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+extern char *strchr (__const char *__s, int __c)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+ 
+extern char *strrchr (__const char *__s, int __c)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+ 
+extern size_t strcspn (__const char *__s, __const char *__reject)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern size_t strspn (__const char *__s, __const char *__accept)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+ 
+extern char *strpbrk (__const char *__s, __const char *__accept)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+ 
+extern char *strstr (__const char *__haystack, __const char *__needle)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+ 
+extern char *strtok (char *__restrict __s, __const char *__restrict __delim)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+
+
+ 
+extern char *__strtok_r (char *__restrict __s,
+			 __const char *__restrict __delim,
+			 char **__restrict __save_ptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2, 3)));
+extern char *strtok_r (char *__restrict __s, __const char *__restrict __delim,
+		       char **__restrict __save_ptr)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2, 3)));
+
+
+
+
+
+ 
+extern size_t strlen (__const char *__s)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+extern size_t strnlen (__const char *__string, size_t __maxlen)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+extern char *strerror (int __errnum) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+ 
+
+ 
+extern int strerror_r (int __errnum, char *__buf, size_t __buflen) __asm__ ("" "__xpg_strerror_r") __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+ 
+extern char *strerror_l (int __errnum, __locale_t __l) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern void __bzero (void *__s, size_t __n) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern void bcopy (__const void *__src, void *__dest, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern void bzero (void *__s, size_t __n) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern int bcmp (__const void *__s1, __const void *__s2, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern char *index (__const char *__s, int __c)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern char *rindex (__const char *__s, int __c)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
+
+
+ 
+extern int ffs (int __i) __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+ 
+
+ 
+extern int strcasecmp (__const char *__s1, __const char *__s2)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern int strncasecmp (__const char *__s1, __const char *__s2, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+ 
+extern char *strsep (char **__restrict __stringp,
+		     __const char *__restrict __delim)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+ 
+extern char *strsignal (int __sig) __attribute__ ((__nothrow__));
+
+ 
+extern char *__stpcpy (char *__restrict __dest, __const char *__restrict __src)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+extern char *stpcpy (char *__restrict __dest, __const char *__restrict __src)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+ 
+extern char *__stpncpy (char *__restrict __dest,
+			__const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+extern char *stpncpy (char *__restrict __dest,
+		      __const char *__restrict __src, size_t __n)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+typedef unsigned char		uint8_t;
+typedef unsigned short int	uint16_t;
+typedef unsigned int		uint32_t;
+typedef unsigned long int	uint64_t;
+
+
+ 
+
+ 
+typedef signed char		int_least8_t;
+typedef short int		int_least16_t;
+typedef int			int_least32_t;
+typedef long int		int_least64_t;
+
+ 
+typedef unsigned char		uint_least8_t;
+typedef unsigned short int	uint_least16_t;
+typedef unsigned int		uint_least32_t;
+typedef unsigned long int	uint_least64_t;
+
+
+ 
+
+ 
+typedef signed char		int_fast8_t;
+typedef long int		int_fast16_t;
+typedef long int		int_fast32_t;
+typedef long int		int_fast64_t;
+
+ 
+typedef unsigned char		uint_fast8_t;
+typedef unsigned long int	uint_fast16_t;
+typedef unsigned long int	uint_fast32_t;
+typedef unsigned long int	uint_fast64_t;
+
+
+ 
+typedef long int		intptr_t;
+typedef unsigned long int	uintptr_t;
+
+
+ 
+typedef long int		intmax_t;
+typedef unsigned long int	uintmax_t;
+
+
+
+ 
+
+
+ 
+
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+
+ 
+ 
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+
+ 
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+
+
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+ 
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+ 
+
+
+
+typedef __useconds_t useconds_t;
+
+
+
+typedef __socklen_t socklen_t;
+
+
+ 
+
+ 
+extern int access (__const char *__name, int __type) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+ 
+extern int faccessat (int __fd, __const char *__file, int __type, int __flag)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2))) ;
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+extern __off_t lseek (int __fd, __off_t __offset, int __whence) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern int close (int __fd);
+
+
+
+
+
+ 
+extern ssize_t read (int __fd, void *__buf, size_t __nbytes) ;
+
+
+
+
+ 
+extern ssize_t write (int __fd, __const void *__buf, size_t __n) ;
+
+
+
+
+
+
+ 
+extern ssize_t pread (int __fd, void *__buf, size_t __nbytes,
+		      __off_t __offset) ;
+
+
+
+
+
+ 
+extern ssize_t pwrite (int __fd, __const void *__buf, size_t __n,
+		       __off_t __offset) ;
+
+
+
+
+
+ 
+extern int pipe (int __pipedes[2]) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+
+
+
+ 
+extern unsigned int alarm (unsigned int __seconds) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+
+
+ 
+extern unsigned int sleep (unsigned int __seconds);
+
+
+
+
+ 
+extern __useconds_t ualarm (__useconds_t __value, __useconds_t __interval)
+     __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+extern int usleep (__useconds_t __useconds);
+
+
+
+
+
+
+ 
+extern int pause (void);
+
+
+ 
+extern int chown (__const char *__file, __uid_t __owner, __gid_t __group)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+ 
+extern int fchown (int __fd, __uid_t __owner, __gid_t __group) __attribute__ ((__nothrow__)) ;
+
+
+
+ 
+extern int lchown (__const char *__file, __uid_t __owner, __gid_t __group)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+extern int fchownat (int __fd, __const char *__file, __uid_t __owner,
+		     __gid_t __group, int __flag)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2))) ;
+
+ 
+extern int chdir (__const char *__path) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+ 
+extern int fchdir (int __fd) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+
+
+ 
+extern char *getcwd (char *__buf, size_t __size) __attribute__ ((__nothrow__)) ;
+
+
+
+
+ 
+extern char *getwd (char *__buf)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) __attribute__ ((__deprecated__)) ;
+
+
+ 
+extern int dup (int __fd) __attribute__ ((__nothrow__)) ;
+
+ 
+extern int dup2 (int __fd, int __fd2) __attribute__ ((__nothrow__));
+
+
+ 
+extern char **__environ;
+
+
+
+ 
+extern int execve (__const char *__path, char *__const __argv[],
+		   char *__const __envp[]) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+ 
+extern int fexecve (int __fd, char *__const __argv[], char *__const __envp[])
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+
+ 
+extern int execv (__const char *__path, char *__const __argv[])
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+ 
+extern int execle (__const char *__path, __const char *__arg, ...)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+ 
+extern int execl (__const char *__path, __const char *__arg, ...)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+ 
+extern int execvp (__const char *__file, char *__const __argv[])
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+ 
+extern int execlp (__const char *__file, __const char *__arg, ...)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2)));
+
+
+
+ 
+extern int nice (int __inc) __attribute__ ((__nothrow__)) ;
+
+
+ 
+extern void _exit (int __status) __attribute__ ((__noreturn__));
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+enum
+  {
+    _PC_LINK_MAX,
+    _PC_MAX_CANON,
+    _PC_MAX_INPUT,
+    _PC_NAME_MAX,
+    _PC_PATH_MAX,
+    _PC_PIPE_BUF,
+    _PC_CHOWN_RESTRICTED,
+    _PC_NO_TRUNC,
+    _PC_VDISABLE,
+    _PC_SYNC_IO,
+    _PC_ASYNC_IO,
+    _PC_PRIO_IO,
+    _PC_SOCK_MAXBUF,
+    _PC_FILESIZEBITS,
+    _PC_REC_INCR_XFER_SIZE,
+    _PC_REC_MAX_XFER_SIZE,
+    _PC_REC_MIN_XFER_SIZE,
+    _PC_REC_XFER_ALIGN,
+    _PC_ALLOC_SIZE_MIN,
+    _PC_SYMLINK_MAX,
+    _PC_2_SYMLINKS
+  };
+
+ 
+enum
+  {
+    _SC_ARG_MAX,
+    _SC_CHILD_MAX,
+    _SC_CLK_TCK,
+    _SC_NGROUPS_MAX,
+    _SC_OPEN_MAX,
+    _SC_STREAM_MAX,
+    _SC_TZNAME_MAX,
+    _SC_JOB_CONTROL,
+    _SC_SAVED_IDS,
+    _SC_REALTIME_SIGNALS,
+    _SC_PRIORITY_SCHEDULING,
+    _SC_TIMERS,
+    _SC_ASYNCHRONOUS_IO,
+    _SC_PRIORITIZED_IO,
+    _SC_SYNCHRONIZED_IO,
+    _SC_FSYNC,
+    _SC_MAPPED_FILES,
+    _SC_MEMLOCK,
+    _SC_MEMLOCK_RANGE,
+    _SC_MEMORY_PROTECTION,
+    _SC_MESSAGE_PASSING,
+    _SC_SEMAPHORES,
+    _SC_SHARED_MEMORY_OBJECTS,
+    _SC_AIO_LISTIO_MAX,
+    _SC_AIO_MAX,
+    _SC_AIO_PRIO_DELTA_MAX,
+    _SC_DELAYTIMER_MAX,
+    _SC_MQ_OPEN_MAX,
+    _SC_MQ_PRIO_MAX,
+    _SC_VERSION,
+    _SC_PAGESIZE,
+    _SC_RTSIG_MAX,
+    _SC_SEM_NSEMS_MAX,
+    _SC_SEM_VALUE_MAX,
+    _SC_SIGQUEUE_MAX,
+    _SC_TIMER_MAX,
+
+    
+ 
+    _SC_BC_BASE_MAX,
+    _SC_BC_DIM_MAX,
+    _SC_BC_SCALE_MAX,
+    _SC_BC_STRING_MAX,
+    _SC_COLL_WEIGHTS_MAX,
+    _SC_EQUIV_CLASS_MAX,
+    _SC_EXPR_NEST_MAX,
+    _SC_LINE_MAX,
+    _SC_RE_DUP_MAX,
+    _SC_CHARCLASS_NAME_MAX,
+
+    _SC_2_VERSION,
+    _SC_2_C_BIND,
+    _SC_2_C_DEV,
+    _SC_2_FORT_DEV,
+    _SC_2_FORT_RUN,
+    _SC_2_SW_DEV,
+    _SC_2_LOCALEDEF,
+
+    _SC_PII,
+    _SC_PII_XTI,
+    _SC_PII_SOCKET,
+    _SC_PII_INTERNET,
+    _SC_PII_OSI,
+    _SC_POLL,
+    _SC_SELECT,
+    _SC_UIO_MAXIOV,
+    _SC_IOV_MAX = _SC_UIO_MAXIOV,
+    _SC_PII_INTERNET_STREAM,
+    _SC_PII_INTERNET_DGRAM,
+    _SC_PII_OSI_COTS,
+    _SC_PII_OSI_CLTS,
+    _SC_PII_OSI_M,
+    _SC_T_IOV_MAX,
+
+     
+    _SC_THREADS,
+    _SC_THREAD_SAFE_FUNCTIONS,
+    _SC_GETGR_R_SIZE_MAX,
+    _SC_GETPW_R_SIZE_MAX,
+    _SC_LOGIN_NAME_MAX,
+    _SC_TTY_NAME_MAX,
+    _SC_THREAD_DESTRUCTOR_ITERATIONS,
+    _SC_THREAD_KEYS_MAX,
+    _SC_THREAD_STACK_MIN,
+    _SC_THREAD_THREADS_MAX,
+    _SC_THREAD_ATTR_STACKADDR,
+    _SC_THREAD_ATTR_STACKSIZE,
+    _SC_THREAD_PRIORITY_SCHEDULING,
+    _SC_THREAD_PRIO_INHERIT,
+    _SC_THREAD_PRIO_PROTECT,
+    _SC_THREAD_PROCESS_SHARED,
+
+    _SC_NPROCESSORS_CONF,
+    _SC_NPROCESSORS_ONLN,
+    _SC_PHYS_PAGES,
+    _SC_AVPHYS_PAGES,
+    _SC_ATEXIT_MAX,
+    _SC_PASS_MAX,
+
+    _SC_XOPEN_VERSION,
+    _SC_XOPEN_XCU_VERSION,
+    _SC_XOPEN_UNIX,
+    _SC_XOPEN_CRYPT,
+    _SC_XOPEN_ENH_I18N,
+    _SC_XOPEN_SHM,
+
+    _SC_2_CHAR_TERM,
+    _SC_2_C_VERSION,
+    _SC_2_UPE,
+
+    _SC_XOPEN_XPG2,
+    _SC_XOPEN_XPG3,
+    _SC_XOPEN_XPG4,
+
+    _SC_CHAR_BIT,
+    _SC_CHAR_MAX,
+    _SC_CHAR_MIN,
+    _SC_INT_MAX,
+    _SC_INT_MIN,
+    _SC_LONG_BIT,
+    _SC_WORD_BIT,
+    _SC_MB_LEN_MAX,
+    _SC_NZERO,
+    _SC_SSIZE_MAX,
+    _SC_SCHAR_MAX,
+    _SC_SCHAR_MIN,
+    _SC_SHRT_MAX,
+    _SC_SHRT_MIN,
+    _SC_UCHAR_MAX,
+    _SC_UINT_MAX,
+    _SC_ULONG_MAX,
+    _SC_USHRT_MAX,
+
+    _SC_NL_ARGMAX,
+    _SC_NL_LANGMAX,
+    _SC_NL_MSGMAX,
+    _SC_NL_NMAX,
+    _SC_NL_SETMAX,
+    _SC_NL_TEXTMAX,
+
+    _SC_XBS5_ILP32_OFF32,
+    _SC_XBS5_ILP32_OFFBIG,
+    _SC_XBS5_LP64_OFF64,
+    _SC_XBS5_LPBIG_OFFBIG,
+
+    _SC_XOPEN_LEGACY,
+    _SC_XOPEN_REALTIME,
+    _SC_XOPEN_REALTIME_THREADS,
+
+    _SC_ADVISORY_INFO,
+    _SC_BARRIERS,
+    _SC_BASE,
+    _SC_C_LANG_SUPPORT,
+    _SC_C_LANG_SUPPORT_R,
+    _SC_CLOCK_SELECTION,
+    _SC_CPUTIME,
+    _SC_THREAD_CPUTIME,
+    _SC_DEVICE_IO,
+    _SC_DEVICE_SPECIFIC,
+    _SC_DEVICE_SPECIFIC_R,
+    _SC_FD_MGMT,
+    _SC_FIFO,
+    _SC_PIPE,
+    _SC_FILE_ATTRIBUTES,
+    _SC_FILE_LOCKING,
+    _SC_FILE_SYSTEM,
+    _SC_MONOTONIC_CLOCK,
+    _SC_MULTI_PROCESS,
+    _SC_SINGLE_PROCESS,
+    _SC_NETWORKING,
+    _SC_READER_WRITER_LOCKS,
+    _SC_SPIN_LOCKS,
+    _SC_REGEXP,
+    _SC_REGEX_VERSION,
+    _SC_SHELL,
+    _SC_SIGNALS,
+    _SC_SPAWN,
+    _SC_SPORADIC_SERVER,
+    _SC_THREAD_SPORADIC_SERVER,
+    _SC_SYSTEM_DATABASE,
+    _SC_SYSTEM_DATABASE_R,
+    _SC_TIMEOUTS,
+    _SC_TYPED_MEMORY_OBJECTS,
+    _SC_USER_GROUPS,
+    _SC_USER_GROUPS_R,
+    _SC_2_PBS,
+    _SC_2_PBS_ACCOUNTING,
+    _SC_2_PBS_LOCATE,
+    _SC_2_PBS_MESSAGE,
+    _SC_2_PBS_TRACK,
+    _SC_SYMLOOP_MAX,
+    _SC_STREAMS,
+    _SC_2_PBS_CHECKPOINT,
+
+    _SC_V6_ILP32_OFF32,
+    _SC_V6_ILP32_OFFBIG,
+    _SC_V6_LP64_OFF64,
+    _SC_V6_LPBIG_OFFBIG,
+
+    _SC_HOST_NAME_MAX,
+    _SC_TRACE,
+    _SC_TRACE_EVENT_FILTER,
+    _SC_TRACE_INHERIT,
+    _SC_TRACE_LOG,
+
+    _SC_LEVEL1_ICACHE_SIZE,
+    _SC_LEVEL1_ICACHE_ASSOC,
+    _SC_LEVEL1_ICACHE_LINESIZE,
+    _SC_LEVEL1_DCACHE_SIZE,
+    _SC_LEVEL1_DCACHE_ASSOC,
+    _SC_LEVEL1_DCACHE_LINESIZE,
+    _SC_LEVEL2_CACHE_SIZE,
+    _SC_LEVEL2_CACHE_ASSOC,
+    _SC_LEVEL2_CACHE_LINESIZE,
+    _SC_LEVEL3_CACHE_SIZE,
+    _SC_LEVEL3_CACHE_ASSOC,
+    _SC_LEVEL3_CACHE_LINESIZE,
+    _SC_LEVEL4_CACHE_SIZE,
+    _SC_LEVEL4_CACHE_ASSOC,
+    _SC_LEVEL4_CACHE_LINESIZE,
+     
+
+    _SC_IPV6 = _SC_LEVEL1_ICACHE_SIZE + 50,
+    _SC_RAW_SOCKETS,
+
+    _SC_V7_ILP32_OFF32,
+    _SC_V7_ILP32_OFFBIG,
+    _SC_V7_LP64_OFF64,
+    _SC_V7_LPBIG_OFFBIG,
+
+    _SC_SS_REPL_MAX,
+
+    _SC_TRACE_EVENT_NAME_MAX,
+    _SC_TRACE_NAME_MAX,
+    _SC_TRACE_SYS_MAX,
+    _SC_TRACE_USER_EVENT_MAX,
+
+    _SC_XOPEN_STREAMS,
+
+    _SC_THREAD_ROBUST_PRIO_INHERIT,
+    _SC_THREAD_ROBUST_PRIO_PROTECT
+  };
+
+ 
+enum
+  {
+    _CS_PATH,			 
+
+    _CS_V6_WIDTH_RESTRICTED_ENVS,
+
+    _CS_GNU_LIBC_VERSION,
+    _CS_GNU_LIBPTHREAD_VERSION,
+
+    _CS_V5_WIDTH_RESTRICTED_ENVS,
+
+    _CS_V7_WIDTH_RESTRICTED_ENVS,
+
+    _CS_LFS_CFLAGS = 1000,
+    _CS_LFS_LDFLAGS,
+    _CS_LFS_LIBS,
+    _CS_LFS_LINTFLAGS,
+    _CS_LFS64_CFLAGS,
+    _CS_LFS64_LDFLAGS,
+    _CS_LFS64_LIBS,
+    _CS_LFS64_LINTFLAGS,
+
+    _CS_XBS5_ILP32_OFF32_CFLAGS = 1100,
+    _CS_XBS5_ILP32_OFF32_LDFLAGS,
+    _CS_XBS5_ILP32_OFF32_LIBS,
+    _CS_XBS5_ILP32_OFF32_LINTFLAGS,
+    _CS_XBS5_ILP32_OFFBIG_CFLAGS,
+    _CS_XBS5_ILP32_OFFBIG_LDFLAGS,
+    _CS_XBS5_ILP32_OFFBIG_LIBS,
+    _CS_XBS5_ILP32_OFFBIG_LINTFLAGS,
+    _CS_XBS5_LP64_OFF64_CFLAGS,
+    _CS_XBS5_LP64_OFF64_LDFLAGS,
+    _CS_XBS5_LP64_OFF64_LIBS,
+    _CS_XBS5_LP64_OFF64_LINTFLAGS,
+    _CS_XBS5_LPBIG_OFFBIG_CFLAGS,
+    _CS_XBS5_LPBIG_OFFBIG_LDFLAGS,
+    _CS_XBS5_LPBIG_OFFBIG_LIBS,
+    _CS_XBS5_LPBIG_OFFBIG_LINTFLAGS,
+
+    _CS_POSIX_V6_ILP32_OFF32_CFLAGS,
+    _CS_POSIX_V6_ILP32_OFF32_LDFLAGS,
+    _CS_POSIX_V6_ILP32_OFF32_LIBS,
+    _CS_POSIX_V6_ILP32_OFF32_LINTFLAGS,
+    _CS_POSIX_V6_ILP32_OFFBIG_CFLAGS,
+    _CS_POSIX_V6_ILP32_OFFBIG_LDFLAGS,
+    _CS_POSIX_V6_ILP32_OFFBIG_LIBS,
+    _CS_POSIX_V6_ILP32_OFFBIG_LINTFLAGS,
+    _CS_POSIX_V6_LP64_OFF64_CFLAGS,
+    _CS_POSIX_V6_LP64_OFF64_LDFLAGS,
+    _CS_POSIX_V6_LP64_OFF64_LIBS,
+    _CS_POSIX_V6_LP64_OFF64_LINTFLAGS,
+    _CS_POSIX_V6_LPBIG_OFFBIG_CFLAGS,
+    _CS_POSIX_V6_LPBIG_OFFBIG_LDFLAGS,
+    _CS_POSIX_V6_LPBIG_OFFBIG_LIBS,
+    _CS_POSIX_V6_LPBIG_OFFBIG_LINTFLAGS,
+
+    _CS_POSIX_V7_ILP32_OFF32_CFLAGS,
+    _CS_POSIX_V7_ILP32_OFF32_LDFLAGS,
+    _CS_POSIX_V7_ILP32_OFF32_LIBS,
+    _CS_POSIX_V7_ILP32_OFF32_LINTFLAGS,
+    _CS_POSIX_V7_ILP32_OFFBIG_CFLAGS,
+    _CS_POSIX_V7_ILP32_OFFBIG_LDFLAGS,
+    _CS_POSIX_V7_ILP32_OFFBIG_LIBS,
+    _CS_POSIX_V7_ILP32_OFFBIG_LINTFLAGS,
+    _CS_POSIX_V7_LP64_OFF64_CFLAGS,
+    _CS_POSIX_V7_LP64_OFF64_LDFLAGS,
+    _CS_POSIX_V7_LP64_OFF64_LIBS,
+    _CS_POSIX_V7_LP64_OFF64_LINTFLAGS,
+    _CS_POSIX_V7_LPBIG_OFFBIG_CFLAGS,
+    _CS_POSIX_V7_LPBIG_OFFBIG_LDFLAGS,
+    _CS_POSIX_V7_LPBIG_OFFBIG_LIBS,
+    _CS_POSIX_V7_LPBIG_OFFBIG_LINTFLAGS,
+
+    _CS_V6_ENV,
+    _CS_V7_ENV
+  };
+
+ 
+extern long int pathconf (__const char *__path, int __name)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern long int fpathconf (int __fd, int __name) __attribute__ ((__nothrow__));
+
+ 
+extern long int sysconf (int __name) __attribute__ ((__nothrow__));
+
+ 
+extern size_t confstr (int __name, char *__buf, size_t __len) __attribute__ ((__nothrow__));
+
+
+ 
+extern __pid_t getpid (void) __attribute__ ((__nothrow__));
+
+ 
+extern __pid_t getppid (void) __attribute__ ((__nothrow__));
+
+
+ 
+extern __pid_t getpgrp (void) __attribute__ ((__nothrow__));
+
+ 
+extern __pid_t __getpgid (__pid_t __pid) __attribute__ ((__nothrow__));
+extern __pid_t getpgid (__pid_t __pid) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern int setpgid (__pid_t __pid, __pid_t __pgid) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+extern int setpgrp (void) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern __pid_t setsid (void) __attribute__ ((__nothrow__));
+
+ 
+extern __pid_t getsid (__pid_t __pid) __attribute__ ((__nothrow__));
+
+ 
+extern __uid_t getuid (void) __attribute__ ((__nothrow__));
+
+ 
+extern __uid_t geteuid (void) __attribute__ ((__nothrow__));
+
+ 
+extern __gid_t getgid (void) __attribute__ ((__nothrow__));
+
+ 
+extern __gid_t getegid (void) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int getgroups (int __size, __gid_t __list[]) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+ 
+extern int setuid (__uid_t __uid) __attribute__ ((__nothrow__));
+
+
+ 
+extern int setreuid (__uid_t __ruid, __uid_t __euid) __attribute__ ((__nothrow__));
+
+ 
+extern int seteuid (__uid_t __uid) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern int setgid (__gid_t __gid) __attribute__ ((__nothrow__));
+
+
+ 
+extern int setregid (__gid_t __rgid, __gid_t __egid) __attribute__ ((__nothrow__));
+
+ 
+extern int setegid (__gid_t __gid) __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+extern __pid_t fork (void) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern __pid_t vfork (void) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern char *ttyname (int __fd) __attribute__ ((__nothrow__));
+
+
+ 
+extern int ttyname_r (int __fd, char *__buf, size_t __buflen)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2))) ;
+
+
+ 
+extern int isatty (int __fd) __attribute__ ((__nothrow__));
+
+
+ 
+extern int ttyslot (void) __attribute__ ((__nothrow__));
+
+
+ 
+extern int link (__const char *__from, __const char *__to)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2))) ;
+
+
+ 
+extern int linkat (int __fromfd, __const char *__from, int __tofd,
+		   __const char *__to, int __flags)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2, 4))) ;
+
+ 
+extern int symlink (__const char *__from, __const char *__to)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2))) ;
+
+
+
+ 
+extern ssize_t readlink (__const char *__restrict __path,
+			 char *__restrict __buf, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 2))) ;
+
+ 
+extern int symlinkat (__const char *__from, int __tofd,
+		      __const char *__to) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1, 3))) ;
+
+ 
+extern ssize_t readlinkat (int __fd, __const char *__restrict __path,
+			   char *__restrict __buf, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2, 3))) ;
+
+ 
+extern int unlink (__const char *__name) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern int unlinkat (int __fd, __const char *__name, int __flag)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (2)));
+
+ 
+extern int rmdir (__const char *__path) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+ 
+extern __pid_t tcgetpgrp (int __fd) __attribute__ ((__nothrow__));
+
+ 
+extern int tcsetpgrp (int __fd, __pid_t __pgrp_id) __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+extern char *getlogin (void);
+
+
+
+
+
+ 
+extern int getlogin_r (char *__name, size_t __name_len) __attribute__ ((__nonnull__ (1)));
+
+ 
+extern int setlogin (__const char *__name) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+extern char *optarg;
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+extern int optind;
+
+
+ 
+
+extern int opterr;
+
+ 
+
+extern int optopt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+extern int getopt (int ___argc, char *const *___argv, const char *__shortopts)
+       __attribute__ ((__nothrow__));
+
+
+
+
+ 
+
+
+
+
+
+ 
+extern int gethostname (char *__name, size_t __len) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+ 
+extern int sethostname (__const char *__name, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+ 
+extern int sethostid (long int __id) __attribute__ ((__nothrow__)) ;
+
+
+
+
+ 
+extern int getdomainname (char *__name, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+extern int setdomainname (__const char *__name, size_t __len)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+ 
+extern int vhangup (void) __attribute__ ((__nothrow__));
+
+ 
+extern int revoke (__const char *__file) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+
+
+
+ 
+extern int profil (unsigned short int *__sample_buffer, size_t __size,
+		   size_t __offset, unsigned int __scale)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+ 
+extern int acct (__const char *__name) __attribute__ ((__nothrow__));
+
+
+ 
+extern char *getusershell (void) __attribute__ ((__nothrow__));
+extern void endusershell (void) __attribute__ ((__nothrow__));  
+extern void setusershell (void) __attribute__ ((__nothrow__));  
+
+
+
+
+ 
+extern int daemon (int __nochdir, int __noclose) __attribute__ ((__nothrow__)) ;
+
+
+
+ 
+extern int chroot (__const char *__path) __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+ 
+extern char *getpass (__const char *__prompt) __attribute__ ((__nonnull__ (1)));
+
+
+
+
+
+ 
+extern int fsync (int __fd);
+
+
+
+
+
+ 
+extern long int gethostid (void);
+
+ 
+extern void sync (void) __attribute__ ((__nothrow__));
+
+
+
+ 
+extern int getpagesize (void)  __attribute__ ((__nothrow__)) __attribute__ ((__const__));
+
+
+
+ 
+extern int getdtablesize (void) __attribute__ ((__nothrow__));
+
+
+
+
+ 
+extern int truncate (__const char *__file, __off_t __length)
+     __attribute__ ((__nothrow__)) __attribute__ ((__nonnull__ (1))) ;
+
+
+
+ 
+extern int ftruncate (int __fd, __off_t __length) __attribute__ ((__nothrow__)) ;
+
+
+
+
+
+ 
+extern int brk (void *__addr) __attribute__ ((__nothrow__)) ;
+
+
+
+
+ 
+extern void *sbrk (intptr_t __delta) __attribute__ ((__nothrow__));
+
+
+
+
+
+
+
+
+
+
+
+ 
+extern long int syscall (long int __sysno, ...) __attribute__ ((__nothrow__));
+
+
+
+
+
+ 
+
+
+
+
+
+
+ 
+
+
+extern int lockf (int __fd, int __cmd, __off_t __len) ;
+
+
+
+
+ 
+extern int fdatasync (int __fildes);
+
+
+
+ 
+
+
+
+ 
+ 
+extern char *ctermid (char *__s) __attribute__ ((__nothrow__));
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+typedef int MPI_Datatype;
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+typedef int MPI_Comm;
+
+ 
+typedef int MPI_Group;
+
+ 
+typedef int MPI_Win;
+
+ 
+ 
+
+ 
+typedef struct ADIOI_FileD *MPI_File;
+
+ 
+typedef int MPI_Op;
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+extern int MPICH_ATTR_FAILED_PROCESSES;
+
+ 
+typedef enum MPIR_Topo_type { MPI_GRAPH=1, MPI_CART=2, MPI_DIST_GRAPH=3 } MPIR_Topo_type;
+
+
+
+
+ 
+typedef void (MPI_Handler_function) ( MPI_Comm *, int *, ... );
+typedef int (MPI_Comm_copy_attr_function)(MPI_Comm, int, void *, void *, 
+					  void *, int *);
+typedef int (MPI_Comm_delete_attr_function)(MPI_Comm, int, void *, void *);
+typedef int (MPI_Type_copy_attr_function)(MPI_Datatype, int, void *, void *, 
+					  void *, int *);
+typedef int (MPI_Type_delete_attr_function)(MPI_Datatype, int, void *, void *);
+typedef int (MPI_Win_copy_attr_function)(MPI_Win, int, void *, void *, void *,
+					 int *);
+typedef int (MPI_Win_delete_attr_function)(MPI_Win, int, void *, void *);
+ 
+typedef void (MPI_Comm_errhandler_function)(MPI_Comm *, int *, ...);
+typedef void (MPI_File_errhandler_function)(MPI_File *, int *, ...);
+typedef void (MPI_Win_errhandler_function)(MPI_Win *, int *, ...);
+ 
+typedef MPI_Comm_errhandler_function MPI_Comm_errhandler_fn;
+typedef MPI_File_errhandler_function MPI_File_errhandler_fn;
+typedef MPI_Win_errhandler_function MPI_Win_errhandler_fn;
+
+
+ 
+
+
+
+ 
+typedef int MPI_Errhandler;
+
+
+
+ 
+ 
+ 
+
+ 
+typedef int MPI_Request;
+
+ 
+typedef void (MPI_User_function) ( void *, void *, int *, MPI_Datatype * ); 
+
+ 
+typedef int (MPI_Copy_function) ( MPI_Comm, int, void *, void *, void *, int * );
+typedef int (MPI_Delete_function) ( MPI_Comm, int, void *, void * );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+enum MPIR_Combiner_enum {
+    MPI_COMBINER_NAMED            = 1,
+    MPI_COMBINER_DUP              = 2,
+    MPI_COMBINER_CONTIGUOUS       = 3, 
+    MPI_COMBINER_VECTOR           = 4,
+    MPI_COMBINER_HVECTOR_INTEGER  = 5,
+    MPI_COMBINER_HVECTOR          = 6,
+    MPI_COMBINER_INDEXED          = 7,
+    MPI_COMBINER_HINDEXED_INTEGER = 8, 
+    MPI_COMBINER_HINDEXED         = 9, 
+    MPI_COMBINER_INDEXED_BLOCK    = 10, 
+    MPI_COMBINER_STRUCT_INTEGER   = 11,
+    MPI_COMBINER_STRUCT           = 12, 
+    MPI_COMBINER_SUBARRAY         = 13,
+    MPI_COMBINER_DARRAY           = 14,
+    MPI_COMBINER_F90_REAL         = 15, 
+    MPI_COMBINER_F90_COMPLEX      = 16, 
+    MPI_COMBINER_F90_INTEGER      = 17, 
+    MPI_COMBINER_RESIZED          = 18 
+};
+
+ 
+typedef int MPI_Info;
+
+ 
+
+
+ 
+
+ 
+typedef long MPI_Aint;
+typedef int MPI_Fint;
+
+
+ 
+
+ 
+
+
+ 
+typedef long long MPI_Offset;
+
+ 
+typedef struct MPI_Status {
+    int count;
+    int cancelled;
+    int MPI_SOURCE;
+    int MPI_TAG;
+    int MPI_ERROR;
+    
+} MPI_Status;
+
+ 
+
+ 
+
+ 
+
+
+ 
+extern  MPI_Fint * MPI_F_STATUS_IGNORE;
+extern  MPI_Fint * MPI_F_STATUSES_IGNORE;
+
+
+
+ 
+
+
+ 
+
+ 
+
+ 
+typedef int (MPI_Grequest_cancel_function)(void *, int); 
+typedef int (MPI_Grequest_free_function)(void *); 
+typedef int (MPI_Grequest_query_function)(void *, MPI_Status *); 
+
+ 
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+typedef int (MPI_Datarep_conversion_function)(void *, MPI_Datatype, int, 
+             void *, MPI_Offset, void *);
+typedef int (MPI_Datarep_extent_function)(MPI_Datatype datatype, MPI_Aint *,
+					  void *);
+
+
+
+
+
+ 
+ 
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+int MPI_Send(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int MPI_Recv(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Status *);
+int MPI_Get_count(MPI_Status *, MPI_Datatype, int *);
+int MPI_Bsend(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int MPI_Ssend(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int MPI_Rsend(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int MPI_Buffer_attach( void*, int);
+int MPI_Buffer_detach( void*, int *);
+int MPI_Isend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int MPI_Ibsend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int MPI_Issend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int MPI_Irsend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int MPI_Irecv(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int MPI_Wait(MPI_Request *, MPI_Status *);
+int MPI_Test(MPI_Request *, int *, MPI_Status *);
+int MPI_Request_free(MPI_Request *);
+int MPI_Waitany(int, MPI_Request *, int *, MPI_Status *);
+int MPI_Testany(int, MPI_Request *, int *, int *, MPI_Status *);
+int MPI_Waitall(int, MPI_Request *, MPI_Status *);
+int MPI_Testall(int, MPI_Request *, int *, MPI_Status *);
+int MPI_Waitsome(int, MPI_Request *, int *, int *, MPI_Status *);
+int MPI_Testsome(int, MPI_Request *, int *, int *, MPI_Status *);
+int MPI_Iprobe(int, int, MPI_Comm, int *, MPI_Status *);
+int MPI_Probe(int, int, MPI_Comm, MPI_Status *);
+int MPI_Cancel(MPI_Request *);
+int MPI_Test_cancelled(MPI_Status *, int *);
+int MPI_Send_init(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int MPI_Bsend_init(void*, int, MPI_Datatype, int,int, MPI_Comm, MPI_Request *);
+int MPI_Ssend_init(void*, int, MPI_Datatype, int,int, MPI_Comm, MPI_Request *);
+int MPI_Rsend_init(void*, int, MPI_Datatype, int,int, MPI_Comm, MPI_Request *);
+int MPI_Recv_init(void*, int, MPI_Datatype, int,int, MPI_Comm, MPI_Request *);
+int MPI_Start(MPI_Request *);
+int MPI_Startall(int, MPI_Request *);
+int MPI_Sendrecv(void *, int, MPI_Datatype,int, int, void *, int, MPI_Datatype, int, int, MPI_Comm, MPI_Status *);
+int MPI_Sendrecv_replace(void*, int, MPI_Datatype, int, int, int, int, MPI_Comm, MPI_Status *);
+int MPI_Type_contiguous(int, MPI_Datatype, MPI_Datatype *);
+int MPI_Type_vector(int, int, int, MPI_Datatype, MPI_Datatype *);
+int MPI_Type_hvector(int, int, MPI_Aint, MPI_Datatype, MPI_Datatype *);
+int MPI_Type_indexed(int, int *, int *, MPI_Datatype, MPI_Datatype *);
+int MPI_Type_hindexed(int, int *, MPI_Aint *, MPI_Datatype, MPI_Datatype *);
+int MPI_Type_struct(int, int *, MPI_Aint *, MPI_Datatype *, MPI_Datatype *);
+int MPI_Address(void*, MPI_Aint *);
+ 
+int MPI_Type_extent(MPI_Datatype, MPI_Aint *);
+
+
+ 
+int MPI_Type_size(MPI_Datatype, int *);
+ 
+int MPI_Type_lb(MPI_Datatype, MPI_Aint *);
+int MPI_Type_ub(MPI_Datatype, MPI_Aint *);
+int MPI_Type_commit(MPI_Datatype *);
+int MPI_Type_free(MPI_Datatype *);
+int MPI_Get_elements(MPI_Status *, MPI_Datatype, int *);
+int MPI_Pack(void*, int, MPI_Datatype, void *, int, int *,  MPI_Comm);
+int MPI_Unpack(void*, int, int *, void *, int, MPI_Datatype, MPI_Comm);
+int MPI_Pack_size(int, MPI_Datatype, MPI_Comm, int *);
+int MPI_Barrier(MPI_Comm );
+int MPI_Bcast(void*, int, MPI_Datatype, int, MPI_Comm );
+int MPI_Gather(void* , int, MPI_Datatype, void*, int, MPI_Datatype, int, MPI_Comm); 
+int MPI_Gatherv(void* , int, MPI_Datatype, void*, int *, int *, MPI_Datatype, int, MPI_Comm); 
+int MPI_Scatter(void* , int, MPI_Datatype, void*, int, MPI_Datatype, int, MPI_Comm);
+int MPI_Scatterv(void* , int *, int *,  MPI_Datatype, void*, int, MPI_Datatype, int, MPI_Comm);
+int MPI_Allgather(void* , int, MPI_Datatype, void*, int, MPI_Datatype, MPI_Comm);
+int MPI_Allgatherv(void* , int, MPI_Datatype, void*, int *, int *, MPI_Datatype, MPI_Comm);
+int MPI_Alltoall(void* , int, MPI_Datatype, void*, int, MPI_Datatype, MPI_Comm);
+int MPI_Alltoallv(void* , int *, int *, MPI_Datatype, void*, int *, int *, MPI_Datatype, MPI_Comm);
+int MPI_Reduce(void* , void*, int, MPI_Datatype, MPI_Op, int, MPI_Comm);
+int MPI_Op_create(MPI_User_function *, int, MPI_Op *);
+int MPI_Op_free( MPI_Op *);
+int MPI_Allreduce(void* , void*, int, MPI_Datatype, MPI_Op, MPI_Comm);
+int MPI_Reduce_scatter(void* , void*, int *, MPI_Datatype, MPI_Op, MPI_Comm);
+int MPI_Scan(void* , void*, int, MPI_Datatype, MPI_Op, MPI_Comm );
+int MPI_Group_size(MPI_Group, int *);
+int MPI_Group_rank(MPI_Group, int *);
+int MPI_Group_translate_ranks (MPI_Group, int, int *, MPI_Group, int *);
+int MPI_Group_compare(MPI_Group, MPI_Group, int *);
+int MPI_Comm_group(MPI_Comm, MPI_Group *);
+int MPI_Group_union(MPI_Group, MPI_Group, MPI_Group *);
+int MPI_Group_intersection(MPI_Group, MPI_Group, MPI_Group *);
+int MPI_Group_difference(MPI_Group, MPI_Group, MPI_Group *);
+int MPI_Group_incl(MPI_Group, int, int *, MPI_Group *);
+int MPI_Group_excl(MPI_Group, int, int *, MPI_Group *);
+int MPI_Group_range_incl(MPI_Group, int, int [][3], MPI_Group *);
+int MPI_Group_range_excl(MPI_Group, int, int [][3], MPI_Group *);
+int MPI_Group_free(MPI_Group *);
+int MPI_Comm_size(MPI_Comm, int *);
+int MPI_Comm_rank(MPI_Comm, int *);
+int MPI_Comm_compare(MPI_Comm, MPI_Comm, int *);
+int MPI_Comm_dup(MPI_Comm, MPI_Comm *);
+int MPI_Comm_create(MPI_Comm, MPI_Group, MPI_Comm *);
+int MPI_Comm_split(MPI_Comm, int, int, MPI_Comm *);
+int MPI_Comm_free(MPI_Comm *);
+int MPI_Comm_test_inter(MPI_Comm, int *);
+int MPI_Comm_remote_size(MPI_Comm, int *);
+int MPI_Comm_remote_group(MPI_Comm, MPI_Group *);
+int MPI_Intercomm_create(MPI_Comm, int, MPI_Comm, int, int, MPI_Comm * );
+int MPI_Intercomm_merge(MPI_Comm, int, MPI_Comm *);
+int MPI_Keyval_create(MPI_Copy_function *, MPI_Delete_function *, int *, void*);
+int MPI_Keyval_free(int *);
+int MPI_Attr_put(MPI_Comm, int, void*);
+int MPI_Attr_get(MPI_Comm, int, void *, int *);
+int MPI_Attr_delete(MPI_Comm, int);
+int MPI_Topo_test(MPI_Comm, int *);
+int MPI_Cart_create(MPI_Comm, int, int *, int *, int, MPI_Comm *);
+int MPI_Dims_create(int, int, int *);
+int MPI_Graph_create(MPI_Comm, int, int *, int *, int, MPI_Comm *);
+int MPI_Graphdims_get(MPI_Comm, int *, int *);
+int MPI_Graph_get(MPI_Comm, int, int, int *, int *);
+int MPI_Cartdim_get(MPI_Comm, int *);
+int MPI_Cart_get(MPI_Comm, int, int *, int *, int *);
+int MPI_Cart_rank(MPI_Comm, int *, int *);
+int MPI_Cart_coords(MPI_Comm, int, int, int *);
+int MPI_Graph_neighbors_count(MPI_Comm, int, int *);
+int MPI_Graph_neighbors(MPI_Comm, int, int, int *);
+int MPI_Cart_shift(MPI_Comm, int, int, int *, int *);
+int MPI_Cart_sub(MPI_Comm, int *, MPI_Comm *);
+int MPI_Cart_map(MPI_Comm, int, int *, int *, int *);
+int MPI_Graph_map(MPI_Comm, int, int *, int *, int *);
+int MPI_Get_processor_name(char *, int *);
+int MPI_Get_version(int *, int *);
+int MPI_Errhandler_create(MPI_Handler_function *, MPI_Errhandler *);
+int MPI_Errhandler_set(MPI_Comm, MPI_Errhandler);
+int MPI_Errhandler_get(MPI_Comm, MPI_Errhandler *);
+int MPI_Errhandler_free(MPI_Errhandler *);
+int MPI_Error_string(int, char *, int *);
+int MPI_Error_class(int, int *);
+double MPI_Wtime(void);
+double MPI_Wtick(void);
+double PMPI_Wtime(void);
+double PMPI_Wtick(void);
+int MPI_Init(int *, char ***);
+int MPI_Finalize(void);
+int MPI_Initialized(int *);
+int MPI_Abort(MPI_Comm, int);
+
+
+
+ 
+int MPI_Pcontrol(const int, ...);
+
+int MPIR_Dup_fn ( MPI_Comm, int, void *, void *, void *, int * );
+
+
+ 
+
+ 
+int MPI_Close_port(char *);
+int MPI_Comm_accept(char *, MPI_Info, int, MPI_Comm, MPI_Comm *);
+int MPI_Comm_connect(char *, MPI_Info, int, MPI_Comm, MPI_Comm *);
+int MPI_Comm_disconnect(MPI_Comm *);
+int MPI_Comm_get_parent(MPI_Comm *);
+int MPI_Comm_join(int, MPI_Comm *);
+int MPI_Comm_spawn(char *, char *[], int, MPI_Info, int, MPI_Comm, MPI_Comm *,
+                   int []);
+int MPI_Comm_spawn_multiple(int, char *[], char **[], int [], MPI_Info [], int,
+			    MPI_Comm, MPI_Comm *, int []); 
+int MPI_Lookup_name(char *, MPI_Info, char *);
+int MPI_Open_port(MPI_Info, char *);
+int MPI_Publish_name(char *, MPI_Info, char *);
+int MPI_Unpublish_name(char *, MPI_Info, char *);
+
+ 
+int MPI_Accumulate(void *, int, MPI_Datatype, int, MPI_Aint, int, 
+		   MPI_Datatype,  MPI_Op, MPI_Win);
+int MPI_Get(void *, int, MPI_Datatype, int, MPI_Aint, int, MPI_Datatype, 
+	    MPI_Win);
+int MPI_Put(void *, int, MPI_Datatype, int, MPI_Aint, int, MPI_Datatype, 
+	    MPI_Win);
+int MPI_Win_complete(MPI_Win);
+int MPI_Win_create(void *, MPI_Aint, int, MPI_Info, MPI_Comm, MPI_Win *);
+int MPI_Win_fence(int, MPI_Win);
+int MPI_Win_free(MPI_Win *);
+int MPI_Win_get_group(MPI_Win, MPI_Group *);
+int MPI_Win_lock(int, int, int, MPI_Win);
+int MPI_Win_post(MPI_Group, int, MPI_Win);
+int MPI_Win_start(MPI_Group, int, MPI_Win);
+int MPI_Win_test(MPI_Win, int *);
+int MPI_Win_unlock(int, MPI_Win);
+int MPI_Win_wait(MPI_Win);
+ 
+ 
+int MPI_Alltoallw(void *, int [], int [], MPI_Datatype [], void *, int [], 
+		  int [], MPI_Datatype [], MPI_Comm);
+int MPI_Exscan(void *, void *, int, MPI_Datatype, MPI_Op, MPI_Comm) ;
+ 
+ 
+int MPI_Add_error_class(int *);
+int MPI_Add_error_code(int, int *);
+int MPI_Add_error_string(int, char *);
+int MPI_Comm_call_errhandler(MPI_Comm, int);
+int MPI_Comm_create_keyval(MPI_Comm_copy_attr_function *, 
+                           MPI_Comm_delete_attr_function *, int *, void *);
+int MPI_Comm_delete_attr(MPI_Comm, int);
+int MPI_Comm_free_keyval(int *);
+int MPI_Comm_get_attr(MPI_Comm, int, void *, int *);
+int MPI_Comm_get_name(MPI_Comm, char *, int *);
+int MPI_Comm_set_attr(MPI_Comm, int, void *);
+int MPI_Comm_set_name(MPI_Comm, char *);
+int MPI_File_call_errhandler(MPI_File, int);
+int MPI_Grequest_complete(MPI_Request);
+int MPI_Grequest_start(MPI_Grequest_query_function *, 
+                       MPI_Grequest_free_function *, 
+                       MPI_Grequest_cancel_function *, void *, MPI_Request *);
+int MPI_Init_thread(int *, char ***, int, int *);
+int MPI_Is_thread_main(int *);
+int MPI_Query_thread(int *);
+int MPI_Status_set_cancelled(MPI_Status *, int);
+int MPI_Status_set_elements(MPI_Status *, MPI_Datatype, int);
+int MPI_Type_create_keyval(MPI_Type_copy_attr_function *, 
+                           MPI_Type_delete_attr_function *, int *, void *);
+int MPI_Type_delete_attr(MPI_Datatype, int);
+int MPI_Type_dup(MPI_Datatype, MPI_Datatype *);
+int MPI_Type_free_keyval(int *);
+int MPI_Type_get_attr(MPI_Datatype, int, void *, int *);
+int MPI_Type_get_contents(MPI_Datatype, int, int, int, int [], MPI_Aint [], 
+                          MPI_Datatype []);
+int MPI_Type_get_envelope(MPI_Datatype, int *, int *, int *, int *);
+int MPI_Type_get_name(MPI_Datatype, char *, int *);
+int MPI_Type_set_attr(MPI_Datatype, int, void *);
+int MPI_Type_set_name(MPI_Datatype, char *);
+int MPI_Type_match_size( int, int, MPI_Datatype *);
+int MPI_Win_call_errhandler(MPI_Win, int);
+int MPI_Win_create_keyval(MPI_Win_copy_attr_function *, 
+                         MPI_Win_delete_attr_function *, int *, void *);
+int MPI_Win_delete_attr(MPI_Win, int);
+int MPI_Win_free_keyval(int *);
+int MPI_Win_get_attr(MPI_Win, int, void *, int *);
+int MPI_Win_get_name(MPI_Win, char *, int *);
+int MPI_Win_set_attr(MPI_Win, int, void *);
+int MPI_Win_set_name(MPI_Win, char *);
+
+ 
+
+int MPI_Alloc_mem(MPI_Aint, MPI_Info info, void *baseptr);
+int MPI_Comm_create_errhandler(MPI_Comm_errhandler_function *, MPI_Errhandler *);
+int MPI_Comm_get_errhandler(MPI_Comm, MPI_Errhandler *);
+int MPI_Comm_set_errhandler(MPI_Comm, MPI_Errhandler);
+int MPI_File_create_errhandler(MPI_File_errhandler_function *, MPI_Errhandler *);
+int MPI_File_get_errhandler(MPI_File, MPI_Errhandler *);
+int MPI_File_set_errhandler(MPI_File, MPI_Errhandler);
+int MPI_Finalized(int *);
+int MPI_Free_mem(void *);
+int MPI_Get_address(void *, MPI_Aint *);
+int MPI_Info_create(MPI_Info *);
+int MPI_Info_delete(MPI_Info, char *);
+int MPI_Info_dup(MPI_Info, MPI_Info *);
+int MPI_Info_free(MPI_Info *info);
+int MPI_Info_get(MPI_Info, char *, int, char *, int *);
+int MPI_Info_get_nkeys(MPI_Info, int *);
+int MPI_Info_get_nthkey(MPI_Info, int, char *);
+int MPI_Info_get_valuelen(MPI_Info, char *, int *, int *);
+int MPI_Info_set(MPI_Info, char *, char *);
+int MPI_Pack_external(char *, void *, int, MPI_Datatype, void *, MPI_Aint, 
+                      MPI_Aint *); 
+int MPI_Pack_external_size(char *, int, MPI_Datatype, MPI_Aint *); 
+int MPI_Request_get_status(MPI_Request, int *, MPI_Status *);
+int MPI_Status_c2f(MPI_Status *, MPI_Fint *);
+int MPI_Status_f2c(MPI_Fint *, MPI_Status *);
+int MPI_Type_create_darray(int, int, int, int [], int [], int [], int [], int,
+                           MPI_Datatype, MPI_Datatype *);
+int MPI_Type_create_hindexed(int, int [], MPI_Aint [], MPI_Datatype, 
+                             MPI_Datatype *);
+int MPI_Type_create_hvector(int, int, MPI_Aint, MPI_Datatype, MPI_Datatype *);
+int MPI_Type_create_indexed_block(int, int, int [], MPI_Datatype, 
+                                  MPI_Datatype *);
+int MPI_Type_create_resized(MPI_Datatype, MPI_Aint, MPI_Aint, MPI_Datatype *);
+int MPI_Type_create_struct(int, int [], MPI_Aint [], MPI_Datatype [], 
+                           MPI_Datatype *);
+int MPI_Type_create_subarray(int, int [], int [], int [], int, MPI_Datatype, 
+                             MPI_Datatype *);
+int MPI_Type_get_extent(MPI_Datatype, MPI_Aint *, MPI_Aint *);
+int MPI_Type_get_true_extent(MPI_Datatype, MPI_Aint *, MPI_Aint *);
+int MPI_Unpack_external(char *, void *, MPI_Aint, MPI_Aint *, void *, int, 
+                        MPI_Datatype); 
+int MPI_Win_create_errhandler(MPI_Win_errhandler_function *, MPI_Errhandler *);
+int MPI_Win_get_errhandler(MPI_Win, MPI_Errhandler *);
+int MPI_Win_set_errhandler(MPI_Win, MPI_Errhandler);
+
+
+
+ 
+int MPI_Type_create_f90_integer( int, MPI_Datatype * );
+int MPI_Type_create_f90_real( int, int, MPI_Datatype * );
+int MPI_Type_create_f90_complex( int, int, MPI_Datatype * );
+
+ 
+int MPI_Reduce_local(void *inbuf, void *inoutbuf, int count, MPI_Datatype datatype, MPI_Op op);
+int MPI_Op_commutative(MPI_Op op, int *commute);
+int MPI_Reduce_scatter_block(void *sendbuf, void *recvbuf, int recvcount, MPI_Datatype datatype, MPI_Op op, MPI_Comm comm);
+int MPI_Dist_graph_create_adjacent(MPI_Comm comm_old, int indegree, int [], int [], int outdegree, int [], int [], MPI_Info info, int reorder, MPI_Comm *comm_dist_graph);
+int MPI_Dist_graph_create(MPI_Comm comm_old, int n, int [], int [], int [], int [], MPI_Info info, int reorder, MPI_Comm *comm_dist_graph);
+int MPI_Dist_graph_neighbors_count(MPI_Comm comm, int *indegree, int *outdegree, int *weighted);
+int MPI_Dist_graph_neighbors(MPI_Comm comm, int maxindegree, int [], int [], int maxoutdegree, int [], int []);
+
+ 
+
+
+
+ 
+int PMPI_Send(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int PMPI_Recv(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Status *);
+int PMPI_Get_count(MPI_Status *, MPI_Datatype, int *);
+int PMPI_Bsend(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int PMPI_Ssend(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int PMPI_Rsend(void*, int, MPI_Datatype, int, int, MPI_Comm);
+int PMPI_Buffer_attach( void* buffer, int);
+int PMPI_Buffer_detach( void* buffer, int *);
+int PMPI_Isend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Ibsend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Issend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Irsend(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Irecv(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Wait(MPI_Request *, MPI_Status *);
+int PMPI_Test(MPI_Request *, int *, MPI_Status *);
+int PMPI_Request_free(MPI_Request *);
+int PMPI_Waitany(int, MPI_Request *, int *, MPI_Status *);
+int PMPI_Testany(int, MPI_Request *, int *, int *, MPI_Status *);
+int PMPI_Waitall(int, MPI_Request *, MPI_Status *);
+int PMPI_Testall(int, MPI_Request *, int *, MPI_Status *);
+int PMPI_Waitsome(int, MPI_Request *, int *, int *, MPI_Status *);
+int PMPI_Testsome(int, MPI_Request *, int *, int *, MPI_Status *);
+int PMPI_Iprobe(int, int, MPI_Comm, int *, MPI_Status *);
+int PMPI_Probe(int, int, MPI_Comm, MPI_Status *);
+int PMPI_Cancel(MPI_Request *);
+int PMPI_Test_cancelled(MPI_Status *, int *);
+int PMPI_Send_init(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Bsend_init(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Ssend_init(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Rsend_init(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Recv_init(void*, int, MPI_Datatype, int, int, MPI_Comm, MPI_Request *);
+int PMPI_Start(MPI_Request *);
+int PMPI_Startall(int, MPI_Request *);
+int PMPI_Sendrecv(void *, int, MPI_Datatype, int, int, void *, int, MPI_Datatype, int, int, MPI_Comm, MPI_Status *);
+int PMPI_Sendrecv_replace(void*, int, MPI_Datatype, int, int, int, int, MPI_Comm, MPI_Status *);
+int PMPI_Type_contiguous(int, MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_vector(int, int, int, MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_hvector(int, int, MPI_Aint, MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_indexed(int, int *, int *, MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_hindexed(int, int *, MPI_Aint *, MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_struct(int, int *, MPI_Aint *, MPI_Datatype *, MPI_Datatype *);
+int PMPI_Address(void*, MPI_Aint *);
+int PMPI_Type_extent(MPI_Datatype, MPI_Aint *);
+int PMPI_Type_size(MPI_Datatype, int *);
+int PMPI_Type_lb(MPI_Datatype, MPI_Aint *);
+int PMPI_Type_ub(MPI_Datatype, MPI_Aint *);
+int PMPI_Type_commit(MPI_Datatype *);
+int PMPI_Type_free(MPI_Datatype *);
+int PMPI_Get_elements(MPI_Status *, MPI_Datatype, int *);
+int PMPI_Pack(void*, int, MPI_Datatype, void *, int, int *,  MPI_Comm);
+int PMPI_Unpack(void*, int, int *, void *, int, MPI_Datatype, MPI_Comm);
+int PMPI_Pack_size(int, MPI_Datatype, MPI_Comm, int *);
+int PMPI_Barrier(MPI_Comm );
+int PMPI_Bcast(void* buffer, int, MPI_Datatype, int, MPI_Comm );
+int PMPI_Gather(void* , int, MPI_Datatype, void*, int, MPI_Datatype, int, MPI_Comm); 
+int PMPI_Gatherv(void* , int, MPI_Datatype, void*, int *, int *, MPI_Datatype, int, MPI_Comm); 
+int PMPI_Scatter(void* , int, MPI_Datatype, void*, int, MPI_Datatype, int, MPI_Comm);
+int PMPI_Scatterv(void* , int *, int *displs, MPI_Datatype, void*, int, MPI_Datatype, int, MPI_Comm);
+int PMPI_Allgather(void* , int, MPI_Datatype, void*, int, MPI_Datatype, MPI_Comm);
+int PMPI_Allgatherv(void* , int, MPI_Datatype, void*, int *, int *, MPI_Datatype, MPI_Comm);
+int PMPI_Alltoall(void* , int, MPI_Datatype, void*, int, MPI_Datatype, MPI_Comm);
+int PMPI_Alltoallv(void* , int *, int *, MPI_Datatype, void*, int *, int *, MPI_Datatype, MPI_Comm);
+int PMPI_Reduce(void* , void*, int, MPI_Datatype, MPI_Op, int, MPI_Comm);
+int PMPI_Op_create(MPI_User_function *, int, MPI_Op *);
+int PMPI_Op_free( MPI_Op *);
+int PMPI_Allreduce(void* , void*, int, MPI_Datatype, MPI_Op, MPI_Comm);
+int PMPI_Reduce_scatter(void* , void*, int *, MPI_Datatype, MPI_Op, MPI_Comm);
+int PMPI_Scan(void* , void*, int, MPI_Datatype, MPI_Op, MPI_Comm );
+int PMPI_Group_size(MPI_Group, int *);
+int PMPI_Group_rank(MPI_Group, int *);
+int PMPI_Group_translate_ranks (MPI_Group, int, int *, MPI_Group, int *);
+int PMPI_Group_compare(MPI_Group, MPI_Group, int *);
+int PMPI_Comm_group(MPI_Comm, MPI_Group *);
+int PMPI_Group_union(MPI_Group, MPI_Group, MPI_Group *);
+int PMPI_Group_intersection(MPI_Group, MPI_Group, MPI_Group *);
+int PMPI_Group_difference(MPI_Group, MPI_Group, MPI_Group *);
+int PMPI_Group_incl(MPI_Group, int, int *, MPI_Group *);
+int PMPI_Group_excl(MPI_Group, int, int *, MPI_Group *);
+int PMPI_Group_range_incl(MPI_Group, int, int [][3], MPI_Group *);
+int PMPI_Group_range_excl(MPI_Group, int, int [][3], MPI_Group *);
+int PMPI_Group_free(MPI_Group *);
+int PMPI_Comm_size(MPI_Comm, int *);
+int PMPI_Comm_rank(MPI_Comm, int *);
+int PMPI_Comm_compare(MPI_Comm, MPI_Comm, int *);
+int PMPI_Comm_dup(MPI_Comm, MPI_Comm *);
+int PMPI_Comm_create(MPI_Comm, MPI_Group, MPI_Comm *);
+int PMPI_Comm_split(MPI_Comm, int, int, MPI_Comm *);
+int PMPI_Comm_free(MPI_Comm *);
+int PMPI_Comm_test_inter(MPI_Comm, int *);
+int PMPI_Comm_remote_size(MPI_Comm, int *);
+int PMPI_Comm_remote_group(MPI_Comm, MPI_Group *);
+int PMPI_Intercomm_create(MPI_Comm, int, MPI_Comm, int, int, MPI_Comm *);
+int PMPI_Intercomm_merge(MPI_Comm, int, MPI_Comm *);
+int PMPI_Keyval_create(MPI_Copy_function *, MPI_Delete_function *, int *, void*);
+int PMPI_Keyval_free(int *);
+int PMPI_Attr_put(MPI_Comm, int, void*);
+int PMPI_Attr_get(MPI_Comm, int, void *, int *);
+int PMPI_Attr_delete(MPI_Comm, int);
+int PMPI_Topo_test(MPI_Comm, int *);
+int PMPI_Cart_create(MPI_Comm, int, int *, int *, int, MPI_Comm *);
+int PMPI_Dims_create(int, int, int *);
+int PMPI_Graph_create(MPI_Comm, int, int *, int *, int, MPI_Comm *);
+int PMPI_Graphdims_get(MPI_Comm, int *, int *);
+int PMPI_Graph_get(MPI_Comm, int, int, int *, int *);
+int PMPI_Cartdim_get(MPI_Comm, int *);
+int PMPI_Cart_get(MPI_Comm, int, int *, int *, int *);
+int PMPI_Cart_rank(MPI_Comm, int *, int *);
+int PMPI_Cart_coords(MPI_Comm, int, int, int *);
+int PMPI_Graph_neighbors_count(MPI_Comm, int, int *);
+int PMPI_Graph_neighbors(MPI_Comm, int, int, int *);
+int PMPI_Cart_shift(MPI_Comm, int, int, int *, int *);
+int PMPI_Cart_sub(MPI_Comm, int *, MPI_Comm *);
+int PMPI_Cart_map(MPI_Comm, int, int *, int *, int *);
+int PMPI_Graph_map(MPI_Comm, int, int *, int *, int *);
+int PMPI_Get_processor_name(char *, int *);
+int PMPI_Get_version(int *, int *);
+int PMPI_Errhandler_create(MPI_Handler_function *, MPI_Errhandler *);
+int PMPI_Errhandler_set(MPI_Comm, MPI_Errhandler);
+int PMPI_Errhandler_get(MPI_Comm, MPI_Errhandler *);
+int PMPI_Errhandler_free(MPI_Errhandler *);
+int PMPI_Error_string(int, char *, int *);
+int PMPI_Error_class(int, int *);
+
+ 
+int PMPI_Init(int *, char ***);
+int PMPI_Finalize(void);
+int PMPI_Initialized(int *);
+int PMPI_Abort(MPI_Comm, int);
+
+int PMPI_Pcontrol(const int, ...);
+
+ 
+
+ 
+int PMPI_Close_port(char *);
+int PMPI_Comm_accept(char *, MPI_Info, int, MPI_Comm, MPI_Comm *);
+int PMPI_Comm_connect(char *, MPI_Info, int, MPI_Comm, MPI_Comm *);
+int PMPI_Comm_disconnect(MPI_Comm *);
+int PMPI_Comm_get_parent(MPI_Comm *);
+int PMPI_Comm_join(int, MPI_Comm *);
+int PMPI_Comm_spawn(char *, char *[], int, MPI_Info, int, MPI_Comm, MPI_Comm *,
+                   int []);
+int PMPI_Comm_spawn_multiple(int, char *[], char **[], int [], MPI_Info [], int,
+			    MPI_Comm, MPI_Comm *, int []); 
+int PMPI_Lookup_name(char *, MPI_Info, char *);
+int PMPI_Open_port(MPI_Info, char *);
+int PMPI_Publish_name(char *, MPI_Info, char *);
+int PMPI_Unpublish_name(char *, MPI_Info, char *);
+
+ 
+int PMPI_Accumulate(void *, int, MPI_Datatype, int, MPI_Aint, int, 
+		   MPI_Datatype,  MPI_Op, MPI_Win);
+int PMPI_Get(void *, int, MPI_Datatype, int, MPI_Aint, int, MPI_Datatype, 
+	    MPI_Win);
+int PMPI_Put(void *, int, MPI_Datatype, int, MPI_Aint, int, MPI_Datatype, 
+	    MPI_Win);
+int PMPI_Win_complete(MPI_Win);
+int PMPI_Win_create(void *, MPI_Aint, int, MPI_Info, MPI_Comm, MPI_Win *);
+int PMPI_Win_fence(int, MPI_Win);
+int PMPI_Win_free(MPI_Win *);
+int PMPI_Win_get_group(MPI_Win, MPI_Group *);
+int PMPI_Win_lock(int, int, int, MPI_Win);
+int PMPI_Win_post(MPI_Group, int, MPI_Win);
+int PMPI_Win_start(MPI_Group, int, MPI_Win);
+int PMPI_Win_test(MPI_Win, int *);
+int PMPI_Win_unlock(int, MPI_Win);
+int PMPI_Win_wait(MPI_Win);
+ 
+ 
+int PMPI_Alltoallw(void *, int [], int [], MPI_Datatype [], void *, int [], 
+		  int [], MPI_Datatype [], MPI_Comm);
+int PMPI_Exscan(void *, void *, int, MPI_Datatype, MPI_Op, MPI_Comm) ;
+ 
+ 
+int PMPI_Add_error_class(int *);
+int PMPI_Add_error_code(int, int *);
+int PMPI_Add_error_string(int, char *);
+int PMPI_Comm_call_errhandler(MPI_Comm, int);
+int PMPI_Comm_create_keyval(MPI_Comm_copy_attr_function *, 
+                           MPI_Comm_delete_attr_function *, int *, void *);
+int PMPI_Comm_delete_attr(MPI_Comm, int);
+int PMPI_Comm_free_keyval(int *);
+int PMPI_Comm_get_attr(MPI_Comm, int, void *, int *);
+int PMPI_Comm_get_name(MPI_Comm, char *, int *);
+int PMPI_Comm_set_attr(MPI_Comm, int, void *);
+int PMPI_Comm_set_name(MPI_Comm, char *);
+int PMPI_File_call_errhandler(MPI_File, int);
+int PMPI_Grequest_complete(MPI_Request);
+int PMPI_Grequest_start(MPI_Grequest_query_function *, 
+                       MPI_Grequest_free_function *, 
+                       MPI_Grequest_cancel_function *, void *, MPI_Request *);
+int PMPI_Init_thread(int *, char ***, int, int *);
+int PMPI_Is_thread_main(int *);
+int PMPI_Query_thread(int *);
+int PMPI_Status_set_cancelled(MPI_Status *, int);
+int PMPI_Status_set_elements(MPI_Status *, MPI_Datatype, int);
+int PMPI_Type_create_keyval(MPI_Type_copy_attr_function *, 
+                           MPI_Type_delete_attr_function *, int *, void *);
+int PMPI_Type_delete_attr(MPI_Datatype, int);
+int PMPI_Type_dup(MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_free_keyval(int *);
+int PMPI_Type_get_attr(MPI_Datatype, int, void *, int *);
+int PMPI_Type_get_contents(MPI_Datatype, int, int, int, int [], MPI_Aint [], 
+                          MPI_Datatype []);
+int PMPI_Type_get_envelope(MPI_Datatype, int *, int *, int *, int *);
+int PMPI_Type_get_name(MPI_Datatype, char *, int *);
+int PMPI_Type_set_attr(MPI_Datatype, int, void *);
+int PMPI_Type_set_name(MPI_Datatype, char *);
+int PMPI_Type_match_size( int, int, MPI_Datatype *);
+int PMPI_Win_call_errhandler(MPI_Win, int);
+int PMPI_Win_create_keyval(MPI_Win_copy_attr_function *, 
+                         MPI_Win_delete_attr_function *, int *, void *);
+int PMPI_Win_delete_attr(MPI_Win, int);
+int PMPI_Win_free_keyval(int *);
+int PMPI_Win_get_attr(MPI_Win, int, void *, int *);
+int PMPI_Win_get_name(MPI_Win, char *, int *);
+int PMPI_Win_set_attr(MPI_Win, int, void *);
+int PMPI_Win_set_name(MPI_Win, char *);
+
+
+
+ 
+int PMPI_Type_create_f90_integer( int, MPI_Datatype * );
+int PMPI_Type_create_f90_real( int, int, MPI_Datatype * );
+int PMPI_Type_create_f90_complex( int, int, MPI_Datatype * );
+
+ 
+int PMPI_Alloc_mem(MPI_Aint, MPI_Info info, void *baseptr);
+int PMPI_Comm_create_errhandler(MPI_Comm_errhandler_function *, MPI_Errhandler *);
+int PMPI_Comm_get_errhandler(MPI_Comm, MPI_Errhandler *);
+int PMPI_Comm_set_errhandler(MPI_Comm, MPI_Errhandler);
+int PMPI_File_create_errhandler(MPI_File_errhandler_function *, MPI_Errhandler *);
+int PMPI_File_get_errhandler(MPI_File, MPI_Errhandler *);
+int PMPI_File_set_errhandler(MPI_File, MPI_Errhandler);
+int PMPI_Finalized(int *);
+int PMPI_Free_mem(void *);
+int PMPI_Get_address(void *, MPI_Aint *);
+int PMPI_Info_create(MPI_Info *);
+int PMPI_Info_delete(MPI_Info, char *);
+int PMPI_Info_dup(MPI_Info, MPI_Info *);
+int PMPI_Info_free(MPI_Info *info);
+int PMPI_Info_get(MPI_Info, char *, int, char *, int *);
+int PMPI_Info_get_nkeys(MPI_Info, int *);
+int PMPI_Info_get_nthkey(MPI_Info, int, char *);
+int PMPI_Info_get_valuelen(MPI_Info, char *, int *, int *);
+int PMPI_Info_set(MPI_Info, char *, char *);
+int PMPI_Pack_external(char *, void *, int, MPI_Datatype, void *, MPI_Aint, 
+                      MPI_Aint *); 
+int PMPI_Pack_external_size(char *, int, MPI_Datatype, MPI_Aint *); 
+int PMPI_Request_get_status(MPI_Request, int *, MPI_Status *);
+int PMPI_Status_c2f(MPI_Status *, MPI_Fint *);
+int PMPI_Status_f2c(MPI_Fint *, MPI_Status *);
+int PMPI_Type_create_darray(int, int, int, int [], int [], int [], int [], int,
+                           MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_create_hindexed(int, int [], MPI_Aint [], MPI_Datatype, 
+                             MPI_Datatype *);
+int PMPI_Type_create_hvector(int, int, MPI_Aint, MPI_Datatype, MPI_Datatype *);
+int PMPI_Type_create_indexed_block(int, int, int [], MPI_Datatype, 
+                                  MPI_Datatype *);
+int PMPI_Type_create_resized(MPI_Datatype, MPI_Aint, MPI_Aint, MPI_Datatype *);
+int PMPI_Type_create_struct(int, int [], MPI_Aint [], MPI_Datatype [], 
+                           MPI_Datatype *);
+int PMPI_Type_create_subarray(int, int [], int [], int [], int, MPI_Datatype, 
+                             MPI_Datatype *);
+int PMPI_Type_get_extent(MPI_Datatype, MPI_Aint *, MPI_Aint *);
+int PMPI_Type_get_true_extent(MPI_Datatype, MPI_Aint *, MPI_Aint *);
+int PMPI_Unpack_external(char *, void *, MPI_Aint, MPI_Aint *, void *, int, 
+                        MPI_Datatype); 
+int PMPI_Win_create_errhandler(MPI_Win_errhandler_function *, MPI_Errhandler *);
+int PMPI_Win_get_errhandler(MPI_Win, MPI_Errhandler *);
+int PMPI_Win_set_errhandler(MPI_Win, MPI_Errhandler);
+int PMPI_Reduce_local(void *inbuf, void *inoutbuf, int count, MPI_Datatype datatype, MPI_Op op);
+int PMPI_Op_commutative(MPI_Op op, int *commute);
+int PMPI_Reduce_scatter_block(void *sendbuf, void *recvbuf, int recvcount, MPI_Datatype datatype, MPI_Op op, MPI_Comm comm);
+int PMPI_Dist_graph_create_adjacent(MPI_Comm comm_old, int indegree, int [], int [], int outdegree, int [], int [], MPI_Info info, int reorder, MPI_Comm *comm_dist_graph);
+int PMPI_Dist_graph_create(MPI_Comm comm_old, int n, int [], int [], int [], int [], MPI_Info info, int reorder, MPI_Comm *comm_dist_graph);
+int PMPI_Dist_graph_neighbors_count(MPI_Comm comm, int *indegree, int *outdegree, int *weighted);
+int PMPI_Dist_graph_neighbors(MPI_Comm comm, int maxindegree, int [], int [], int maxoutdegree, int [], int []);
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+int MPI_File_open(MPI_Comm, char *, int, MPI_Info, MPI_File *);
+int MPI_File_close(MPI_File *);
+int MPI_File_delete(char *, MPI_Info);
+int MPI_File_set_size(MPI_File, MPI_Offset);
+int MPI_File_preallocate(MPI_File, MPI_Offset);
+int MPI_File_get_size(MPI_File, MPI_Offset *);
+int MPI_File_get_group(MPI_File, MPI_Group *);
+int MPI_File_get_amode(MPI_File, int *);
+int MPI_File_set_info(MPI_File, MPI_Info);
+int MPI_File_get_info(MPI_File, MPI_Info *);
+
+ 
+int MPI_File_set_view(MPI_File, MPI_Offset, MPI_Datatype,
+	         MPI_Datatype, char *, MPI_Info);
+int MPI_File_get_view(MPI_File, MPI_Offset *, 
+                 MPI_Datatype *, MPI_Datatype *, char *);
+
+ 
+int MPI_File_read_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+int MPI_File_read_at_all(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+int MPI_File_write_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+int MPI_File_write_at_all(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+
+
+
+  
+
+int MPI_File_iread_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Request *);
+int MPI_File_iwrite_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Request *);
+
+ 
+int MPI_File_read(MPI_File, void *, int, MPI_Datatype, MPI_Status *); 
+int MPI_File_read_all(MPI_File, void *, int, MPI_Datatype, MPI_Status *); 
+int MPI_File_write(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int MPI_File_write_all(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+
+
+
+  
+
+int MPI_File_iread(MPI_File, void *, int, MPI_Datatype, MPI_Request *); 
+int MPI_File_iwrite(MPI_File, void *, int, MPI_Datatype, MPI_Request *);
+
+int MPI_File_seek(MPI_File, MPI_Offset, int);
+int MPI_File_get_position(MPI_File, MPI_Offset *);
+int MPI_File_get_byte_offset(MPI_File, MPI_Offset, MPI_Offset *);
+
+ 
+int MPI_File_read_shared(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int MPI_File_write_shared(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int MPI_File_iread_shared(MPI_File, void *, int, MPI_Datatype, MPI_Request *);
+int MPI_File_iwrite_shared(MPI_File, void *, int, 
+			   MPI_Datatype, MPI_Request *);
+int MPI_File_read_ordered(MPI_File, void *, int, 
+                          MPI_Datatype, MPI_Status *);
+int MPI_File_write_ordered(MPI_File, void *, int, 
+                           MPI_Datatype, MPI_Status *);
+int MPI_File_seek_shared(MPI_File, MPI_Offset, int);
+int MPI_File_get_position_shared(MPI_File, MPI_Offset *);
+
+ 
+int MPI_File_read_at_all_begin(MPI_File, MPI_Offset, void *,
+                               int, MPI_Datatype);
+int MPI_File_read_at_all_end(MPI_File, void *, MPI_Status *);
+int MPI_File_write_at_all_begin(MPI_File, MPI_Offset, void *,
+                                int, MPI_Datatype);
+int MPI_File_write_at_all_end(MPI_File, void *, MPI_Status *);
+int MPI_File_read_all_begin(MPI_File, void *, int, MPI_Datatype);
+int MPI_File_read_all_end(MPI_File, void *, MPI_Status *);
+int MPI_File_write_all_begin(MPI_File, void *, int, MPI_Datatype);
+int MPI_File_write_all_end(MPI_File, void *, MPI_Status *);
+int MPI_File_read_ordered_begin(MPI_File, void *, int, MPI_Datatype);
+int MPI_File_read_ordered_end(MPI_File, void *, MPI_Status *);
+int MPI_File_write_ordered_begin(MPI_File, void *, int, MPI_Datatype);
+int MPI_File_write_ordered_end(MPI_File, void *, MPI_Status *);
+
+ 
+int MPI_File_get_type_extent(MPI_File, MPI_Datatype, MPI_Aint *);
+
+ 
+int MPI_Register_datarep(char *,
+			 MPI_Datarep_conversion_function *,
+			 MPI_Datarep_conversion_function *,
+			 MPI_Datarep_extent_function *,
+			 void *);
+
+ 
+int MPI_File_set_atomicity(MPI_File, int);
+int MPI_File_get_atomicity(MPI_File, int *);
+int MPI_File_sync(MPI_File);
+
+ 
+ 
+
+
+
+
+ 
+ 
+ 
+MPI_File MPI_File_f2c(MPI_Fint);
+MPI_Fint MPI_File_c2f(MPI_File);
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+int PMPI_File_open(MPI_Comm, char *, int, MPI_Info, MPI_File *);
+int PMPI_File_close(MPI_File *);
+int PMPI_File_delete(char *, MPI_Info);
+int PMPI_File_set_size(MPI_File, MPI_Offset);
+int PMPI_File_preallocate(MPI_File, MPI_Offset);
+int PMPI_File_get_size(MPI_File, MPI_Offset *);
+int PMPI_File_get_group(MPI_File, MPI_Group *);
+int PMPI_File_get_amode(MPI_File, int *);
+int PMPI_File_set_info(MPI_File, MPI_Info);
+int PMPI_File_get_info(MPI_File, MPI_Info *);
+
+ 
+int PMPI_File_set_view(MPI_File, MPI_Offset, 
+    MPI_Datatype, MPI_Datatype, char *, MPI_Info);
+int PMPI_File_get_view(MPI_File, MPI_Offset *, 
+      MPI_Datatype *, MPI_Datatype *, char *);
+
+ 
+int PMPI_File_read_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+int PMPI_File_read_at_all(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+int PMPI_File_write_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+int PMPI_File_write_at_all(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Status *);
+
+
+
+  
+
+int PMPI_File_iread_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Request *);
+int PMPI_File_iwrite_at(MPI_File, MPI_Offset, void *,
+	      int, MPI_Datatype, MPI_Request *);
+
+ 
+int PMPI_File_read(MPI_File, void *, int, MPI_Datatype, MPI_Status *); 
+int PMPI_File_read_all(MPI_File, void *, int, MPI_Datatype, MPI_Status *); 
+int PMPI_File_write(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int PMPI_File_write_all(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+
+
+
+  
+
+int PMPI_File_iread(MPI_File, void *, int, MPI_Datatype, MPI_Request *); 
+int PMPI_File_iwrite(MPI_File, void *, int, MPI_Datatype, MPI_Request *);
+
+int PMPI_File_seek(MPI_File, MPI_Offset, int);
+int PMPI_File_get_position(MPI_File, MPI_Offset *);
+int PMPI_File_get_byte_offset(MPI_File, MPI_Offset, MPI_Offset *);
+
+ 
+int PMPI_File_read_shared(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int PMPI_File_write_shared(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int PMPI_File_iread_shared(MPI_File, void *, int, 
+			   MPI_Datatype, MPI_Request *);
+int PMPI_File_iwrite_shared(MPI_File, void *, int, 
+			    MPI_Datatype, MPI_Request *);
+int PMPI_File_read_ordered(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int PMPI_File_write_ordered(MPI_File, void *, int, MPI_Datatype, MPI_Status *);
+int PMPI_File_seek_shared(MPI_File, MPI_Offset, int);
+int PMPI_File_get_position_shared(MPI_File, MPI_Offset *);
+
+ 
+int PMPI_File_read_at_all_begin(MPI_File, MPI_Offset, void *,
+                               int, MPI_Datatype);
+int PMPI_File_read_at_all_end(MPI_File, void *, MPI_Status *);
+int PMPI_File_write_at_all_begin(MPI_File, MPI_Offset, void *,
+                                int, MPI_Datatype);
+int PMPI_File_write_at_all_end(MPI_File, void *, MPI_Status *);
+int PMPI_File_read_all_begin(MPI_File, void *, int, MPI_Datatype);
+int PMPI_File_read_all_end(MPI_File, void *, MPI_Status *);
+int PMPI_File_write_all_begin(MPI_File, void *, int, MPI_Datatype);
+int PMPI_File_write_all_end(MPI_File, void *, MPI_Status *);
+int PMPI_File_read_ordered_begin(MPI_File, void *, int, MPI_Datatype);
+int PMPI_File_read_ordered_end(MPI_File, void *, MPI_Status *);
+int PMPI_File_write_ordered_begin(MPI_File, void *, int, MPI_Datatype);
+int PMPI_File_write_ordered_end(MPI_File, void *, MPI_Status *);
+
+ 
+int PMPI_File_get_type_extent(MPI_File, MPI_Datatype, MPI_Aint *);
+
+ 
+int PMPI_Register_datarep(char *,
+			 MPI_Datarep_conversion_function *,
+			 MPI_Datarep_conversion_function *,
+			 MPI_Datarep_extent_function *,
+			 void *);
+
+ 
+int PMPI_File_set_atomicity(MPI_File, int);
+int PMPI_File_get_atomicity(MPI_File, int *);
+int PMPI_File_sync(MPI_File);
+
+ 
+
+
+ 
+MPI_File PMPI_File_f2c(MPI_Fint);
+MPI_Fint PMPI_File_c2f(MPI_File);
+
+
+ 
+
+
+
+
+ 
+
+
+ 
+typedef int (MPIX_Grequest_poll_function)(void *, MPI_Status *);
+typedef int (MPIX_Grequest_wait_function)(int, void **, double, MPI_Status *);
+
+typedef int MPIX_Grequest_class;
+int MPIX_Grequest_class_create(MPI_Grequest_query_function *, 
+                       MPI_Grequest_free_function *, 
+                       MPI_Grequest_cancel_function *, 
+		       MPIX_Grequest_poll_function *,
+		       MPIX_Grequest_wait_function *, 
+		       MPIX_Grequest_class *);
+
+int MPIX_Grequest_class_allocate(MPIX_Grequest_class,
+		       void *,
+		       MPI_Request *);
+
+int MPIX_Grequest_start(MPI_Grequest_query_function *, 
+                       MPI_Grequest_free_function *, 
+                       MPI_Grequest_cancel_function *, 
+		       MPIX_Grequest_poll_function *,
+		       MPIX_Grequest_wait_function *, void *, MPI_Request *);
+int PMPIX_Grequest_class_create(MPI_Grequest_query_function *, 
+                       MPI_Grequest_free_function *, 
+                       MPI_Grequest_cancel_function *, 
+		       MPIX_Grequest_poll_function *,
+		       MPIX_Grequest_wait_function *, 
+		       MPIX_Grequest_class *);
+
+int PMPIX_Grequest_class_allocate(MPIX_Grequest_class,
+		       void *,
+		       MPI_Request *);
+int PMPIX_Grequest_start(MPI_Grequest_query_function *, 
+                       MPI_Grequest_free_function *, 
+                       MPI_Grequest_cancel_function *, 
+		       MPIX_Grequest_poll_function *,
+		       MPIX_Grequest_wait_function *, void *, MPI_Request *);
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+extern void __assert_fail (__const char *__assertion, __const char *__file,
+			   unsigned int __line, __const char *__function)
+     __attribute__ ((__nothrow__)) __attribute__ ((__noreturn__));
+
+ 
+extern void __assert_perror_fail (int __errnum, __const char *__file,
+				  unsigned int __line,
+				  __const char *__function)
+     __attribute__ ((__nothrow__)) __attribute__ ((__noreturn__));
+
+
+
+ 
+extern void __assert (const char *__assertion, const char *__file, int __line)
+     __attribute__ ((__nothrow__)) __attribute__ ((__noreturn__));
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+static void __ERROR(const char* file, const int line, const char* fmt, ...) __attribute__ ((noreturn));
+static void __ERROR(const char* file, const int line, const char* fmt, ...)
+{
+    va_list args;
+
+    __builtin_va_start(args,fmt);
+    fprintf(stderr, "ERROR %s:%d ", file, line);
+    vfprintf(stderr, fmt, args);
+    __builtin_va_end(args);
+    fflush(stderr);
+    abort();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+static inline void* FETCH_STORE(void** ptr, void* val)
+{
+    void* out;
+
+    asm volatile ("lock xchg %0, (%1)" : "=r" (out) : "r" (ptr), "0" (val));
+
+    return out;
+}
+
+
+
+
+
+
+
+
+typedef struct mcs_qnode_t {
+    struct mcs_qnode_t* next;
+    int locked;
+} mcs_qnode_t;
+
+typedef mcs_qnode_t* lock_t;
+
+
+static void LOCK_INIT(lock_t* __restrict l) __attribute__((unused));
+
+static void LOCK_INIT(lock_t* __restrict l) {
+    *l = ((void *)0);
+}
+
+
+
+static inline void __LOCK_ACQUIRE(lock_t* __restrict l, mcs_qnode_t* q) {
+    q->next = ((void *)0);
+
+    mcs_qnode_t* pred;
+
+    
+    pred = (mcs_qnode_t*)FETCH_STORE((void**)l, q);
+
+    
+    if(pred != ((void *)0)) {
+        
+        
+        volatile int* locked = &q->locked;
+
+        *locked = 1;
+
+
+        pred->next = q;
+        while(*locked == 1);
+    }
+}
+
+static inline void __LOCK_RELEASE(lock_t* __restrict l, mcs_qnode_t* q) {
+    mcs_qnode_t* next = q->next;
+
+    
+    if(next == ((void *)0)) {
+        
+        if(__sync_bool_compare_and_swap((uintptr_t*)(l), (uintptr_t)(q), (uintptr_t)(((void *)0)))) {
+            return;
+        }
+
+        
+        
+
+        
+        mcs_qnode_t* volatile * vol_next = (mcs_qnode_t* volatile *)&q->next;
+
+        while((next = *vol_next) == ((void *)0));
+    }
+
+    next->locked = 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+typedef struct HMPI_Item {
+    struct HMPI_Item* next;
+} HMPI_Item;
+
+
+
+
+
+
+
+
+typedef struct hmpi_coll_t {
+    volatile void** sbuf;
+    volatile void** rbuf;
+    volatile void** tmp;
+
+    volatile void* mpi_sbuf;
+    volatile void* mpi_rbuf;
+    volatile void* mpi_tmp;
+
+
+
+} hmpi_coll_t;
+
+
+
+typedef void* HMPI_Group;
+
+typedef struct {
+  MPI_Comm comm;        
+  MPI_Comm node_comm;   
+  MPI_Comm net_comm;    
+  MPI_Comm numa_comm;   
+  int context;          
+  int comm_rank;        
+  
+  int node_rank;        
+  int node_size;        
+  int node_root;        
+  
+  
+
+  hmpi_coll_t* coll;
+
+  
+  
+  
+} HMPI_Comm_info;
+
+typedef HMPI_Comm_info* HMPI_Comm;
+
+
+extern HMPI_Comm HMPI_COMM_WORLD;
+extern HMPI_Comm HMPI_COMM_NODE;
+
+extern HMPI_Comm HMPI_COMM_NETWORK;
+
+
+
+typedef struct HMPI_Status {
+    size_t size; 
+    int MPI_SOURCE;
+    int MPI_TAG;
+    int MPI_ERROR;
+} HMPI_Status;
+
+
+
+typedef struct HMPI_Request_info {
+    union {
+        HMPI_Item item; 
+        MPI_Request req; 
+    } ir;
+
+    size_t size;        
+    void* buf;          
+
+    int proc;           
+    int tag;            
+    int context;        
+
+    volatile uint32_t stat;    
+    uint32_t type;      
+    uint32_t do_free;   
+
+
+    MPI_Datatype datatype;      
+    volatile uint32_t match;    
+
+
+    union {
+        struct HMPI_Request_info* match_req; 
+        volatile size_t offset;              
+        MPI_Request req;                     
+    } u;
+
+    char eager[256];
+} HMPI_Request_info;
+
+typedef HMPI_Request_info* HMPI_Request;
+
+
+
+typedef struct HMPI_Info_info {
+} HMPI_Info_info;
+
+typedef HMPI_Info_info* HMPI_Info;
+
+
+
+int HMPI_Init(int *argc, char ***argv);
+
+int HMPI_Finalize(void);
+
+
+static int HMPI_Abort(HMPI_Comm comm, int errorcode) __attribute__((unused));
+
+static int HMPI_Abort(HMPI_Comm comm, int errorcode) {
+  fprintf(stderr, "HMPI: user code called MPI_Abort!\n");
+  return MPI_Abort(comm->comm, errorcode);
+}
+
+
+static inline int HMPI_Comm_rank(HMPI_Comm comm, int *rank) __attribute__((unused));
+
+static inline int HMPI_Comm_rank(HMPI_Comm comm, int *rank) {
+  return MPI_Comm_rank(comm->comm, rank);
+}
+
+
+static inline int HMPI_Comm_size(HMPI_Comm comm, int *size) __attribute__((unused));
+
+static inline int HMPI_Comm_size(HMPI_Comm comm, int *size) {
+  return MPI_Comm_size(comm->comm, size);
+}
+
+
+
+void HMPI_Comm_node_rank(HMPI_Comm comm, int rank, int* node_rank);
+
+int HMPI_Send(void *buf, int count, MPI_Datatype datatype, int dest, int tag, HMPI_Comm comm );
+int HMPI_Recv(void *buf, int count, MPI_Datatype datatype, int source, int tag, HMPI_Comm comm, HMPI_Status *status );
+
+int HMPI_Isend(void *buf, int count, MPI_Datatype datatype, int dest, int tag, HMPI_Comm comm, HMPI_Request *req );
+int HMPI_Irecv(void *buf, int count, MPI_Datatype datatype, int source, int tag, HMPI_Comm comm, HMPI_Request *req );
+
+int HMPI_Sendrecv(void *sendbuf, int sendcount, MPI_Datatype sendtype, int dest, int sendtag, void *recvbuf, int recvcount, MPI_Datatype recvtype, int source, int recvtag, HMPI_Comm comm, HMPI_Status *status);
+
+int HMPI_Iprobe(int source, int tag, HMPI_Comm comm, int* flag, HMPI_Status* status);
+int HMPI_Probe(int source, int tag, HMPI_Comm comm, HMPI_Status* status);
+
+int HMPI_Test(HMPI_Request *request, int *flag, HMPI_Status *status);
+int HMPI_Testall(int count, HMPI_Request *requests, int* flag, HMPI_Status *statuses);
+int HMPI_Testsome(int incount, HMPI_Request* array_of_requests, int *outcount,
+                  int* array_of_indices, HMPI_Status* array_of_statuses);
+int HMPI_Wait(HMPI_Request *request, HMPI_Status *status);
+int HMPI_Waitall(int count, HMPI_Request* requests, HMPI_Status* statuses);
+int HMPI_Waitany(int count, HMPI_Request* requests, int* index, HMPI_Status *status);
+
+int HMPI_Get_count(HMPI_Status* status, MPI_Datatype datatype, int* count);
+
+
+
+
+
+
+
+
+int HMPI_Cart_create(HMPI_Comm comm_old, int ndims, int* dims, int* periods,
+        int reorder, HMPI_Comm* comm_cart);
+int HMPI_Cart_sub(HMPI_Comm comm, int* remain_dims, HMPI_Comm* newcomm);
+
+int HMPI_Comm_create(HMPI_Comm comm, MPI_Group group, HMPI_Comm* newcomm);
+int HMPI_Comm_dup(HMPI_Comm comm, HMPI_Comm* newcomm);
+int HMPI_Comm_free(HMPI_Comm* comm);
+int HMPI_Comm_split(HMPI_Comm comm, int color, int key, HMPI_Comm* newcomm);
+
+
+
+
+static int HMPI_Comm_group(HMPI_Comm comm, HMPI_Group* group) __attribute__((unused));
+
+static int HMPI_Comm_group(HMPI_Comm comm, HMPI_Group* group)
+{
+    *group = ((void *)0);
+    printf("stub Comm_ group \n"); 
+    return 0;    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+double getWtimeOh();
+void populateData(char*, int);
+void generic_barrier(HMPI_Comm);
+void printReportFooter(double mintime, int rank, int wsize, int procsPerNode, int useNearestRanks);
+void printCommTargets(int rank, int wsize, 
+                      int procsPerNode, int useNearestRank);
+void listRankLocations(int rank, int wsize);
+void createActiveComm(int procs, int rank, int wsize, int procsPerNode, 
+                      char allocPattern, int printPairs,
+                      int useNearestRank, HMPI_Comm *activeComm);
+int isActiveProc(int rank, int wsize, int procsPerNode, 
+                 int count, char allocPattern, int useNearestRank);
+int processArgs     (int argc, char **argv, int rank, int wsize, int *iters, 
+                     int *eiters, int *messStart, int *messStop, 
+                     int *messFactor, char **procFile, int *procsPerNode, 
+                     char *allocPattern, int *printPairs, int *useBarrier,
+                     int *useNearestRank);
+int getProcList     (char* procFile, int wsize, 
+                     int** procListPtr, int* listSizePtr,
+                     int procsPerNode, char allocPattern);
+void printActivePairs(int procs, int rank, int wsize, int procsPerNode, 
+                      char allocPattern, int useNearestRank);
+int getTargetRank(int rank, int wsize, int procsPerNode, int useNearestRank);
+void getPair(int idx, int wsize, int procsPerNode, 
+             char allocPattern, int useNearestRank,
+             int *rank1, int *rank2);
+
+
+
+
+
+
+
+ 
+
+double getWtimeOh()
+{
+  double start, stop, diff;
+  int count;
+
+  count = 1;
+  start = MPI_Wtime();
+  stop  = MPI_Wtime();
+  diff  = stop - start;
+
+  if ( diff == 0 || MPI_Wtime() == stop )
+  {
+    stop = MPI_Wtime();
+    while ( (start = MPI_Wtime()) == stop );
+    while ( (stop = MPI_Wtime()) == start )
+      count++;
+    return (stop - start)/count;
+  }
+
+  return stop - start;
+}
+
+
+
+ 
+
+void generic_barrier (HMPI_Comm curcomm)
+{
+  int        rank, size, N2_prev, surfeit;
+  int        d, dst, src, temp;
+  HMPI_Status status;
+
+   
+  (void) HMPI_Comm_size ( curcomm, &size );
+
+   
+  if ( size > 1 ) {
+
+    HMPI_Comm_rank ( curcomm, &rank );
+
+    for (temp = size, N2_prev = 1; 
+	 temp > 1; temp >>= 1, N2_prev <<= 1)  ;
+
+    surfeit = size - N2_prev;
+
+     
+    if ( rank < N2_prev ) {
+      if( rank < surfeit ) {
+
+         
+        dst = N2_prev + rank;
+
+        HMPI_Recv((void *)0, 0, ((MPI_Datatype)0x4c000405), dst,
+		 1, curcomm, &status);
+      }
+
+       
+      for (d = 1; d < N2_prev; d <<= 1) {
+        dst = (rank ^ d);
+
+        HMPI_Sendrecv( (void *)0,0,((MPI_Datatype)0x4c000405),dst, 1,
+                     (void *)0,0,((MPI_Datatype)0x4c000405),dst, 1, 
+                     curcomm, &status);
+      }
+
+       
+      if ( rank < surfeit ) {
+        dst = N2_prev + rank;
+        HMPI_Send( (void *)0, 0, ((MPI_Datatype)0x4c000405), dst, 1, curcomm);
+      }
+    } 
+    else {
+       
+      src = rank - N2_prev;
+      HMPI_Sendrecv( (void *)0, 0, ((MPI_Datatype)0x4c000405), src, 1,
+                   (void *)0, 0, ((MPI_Datatype)0x4c000405), src, 1, 
+                   curcomm, &status);
+    }
+  } 
+  return; 
+}
+
+
+void printCommTargets(int rank, int wsize, 
+                      int procsPerNode, int useNearestRank)
+{
+  char *procNames;
+  char myProcName[128];
+  int nameSize, currtarg, i;
+
+  if ( rank == 0 )
+    procNames = (char*)malloc(wsize*128*sizeof(char));
+
+  MPI_Get_processor_name(myProcName, &nameSize);
+
+  MPI_Gather(myProcName, 128, ((MPI_Datatype)0x4c000101), procNames, 128, ((MPI_Datatype)0x4c000101), 0, (HMPI_COMM_WORLD)->comm);
+
+  if ( rank == 0 )
+  {
+    putchar('\n');
+
+    for ( i = 0; i < wsize; i++ )
+    {
+      currtarg = getTargetRank(i, wsize, procsPerNode, useNearestRank);
+
+      printf("Rank id %4d (%s) communicated with rank id %4d (%s)\n", 
+             i, (procNames+i*128), 
+             currtarg, (procNames+currtarg*128));
+    }
+    putchar('\n');
+  }
+}
+
+
+void listRankLocations(int rank, int wsize)
+{
+  char *procNames;
+  char myProcName[128];
+  int nameSize, i;
+
+  if ( rank == 0 )
+    procNames = (char*)malloc(wsize*128*sizeof(char));
+
+  MPI_Get_processor_name(myProcName, &nameSize);
+
+  MPI_Gather(myProcName, 128, ((MPI_Datatype)0x4c000101), procNames, 128, ((MPI_Datatype)0x4c000101), 0, (HMPI_COMM_WORLD)->comm);
+
+  if ( rank == 0 )
+  {
+    putchar('\n');
+
+    for ( i = 0; i < wsize; i++ )
+    {
+      printf("Rank id %4d ran on %s\n", 
+             i, (procNames+i*128));
+    }
+    putchar('\n');
+  }
+}
+
+
+void printReportFooter(double mintime, int rank, int wsize, 
+                       int procsPerNode, int useNearestRank)
+{
+  double wtick, wtoverhead;
+
+  printCommTargets(rank, wsize, procsPerNode, useNearestRank);
+  
+  if ( rank == 0 )
+  {
+    wtick      = MPI_Wtick();
+    wtoverhead = getWtimeOh();
+
+    putchar('\n');
+    printf("MPI_Wtick returns           %11.9f\n", wtick);
+    printf("MPI_Wtime overhead          %11.9f\n", wtoverhead);
+    printf("Ticks for minimum sample    %11.0f\n\n", mintime/wtick);
+  }
+}
+
+
+void getPair(int idx, int wsize, int procsPerNode, 
+             char allocPattern, int useNearestRank,
+             int *rank1, int *rank2)
+{
+  if ( allocPattern == 'c' && procsPerNode > 0 && wsize > 2*procsPerNode )
+  {
+
+    if ( useNearestRank )
+    {
+      int calcval;
+
+      calcval = idx * procsPerNode * 2;
+      *rank1 = calcval % wsize + calcval/wsize;
+    }
+    else
+    {
+      int calcval;
+
+      calcval = idx * procsPerNode;
+      *rank1 = calcval % (wsize/2) + calcval/(wsize/2);
+    }
+      
+  }
+  else
+  {
+    if ( useNearestRank )
+      *rank1 = idx + (idx/procsPerNode * procsPerNode);
+    else
+      *rank1 = idx;
+  }
+
+  *rank2 = getTargetRank(*rank1, wsize, procsPerNode, useNearestRank);
+}
+
+
+int getTargetRank(int rank, int wsize, int procsPerNode, int useNearestRank)
+{
+  int target = -1;
+
+  if ( useNearestRank && procsPerNode > 0 )
+  {
+    if ( rank % (procsPerNode*2) >= procsPerNode )
+      target = rank - procsPerNode;
+    else
+      target = rank + procsPerNode;
+  }
+  else
+  {
+    if ( rank < wsize/2 )
+      target = rank + wsize/2;
+    else
+      target = rank - wsize/2;
+  }
+
+  return target;
+}
+
+
+void createActiveComm(int procs, int rank, int wsize, int procsPerNode, 
+                         char allocPattern, int printPairs,
+                         int useNearestRank, HMPI_Comm *activeComm)
+{
+  int *activeIds, limit;
+  int i;
+  MPI_Group worldGroup, activeGroup;
+
+  
+  MPI_Comm_group((activeComm)->comm, &worldGroup);
+  
+   
+  activeIds = (int*)malloc(procs*sizeof(int));
+
+  limit = procs/2;
+  
+  for ( i = 0; i < limit; i++ )
+  {
+    getPair(i, wsize, procsPerNode, allocPattern, useNearestRank,
+            &(activeIds[i]), &(activeIds[limit+i]));
+  }
+
+  MPI_Group_incl(worldGroup, procs, activeIds, &activeGroup);
+  HMPI_Comm_create(HMPI_COMM_WORLD, activeGroup, activeComm);
+  free(activeIds);
+  MPI_Group_free(&worldGroup);
+  MPI_Group_free(&activeGroup);
+}
+
+
+void printActivePairs(int procs, int rank, int wsize, int procsPerNode, 
+                      char allocPattern, int useNearestRank)
+{
+  int i, cp1, cp2;
+
+  if ( rank == 0 )
+  {
+    if ( allocPattern == 'c' && procsPerNode > 0 && wsize > procsPerNode*2 )
+      printf("\nCurrent pairs, cyclic allocation\n");
+    else
+      printf("\nCurrent pairs, block allocation\n");
+
+    for ( i = 0; i < procs/2; i++ )
+    {
+      getPair(i, wsize, procsPerNode, allocPattern, useNearestRank,
+              &cp1, &cp2);
+      
+      printf("  %5d:%5d\n", cp1, cp2);
+    }
+    printf("\n");
+  }
+}
+
+
+int isActiveProc(int rank, int wsize, int procsPerNode, int count, 
+                 char allocPattern, int useNearestRank)
+{
+  int i, cp1, cp2;
+
+  for ( i = 0; i < count/2; i++ )
+  {
+    getPair(i, wsize, procsPerNode, allocPattern, useNearestRank,
+            &cp1, &cp2);
+
+    if ( rank == cp1 || rank == cp2 )
+      return 1;
+  }
+
+  return 0;
+}
+
+
+int processArgs(int argc, char **argv, int rank, int wsize, int *iters, 
+                int *eiters, int *messStart, int *messStop, int *messFactor, 
+                char **procFile, int *procsPerNode, 
+                char *allocPattern, int *printPairs, int *useBarrier,
+                int *useNearestRank)
+{
+  int i;
+  char *argptr;
+  char flag;
+
+  *iters           = 0;
+  *eiters          = 0;
+  *messStart       = 32;
+  *messStop        = 8388608;
+  *messFactor      = 2;
+  *procFile        = ((void *)0);
+  *procsPerNode    = 0;
+  *allocPattern    = 'b';
+  *useBarrier      = 1;
+  *printPairs      = 0;
+  *useNearestRank  = 0;
+
+  for ( i = 0; i < argc; i++ )
+  {
+    if ( argv[i][0] == '-' )
+    {
+      flag   = argv[i][1];
+      argptr = ((void *)0);
+
+      if ( !strchr("inbcefhoprst", flag) && rank == 0 )
+      {
+        printf("\nInvalid flag -%c!\n", flag);
+        return(0);
+      }
+      
+      switch(flag)
+      {
+      case 'i':
+        *printPairs = 1;
+        break;
+      case 'n':
+        *useBarrier = 0;
+        break;
+      case 'r':
+        *useNearestRank = 1;
+        break;
+      default:
+        if ( argv[i][2] != 0 )
+          argptr = &(argv[i][2]);
+        else
+        {
+          argptr = argv[i+1];
+          i++;
+        }
+        break;
+      }
+
+      switch(flag)
+      {
+      case 'b':
+        *messStart = atoi(argptr);
+        break;
+      case 'c':
+        *eiters = atoi(argptr);
+        break;
+      case 'e':
+        *messStop = atoi(argptr);
+        break;
+      case 'f':
+        *procFile = strdup(argptr);
+        break;
+      case 'h':
+        return(0);
+      case 'o':
+        *iters = atoi(argptr);
+        break;
+      case 'p':
+        *allocPattern = *argptr;
+        break;
+      case 's':
+        *messFactor = atoi(argptr);
+        break;
+      case 't':
+        *procsPerNode = atoi(argptr);
+        break;
+      }
+    }
+  }
+
+  if ( *iters == 0 )
+  {
+    if ( rank == 0 )
+      printf("\n  Must define number of operations per measurement!\n\n");
+
+    return(0);
+  }
+
+  if ( *allocPattern == 'c' && procsPerNode == 0 )
+  {
+    if ( rank == 0 )
+      printf("\n  Cyclic allocation requires a process per node argument!\n\n");
+    return(0);
+  }
+
+  if ( *allocPattern == 'c' && wsize <= *procsPerNode*2 )
+  {
+    if ( rank == 0 )
+    {
+      printf("\n  Cyclic allocation can only be used for jobs\n");
+      printf("    with MPI process count > 2*processes/node.\n\n");
+
+    }
+    return(0);
+  }
+
+  return(1);
+}
+
+
+int getProcList(char* procFile, int wsize, int** procListPtr, int* listSizePtr,
+                int procsPerNode, char allocPattern)
+{
+  FILE* fp     = ((void *)0);
+  char lineBuf[1024];
+  int currProcCount;
+  int* procList;
+  int listSize = 0;
+  int nodes;
+
+  *procListPtr = ((void *)0);
+  *listSizePtr = 0;
+
+  if ( procFile != ((void *)0) )
+  {
+    if ( (fp = fopen(procFile, "r")) != ((void *)0) )
+    {
+      procList = (int*)malloc(1024*sizeof(int));
+      if ( procList == ((void *)0) )
+      {
+        fclose(fp);
+        return 0;
+      }
+  
+      while ( fgets(lineBuf, 1024, fp) != ((void *)0) )
+      {
+        currProcCount = atoi(lineBuf);
+        if ( currProcCount > 1 && currProcCount % 2 == 0 && 
+             currProcCount <= wsize)
+        {
+          procList[listSize] = atoi(lineBuf);
+  	  listSize++;
+  	  if ( listSize % 1024 == 0 )
+  	  {
+            procList = (int*)realloc(procList, (listSize/1024+1)*1024*sizeof(int));
+            if ( procList == ((void *)0) )
+            {
+              fclose(fp);
+              return 0;
+            }
+          }
+        }
+      }
+  
+      fclose(fp);
+    }
+    else
+    {
+      return 0;
+    }
+  }
+  else
+  {
+    int count, i;
+
+    if ( procsPerNode > 0 && wsize > procsPerNode*2 )
+    {
+      if ( allocPattern == 'c' )
+      {
+        nodes = wsize/procsPerNode;
+
+        for ( count = nodes; count <= wsize; count += nodes )
+          listSize++;
+      }
+      else
+      {
+        for ( count = procsPerNode*2; count <= wsize; count *= 2 )
+          listSize++;
+
+        if ( count/2 != wsize )    
+          listSize++;
+      }
+    }
+    else
+    {
+      for ( count = 2; count <= wsize; count *= 2 )
+        listSize++;
+
+      if ( count/2 != wsize )    
+        listSize++;
+    }
+
+    procList = (int*)malloc(listSize*sizeof(int));
+    if ( procList == ((void *)0) )
+      return 0;
+
+    if ( procsPerNode > 0 && wsize > procsPerNode*2 )
+    {
+      if ( allocPattern == 'c' )
+      {
+        for ( count = nodes, i = 0; count <= wsize; count += nodes, i++ )
+          procList[i] = count;
+      }
+      else
+      {
+        for ( count = (procsPerNode*2), i = 0; count <= wsize; 
+              count *= 2, i++ )
+        {
+          procList[i] = count;
+        }
+
+        if ( count/2 != wsize )   
+          procList[i] = wsize;
+      }
+    }
+    else
+    {
+      for ( count = 2, i = 0; count <= wsize; count *= 2, i++ )
+        procList[i] = count;
+
+      if ( count/2 != wsize )    
+        procList[i] = wsize;
+    }
+  }
+
+  *procListPtr = procList;
+  *listSizePtr = listSize;
+
+  return 1;
+}

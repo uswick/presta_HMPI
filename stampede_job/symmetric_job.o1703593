@@ -1,0 +1,22 @@
+TACC: Starting up job 1703593
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1703593.acaU1Tyy 
+ERROR sm_malloc.c:378 Got local base 0x180616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x300616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x240616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x3c0616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x480616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x540616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x600616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x6c0616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x780616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x840616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x900616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0x9c0616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0xa80616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0xb40616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0xc00616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0xcc0616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0xe40616000 outside of range 0x615000 -> 0x180616000
+ERROR sm_malloc.c:378 Got local base 0xd80616000 outside of range 0x615000 -> 0x180616000
+slurmd[c558-702]: *** JOB 1703593 CANCELLED AT 2013-09-16T23:15:44 ***

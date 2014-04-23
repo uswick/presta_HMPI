@@ -1,0 +1,13 @@
+/tmp/slurmd/job2849649/slurm_script: line 23: uswick: command not found
+[proxy:0:1@c408-404-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): [proxy:0:1@c408-404-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:3@c414-704-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:3@c414-704-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:1@c408-404-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:1@c408-404-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:3@c414-704-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:3@c414-704-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:1@c408-404-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:1@c408-404-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:3@c414-704-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)
+[proxy:0:3@c414-704-mic0.stampede.tacc.utexas.edu] HYDU_create_process (./utils/launch/launch.c:111): execvp error on file "a.out.mic (No such file or directory)

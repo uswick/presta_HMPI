@@ -1,0 +1,1780 @@
+TACC: Starting up job 1905527
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1905527.14uUn9t0 
+params:  6442450944 2
+params:  6442450944 2
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+Active comm good
+Active comm good
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+  Unidirectional          2                    32            2.189         7.310
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+done with final barrier! 
+  Unidirectional          2                    64            3.734         8.569
+unicom start
+unicom -2 
+unicom -1
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+done with final barrier! 
+  Unidirectional          2                   128            7.072         9.050
+unicom start
+unicom -2 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+  Unidirectional          2                   256           11.054        11.580
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+  Unidirectional          2                   512           26.558         9.639
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+  Unidirectional          2                  1024           55.362         9.248
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+  Unidirectional          2                  2048          108.459         9.441
+unicom start
+unicom -2 
+unicom -1
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Unidirectional          2                  4096          149.703        13.680
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+  Unidirectional          2                  8192          379.917        10.781
+unicom start
+unicom -2 
+unicom -1
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+  Unidirectional          2                 16384          554.637        14.770
+unicom start
+unicom -2 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+  Unidirectional          2                 32768         1152.045        14.222
+unicom start
+unicom -2 
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+done with final barrier! 
+  Unidirectional          2                 65536         1506.676        21.749
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+done with final barrier! 
+  Unidirectional          2                131072         1357.690        48.270
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2                262144         1039.511       126.090
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+done with final barrier! 
+  Unidirectional          2                524288          725.760       361.199
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2               1048576          746.477       702.350
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2               2097152          788.753      1329.410
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2               4194304          807.305      2597.721
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+unicom 1
+unicom 4
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!
+done with final barrier! 
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+  Unidirectional          2               8388608          817.093      5133.200
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+Active comm good
+generic_barrier() --> curr  comm good
+Active comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                    32           15.304         4.182
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                    64           28.316         4.520
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                   128           41.298         6.199
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                   256           81.221         6.304
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                   512          140.726         7.277
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+  Bidirectional           2                  1024          344.700         5.941
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                  2048          770.398         5.317
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                  4096         1392.210         5.884
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                  8192         2624.885         6.242
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                 16384         2795.748        11.721
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                 32768         3999.970        16.384
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                 65536         4930.545        26.584
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                131072         5213.426        50.282
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                262144          982.654       533.543
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2                524288          827.357      1267.381
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2               1048576          829.851      2527.142
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2               2097152          830.832      5048.318
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+  Bidirectional           2               4194304          847.153      9902.120
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+generic_barrier() --> curr  comm good
+after comm_rank()!
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+  Bidirectional           2               8388608          827.276     20280.080
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+Max Unidirectional Bandwith :        1506.68 for message size of   65536 bytes
+Max  Bidirectional Bandwith :        5213.43 for message size of  131072 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c559-001-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c559-001-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c559-001-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c559-001-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            209
+
+ 
+TACC: Shutdown complete. Exiting.

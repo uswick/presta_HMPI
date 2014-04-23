@@ -1,0 +1,111 @@
+Experiment Title : TEMPLATE RUN
+No of Total Runs : 3
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2901883
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901883.7BeMJvAB -machinefile /home1/02636/uswickra/.slurm/job.2901883.hostlist.sZns81gx  
+TACC: MPI job exited with code: 255
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2901883
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901883.Mma1IjoN -machinefile /home1/02636/uswickra/.slurm/job.2901883.hostlist.NQx7ahN8  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2901883
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901883.69sVMhXC -machinefile /home1/02636/uswickra/.slurm/job.2901883.hostlist.Pg120nZU  
+TACC: MPI job exited with code: 255
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2901883
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901883.Fr2z6Nwk -machinefile /home1/02636/uswickra/.slurm/job.2901883.hostlist.wNKfMBkY  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2901883
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901883.7sb9dRYI -machinefile /home1/02636/uswickra/.slurm/job.2901883.hostlist.kDxur1I0  
+TACC: MPI job exited with code: 255
+ 
+TACC: Shutdown complete. Exiting.
+TACC: Starting up job 2901883
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2901883.hfZL5lrB -machinefile /home1/02636/uswickra/.slurm/job.2901883.hostlist.WeNSquMW  
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo udayanga 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+helloooo uswick 
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

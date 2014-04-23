@@ -1,0 +1,7 @@
+/tmp/slurmd/job2849646/slurm_script: line 23: uswick: command not found
+[mpiexec@c417-501.stampede.tacc.utexas.edu] set_default_values (./ui/mpich/utils.c:2831): no executable provided
+[mpiexec@c417-501.stampede.tacc.utexas.edu] HYD_uii_mpx_get_parameters (./ui/mpich/utils.c:3184): setting default values failed
+[mpiexec@c417-501.stampede.tacc.utexas.edu] set_default_values (./ui/mpich/utils.c:2831): no executable provided
+[mpiexec@c417-501.stampede.tacc.utexas.edu] HYD_uii_mpx_get_parameters (./ui/mpich/utils.c:3184): setting default values failed
+[mpiexec@c417-501.stampede.tacc.utexas.edu] set_default_values (./ui/mpich/utils.c:2831): no executable provided
+[mpiexec@c417-501.stampede.tacc.utexas.edu] HYD_uii_mpx_get_parameters (./ui/mpich/utils.c:3184): setting default values failed

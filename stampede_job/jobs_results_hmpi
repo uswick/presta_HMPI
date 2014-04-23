@@ -1,0 +1,11 @@
+1779620 = comm_hmpi_jobs20_nodes2_mic4.log
+1779624 == laten_hmpi_jobs20_nodes2_mic4.log
+
+1779607 == comm_hmpi_jobs56_nodes1_mic_40.log
+1779602 == laten_hmpi_jobs56_nodes1_mic_40.log
+
+1779636 == comm_hmpi_jobs60_nodes1_mic60.log
+1779640 == laten_hmpi_jobs60_nodes1_mic60.log
+
+1779644 = comm_hmpi_jobs320_nodes16_mic64.log
+1779648 == laten_hmpi_jobs320_nodes16_mic64.log

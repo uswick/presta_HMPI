@@ -1,0 +1,88 @@
+TACC: Starting up job 1908431
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1908431.1QQSPFeB 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+---------------rank: 2  size:4  procsSize:2 .
+rank: 3  size:4  procsSize:2 .
+-----------------------------------------------------------------
+rank: 0  size:4  procsSize:2 .
+rank: 1  size:4  procsSize:2 .
+Active comm good
+rank: 0  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+Active comm good
+rank: 2  runUnicomTest().
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 0
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+done with final barrier! 
+TACC: MPI job exited with code: 1
+ 
+TACC: Shutdown complete. Exiting.

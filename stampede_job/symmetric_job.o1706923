@@ -1,0 +1,71 @@
+TACC: Starting up job 1706923
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1706923.ZO0USizq 
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+params:  251658240 40
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            4.845         3.302
+  Unidirectional          2                    64           13.031         2.456
+  Unidirectional          2                   128           25.565         2.503
+  Unidirectional          2                   256           47.511         2.694
+  Unidirectional          2                   512           88.374         2.897
+  Unidirectional          2                  1024          155.053         3.302
+  Unidirectional          2                  2048          230.293         4.447
+  Unidirectional          2                  4096          315.227         6.497
+  Unidirectional          2                  8192          503.071         8.142
+  Unidirectional          2                 16384          946.549         8.655
+  Unidirectional          2                 32768         1567.149        10.455
+  Unidirectional          2                 65536         2392.323        13.697
+  Unidirectional          2                131072         3293.923        19.896
+  Unidirectional          2                262144         4051.259        32.353
+  Unidirectional          2                524288         4184.630        62.644
+  Unidirectional          2               1048576         4710.342       111.306
+  Unidirectional          2               2097152         4968.421       211.048
+slurmd[c559-503]: *** JOB 1706923 CANCELLED AT 2013-09-17T12:58:28 DUE TO TIME LIMIT ***
+[mpiexec@c559-503.stampede.tacc.utexas.edu] HYD_pmcd_pmiserv_send_signal (./pm/pmiserv/pmiserv_cb.c:221): assert (!closed) failed
+[mpiexec@c559-503.stampede.tacc.utexas.edu] ui_cmd_cb (./pm/pmiserv/pmiserv_pmci.c:128): unable to send SIGUSR1 downstream
+[mpiexec@c559-503.stampede.tacc.utexas.edu] HYDT_dmxu_poll_wait_for_event (./tools/demux/demux_poll.c:77): callback returned error status
+[mpiexec@c559-503.stampede.tacc.utexas.edu] HYD_pmci_wait_for_completion (./pm/pmiserv/pmiserv_pmci.c:388): error waiting for event
+[mpiexec@c559-503.stampede.tacc.utexas.edu] main (./ui/mpich/mpiexec.c:745): process manager error waiting for completion

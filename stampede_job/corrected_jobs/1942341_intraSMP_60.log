@@ -1,0 +1,147 @@
+TACC: Starting up job 1942341
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1942341.JbvpCbi0 
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+params:  25769803776 60
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.099
+                     4               3.569
+                     8               4.609
+                    16               4.749
+                    32               5.789
+                    60               5.660
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   30 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   31 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    2 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   32 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    3 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   33 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    4 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   34 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    5 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   35 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    6 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   36 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    7 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   37 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    8 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   38 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id    9 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   39 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   10 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   40 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   11 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   41 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   12 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   42 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   13 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   43 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   14 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   44 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   15 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   45 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   16 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   46 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   17 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   47 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   18 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   48 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   19 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   49 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   20 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   50 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   21 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   51 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   22 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   52 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   23 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   53 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   24 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   54 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   25 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   55 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   26 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   56 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   27 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   57 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   28 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   58 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   29 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   59 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   30 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   31 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   32 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    2 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   33 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    3 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   34 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    4 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   35 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    5 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   36 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    6 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   37 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    7 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   38 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    8 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   39 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id    9 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   40 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   10 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   41 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   11 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   42 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   12 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   43 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   13 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   44 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   14 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   45 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   15 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   46 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   16 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   47 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   17 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   48 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   18 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   49 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   19 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   50 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   20 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   51 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   21 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   52 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   22 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   53 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   23 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   54 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   24 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   55 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   25 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   56 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   26 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   57 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   27 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   58 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   28 (c450-003-mic0.stampede.tacc.utexas.edu)
+Rank id   59 (c450-003-mic0.stampede.tacc.utexas.edu) communicated with rank id   29 (c450-003-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            310
+
+ 
+TACC: Shutdown complete. Exiting.

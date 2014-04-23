@@ -1,0 +1,64 @@
+TACC: Starting up job 1703999
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1703999.sa2Mch86 
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0xf616000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x10216000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x13216000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x11a16000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x12616000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x10e16000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x13e16000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x14a16000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x15616000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x16216000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x16e16000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x17a16000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x18616000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x19216000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x19e16000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x1aa16000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x1b616000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x1c216000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+ERROR sm_malloc.c:381 Got local base 0x1ce16000 outside of range 0x615000 -> 0xf616000
+ERROR sm_malloc.c:381 Got local base 0x1da16000 outside of range 0x615000 -> 0xf616000
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+params:  251658240 20
+slurmd[c558-403]: *** JOB 1703999 CANCELLED AT 2013-09-17T00:25:46 ***

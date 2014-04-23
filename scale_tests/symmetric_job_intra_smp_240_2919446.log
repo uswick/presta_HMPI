@@ -1,0 +1,5590 @@
+Experiment Title : INTRA SMP 240 ranks (MIC) - 1 node
+No of Total Runs : 20
+MIC procs per node : 240  OMP_NUM_THREADS: 2  MIC_OMP_NUM_THREADS : 240
+
+***************************************************
+Experiment 1
+***************************************************
+
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.h11PoNCI -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.vvIwmmrp  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+  Unidirectional          2                    32            1.925         8.311
+  Unidirectional          2                    64            4.140         7.730
+  Unidirectional          2                   128            9.833         6.509
+  Unidirectional          2                   256           13.734         9.320
+  Unidirectional          2                   512           34.884         7.339
+  Unidirectional          2                  1024           82.311         6.220
+  Unidirectional          2                  2048           77.695        13.180
+  Unidirectional          2                  4096          263.576         7.770
+  Unidirectional          2                  8192          361.529        11.330
+  Unidirectional          2                 16384          410.658        19.948
+  Unidirectional          2                 32768          708.960        23.110
+  Unidirectional          2                 65536          866.194        37.830
+  Unidirectional          2                131072          443.802       147.669
+  Unidirectional          2                262144          847.212       154.710
+  Unidirectional          2                524288          779.890       336.130
+  Unidirectional          2               1048576          841.284       623.200
+  Unidirectional          2               2097152          859.151      1220.479
+  Unidirectional          2               4194304          873.326      2401.340
+  Unidirectional          2               8388608          836.694      5012.951
+
+  Unidirectional          4                    32            0.559        57.261
+  Unidirectional          4                    64            5.823        10.991
+  Unidirectional          4                   128           10.151        12.610
+  Unidirectional          4                   256           17.827        14.360
+  Unidirectional          4                   512           34.114        15.008
+  Unidirectional          4                  1024           86.785        11.799
+  Unidirectional          4                  2048          171.833        11.919
+  Unidirectional          4                  4096          379.666        10.788
+  Unidirectional          4                  8192          555.803        14.739
+  Unidirectional          4                 16384          877.980        18.661
+  Unidirectional          4                 32768         1090.439        30.050
+  Unidirectional          4                 65536         1485.746        44.110
+  Unidirectional          4                131072         1504.696        87.109
+  Unidirectional          4                262144         1496.504       175.171
+  Unidirectional          4                524288         1552.248       337.760
+  Unidirectional          4               1048576         1646.734       636.761
+  Unidirectional          4               2097152         1696.725      1236.000
+  Unidirectional          4               4194304         1718.062      2441.299
+  Unidirectional          4               8388608         1728.594      4852.850
+
+  Unidirectional          8                    32            4.641        13.790
+  Unidirectional          8                    64            7.896        16.210
+  Unidirectional          8                   128           14.473        17.688
+  Unidirectional          8                   256           31.373        16.320
+  Unidirectional          8                   512           22.630        45.249
+  Unidirectional          8                  1024          153.639        13.330
+  Unidirectional          8                  2048          253.129        16.181
+  Unidirectional          8                  4096          458.435        17.869
+  Unidirectional          8                  8192          715.455        22.900
+  Unidirectional          8                 16384         1376.316        23.808
+  Unidirectional          8                 32768         1959.215        33.450
+  Unidirectional          8                 65536         2864.356        45.760
+  Unidirectional          8                131072         2898.868        90.430
+  Unidirectional          8                262144         2696.964       194.399
+  Unidirectional          8                524288         2947.594       355.740
+  Unidirectional          8               1048576         3079.918       680.912
+  Unidirectional          8               2097152         3117.535      1345.391
+  Unidirectional          8               4194304         3106.338      2700.481
+  Unidirectional          8               8388608         3189.009      5260.949
+
+  Unidirectional         16                    32            5.663        22.602
+  Unidirectional         16                    64           15.076        16.980
+  Unidirectional         16                   128           29.389        17.421
+  Unidirectional         16                   256           61.392        16.680
+  Unidirectional         16                   512          130.289        15.719
+  Unidirectional         16                  1024          267.891        15.290
+  Unidirectional         16                  2048          460.957        17.772
+  Unidirectional         16                  4096          880.342        18.611
+  Unidirectional         16                  8192         1545.821        21.198
+  Unidirectional         16                 16384         2703.628        24.240
+  Unidirectional         16                 32768         3730.952        35.131
+  Unidirectional         16                 65536         5180.755        50.600
+  Unidirectional         16                131072         5533.944        94.740
+  Unidirectional         16                262144         5295.023       198.030
+  Unidirectional         16                524288         5827.697       359.859
+  Unidirectional         16               1048576         5995.810       699.539
+  Unidirectional         16               2097152         6194.748      1354.148
+  Unidirectional         16               4194304         6237.601      2689.691
+  Unidirectional         16               8388608         6259.453      5360.601
+
+  Unidirectional         32                    32           10.569        24.221
+  Unidirectional         32                    64           26.460        19.350
+  Unidirectional         32                   128           47.146        21.720
+  Unidirectional         32                   256          103.543        19.779
+  Unidirectional         32                   512          206.961        19.791
+  Unidirectional         32                  1024          356.651        22.969
+  Unidirectional         32                  2048          690.440        23.730
+  Unidirectional         32                  4096         1408.763        23.260
+  Unidirectional         32                  8192         2875.593        22.790
+  Unidirectional         32                 16384         4516.561        29.020
+  Unidirectional         32                 32768         6896.517        38.011
+  Unidirectional         32                 65536         9910.867        52.900
+  Unidirectional         32                131072        10952.129        95.742
+  Unidirectional         32                262144        10419.566       201.271
+  Unidirectional         32                524288        10979.265       382.020
+  Unidirectional         32               1048576        11647.446       720.210
+  Unidirectional         32               2097152        11816.353      1419.830
+  Unidirectional         32               4194304        12115.664      2769.508
+  Unidirectional         32               8388608        12083.635      5553.699
+
+  Unidirectional         64                    32           16.847        30.391
+  Unidirectional         64                    64           38.022        26.932
+  Unidirectional         64                   128           81.591        25.101
+  Unidirectional         64                   256          172.022        23.811
+  Unidirectional         64                   512          304.743        26.882
+  Unidirectional         64                  1024          726.883        22.540
+  Unidirectional         64                  2048         1061.141        30.880
+  Unidirectional         64                  4096         2377.837        27.561
+  Unidirectional         64                  8192         4888.891        26.810
+  Unidirectional         64                 16384         7814.026        33.548
+  Unidirectional         64                 32768        12388.863        42.319
+  Unidirectional         64                 65536        18486.955        56.720
+  Unidirectional         64                131072        18446.247       113.690
+  Unidirectional         64                262144        19230.216       218.110
+  Unidirectional         64                524288        21268.178       394.421
+  Unidirectional         64               1048576        22032.094       761.490
+  Unidirectional         64               2097152        22909.811      1464.632
+  Unidirectional         64               4194304        22833.595      2939.041
+  Unidirectional         64               8388608        23037.720      5825.999
+
+  Unidirectional        128                    32           27.315        37.489
+  Unidirectional        128                    64           68.885        29.731
+  Unidirectional        128                   128          131.747        31.090
+  Unidirectional        128                   256          229.723        35.660
+  Unidirectional        128                   512          208.134        78.719
+  Unidirectional        128                  1024         1006.731        32.549
+  Unidirectional        128                  2048         1998.676        32.790
+  Unidirectional        128                  4096         4280.587        30.620
+  Unidirectional        128                  8192         8108.493        32.330
+  Unidirectional        128                 16384        13909.945        37.692
+  Unidirectional        128                 32768        21068.486        49.770
+  Unidirectional        128                 65536        28290.535        74.129
+  Unidirectional        128                131072        34039.290       123.219
+  Unidirectional        128                262144        32417.237       258.770
+  Unidirectional        128                524288        35142.201       477.409
+  Unidirectional        128               1048576        36695.971       914.390
+  Unidirectional        128               2097152        37957.755      1767.988
+  Unidirectional        128               4194304        38040.886      3528.249
+  Unidirectional        128               8388608        38293.388      7009.969
+
+  Unidirectional        240                    32           49.044        39.148
+  Unidirectional        240                    64           94.770        40.519
+  Unidirectional        240                   128          203.065        37.820
+  Unidirectional        240                   256          343.012        44.780
+  Unidirectional        240                   512          801.250        38.340
+  Unidirectional        240                  1024         1521.599        40.379
+  Unidirectional        240                  2048         2155.387        57.011
+  Unidirectional        240                  4096         5143.673        47.779
+  Unidirectional        240                  8192         9457.676        51.970
+  Unidirectional        240                 16384        18785.223        52.330
+  Unidirectional        240                 32768        29552.527        66.528
+  Unidirectional        240                 65536        49429.582        79.551
+  Unidirectional        240                131072        58275.942       134.950
+  Unidirectional        240                262144        46473.947       338.440
+  Unidirectional        240                524288        47993.524       655.448
+  Unidirectional        240               1048576        49899.361      1260.829
+  Unidirectional        240               2097152        50640.589      2484.748
+  Unidirectional        240               4194304        51137.053      4921.250
+  Unidirectional        240               8388608        51223.401      9825.909
+
+  Bidirectional           2                    32            3.751        17.061
+  Bidirectional           2                    64            6.433        19.898
+  Bidirectional           2                   128           11.092        23.079
+  Bidirectional           2                   256           16.624        30.799
+  Bidirectional           2                   512           52.557        19.484
+  Bidirectional           2                  1024           75.843        27.003
+  Bidirectional           2                  2048          199.441        20.537
+  Bidirectional           2                  4096          260.065        31.500
+  Bidirectional           2                  8192          499.560        32.797
+  Bidirectional           2                 16384          527.840        62.079
+  Bidirectional           2                 32768          774.478        84.620
+  Bidirectional           2                 65536          930.244       140.901
+  Bidirectional           2                131072          934.165       280.619
+  Bidirectional           2                262144          841.609       622.959
+  Bidirectional           2                524288          897.337      1168.542
+  Bidirectional           2               1048576          954.249      2197.700
+  Bidirectional           2               2097152          959.272      4372.382
+  Bidirectional           2               4194304          943.261      8893.199
+  Bidirectional           2               8388608          945.466     17744.918
+
+  Bidirectional           4                    32            4.961        25.802
+  Bidirectional           4                    64            9.779        26.178
+  Bidirectional           4                   128           15.385        33.278
+  Bidirectional           4                   256           30.349        33.741
+  Bidirectional           4                   512           65.303        31.362
+  Bidirectional           4                  1024          139.810        29.297
+  Bidirectional           4                  2048          287.241        28.520
+  Bidirectional           4                  4096          539.315        30.379
+  Bidirectional           4                  8192          718.297        45.619
+  Bidirectional           4                 16384         1044.210        62.761
+  Bidirectional           4                 32768         1379.978        94.981
+  Bidirectional           4                 65536         1556.676       168.400
+  Bidirectional           4                131072         1557.867       336.542
+  Bidirectional           4                262144         1629.280       643.582
+  Bidirectional           4                524288         1779.692      1178.379
+  Bidirectional           4               1048576         1842.955      2275.858
+  Bidirectional           4               2097152         1883.008      4454.899
+  Bidirectional           4               4194304         1910.724      8780.556
+  Bidirectional           4               8388608         1910.142     17566.462
+
+  Bidirectional           8                    32            7.696        33.264
+  Bidirectional           8                    64           18.526        27.637
+  Bidirectional           8                   128           28.748        35.620
+  Bidirectional           8                   256           54.243        37.756
+  Bidirectional           8                   512          118.515        34.561
+  Bidirectional           8                  1024          228.943        35.782
+  Bidirectional           8                  2048          557.969        29.364
+  Bidirectional           8                  4096          800.740        40.922
+  Bidirectional           8                  8192         1440.962        45.481
+  Bidirectional           8                 16384         2123.593        61.722
+  Bidirectional           8                 32768         3039.844        86.236
+  Bidirectional           8                 65536         3039.004       172.520
+  Bidirectional           8                131072         2876.458       364.537
+  Bidirectional           8                262144         3091.142       678.439
+  Bidirectional           8                524288         3232.206      1297.660
+  Bidirectional           8               1048576         3302.841      2539.816
+  Bidirectional           8               2097152         3373.307      4973.521
+  Bidirectional           8               4194304         3362.553      9978.857
+  Bidirectional           8               8388608         3362.980     19955.177
+
+  Bidirectional          16                    32           12.238        41.838
+  Bidirectional          16                    64           25.626        39.959
+  Bidirectional          16                   128           43.467        47.116
+  Bidirectional          16                   256          108.472        37.761
+  Bidirectional          16                   512          200.981        40.760
+  Bidirectional          16                  1024          443.982        36.902
+  Bidirectional          16                  2048          618.704        52.962
+  Bidirectional          16                  4096         1441.567        45.462
+  Bidirectional          16                  8192         2585.383        50.697
+  Bidirectional          16                 16384         3762.101        69.680
+  Bidirectional          16                 32768         5744.875        91.262
+  Bidirectional          16                 65536         5900.092       177.722
+  Bidirectional          16                131072         5615.483       373.459
+  Bidirectional          16                262144         5906.153       710.158
+  Bidirectional          16                524288         6273.648      1337.118
+  Bidirectional          16               1048576         6502.595      2580.080
+  Bidirectional          16               2097152         6611.945      5074.821
+  Bidirectional          16               4194304         6593.211     10178.480
+  Bidirectional          16               8388608         6629.156     20246.577
+
+  Bidirectional          32                    32           19.155        53.458
+  Bidirectional          32                    64           47.962        42.701
+  Bidirectional          32                   128           91.101        44.961
+  Bidirectional          32                   256          195.515        41.900
+  Bidirectional          32                   512          350.538        46.740
+  Bidirectional          32                  1024          686.371        47.741
+  Bidirectional          32                  2048         1104.815        59.319
+  Bidirectional          32                  4096         2622.380        49.982
+  Bidirectional          32                  8192         4272.271        61.359
+  Bidirectional          32                 16384         7487.821        70.019
+  Bidirectional          32                 32768         9193.241       114.059
+  Bidirectional          32                 65536        11189.534       187.421
+  Bidirectional          32                131072        10754.616       390.000
+  Bidirectional          32                262144        11625.049       721.598
+  Bidirectional          32                524288        12250.826      1369.476
+  Bidirectional          32               1048576        12589.002      2665.377
+  Bidirectional          32               2097152        12578.459      5335.221
+  Bidirectional          32               4194304        12788.655     10495.062
+  Bidirectional          32               8388608        12811.447     20952.783
+
+  Bidirectional          64                    32           37.154        55.122
+  Bidirectional          64                    64           76.192        53.759
+  Bidirectional          64                   128          130.279        62.881
+  Bidirectional          64                   256          249.762        65.598
+  Bidirectional          64                   512          607.492        53.940
+  Bidirectional          64                  1024         1128.399        58.079
+  Bidirectional          64                  2048         2453.610        53.420
+  Bidirectional          64                  4096         4859.935        53.940
+  Bidirectional          64                  8192         7530.902        69.618
+  Bidirectional          64                 16384        13022.760        80.519
+  Bidirectional          64                 32768        17697.664       118.499
+  Bidirectional          64                 65536        21666.855       193.582
+  Bidirectional          64                131072        20201.863       415.239
+  Bidirectional          64                262144        21811.244       769.200
+  Bidirectional          64                524288        22800.727      1471.639
+  Bidirectional          64               1048576        23510.361      2854.438
+  Bidirectional          64               2097152        23796.639      5640.197
+  Bidirectional          64               4194304        23631.337     11359.301
+APPLICATION TERMINATED WITH THE EXIT STRING: Bus error (signal 7)
+TACC: MPI job exited with code: 7
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.rkeYlfAw -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.0JvyCrPB  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Terminated (signal 15)
+TACC: MPI job exited with code: 15
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.iXpWIrqS -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.sC5pKx5S  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.cAn8Siwk -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.KNtlVLXF  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.7LXerELC -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.nUiYnrk0  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.HAhsYRfA -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.E4CYkJKa  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.fj5Idzyd -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.oo9PGsOZ  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.h8adivai -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.D5lnCJmW  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.n6P17HJ2 -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.NkTs5Mot  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.Z5hK6dqf -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.gMcM3rss  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.8KOyO9MR -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.KF4w4MZq  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.opPO2zGF -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.1FQWi7is  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.AKZ2op7i -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.jzkA0oYG  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.Ml0SHmOX -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.jHhQb09O  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.igldO6Hv -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.b76XTn6w  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.KIMY7i90 -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.CIWZljvt  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.WGTiLKou -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.pawwdB8D  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.Fk2kG3Hh -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.IjvUE5Gu  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.FClhTZok -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.GjhqLKaF  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.HAnp2nJo -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.nzNttjsy  
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+params:  25769803776 240
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+***************************************************
+Experiment 2
+***************************************************
+
+
+
+****************  task 0 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.T0wqEpOW -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.LkZOVtac  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.JF1Z5dbt -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.23jhQpui  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.rOWT8HnI -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.uTVC6JCV  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.89Vnw75R -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.DjarGhxq  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.rTmQwMSi -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.RXVt5pES  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.3WmbGo7i -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.ctsQ6fai  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.TI1Ti5LA -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.Qno4yeBG  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.UAVJaS01 -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.efOC5Dgy  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.TAOOvYii -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.mz2mHg4I  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.P1eRkfT2 -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.UK96zvf0  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.JJyP2fPM -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.NF5Tqvx0  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.aZpbMYnz -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.z8x8TSAk  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.puqCI14d -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.2iVxdMcK  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.VgyjR8fG -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.VJNIBAp2  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.ADxNRZK0 -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.KAmA9qzp  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.nfHdEG6i -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.yTpjykkv  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.GCNVkPdO -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.qwWBNEvW  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.JdgjLdUL -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.z850yVvY  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.ZJanQoei -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.apcSIZQB  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.FLRYVCql -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.PHzu5jr6  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 2919446
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.2919446.Pq4rSwho -machinefile /home1/02636/uswickra/.slurm/job.2919446.hostlist.IK5dgZzO  
+APPLICATION TERMINATED WITH THE EXIT STRING: Aborted (signal 6)
+TACC: MPI job exited with code: 6
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+

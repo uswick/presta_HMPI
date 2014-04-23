@@ -1,0 +1,117 @@
+TACC: Starting up job 1913364
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1913364.QPqb3RAt 
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+params:  6442450944 4
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:1 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:0 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:2 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:3 
+DEBUG_HMPIComm_ node_rank init()  rank:0 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:0 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:0 
+DEBUG_HMPIComm_ node_rank init()  rank:1 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:1 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:1 
+DEBUG_HMPIComm_ node_rank init()  rank:2 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:2 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:2 
+DEBUG_HMPIComm_ node_rank init()  rank:3 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:3 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:3 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:0 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:2 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:3 
+DEBUG_HMPIComm_ node_rank init()  rank:0 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:0 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:0 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:1 
+DEBUG_HMPIComm_ node_rank init()  rank:1 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:1 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:1 
+DEBUG_HMPIComm_ node_rank init()  rank:2 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:2 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:2 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:0 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:1 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:2 
+DEBUG_HMPIComm_ node_rank init()  rank:2 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:2 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:2 
+DEBUG_HMPIComm_ node_rank init()  rank:3 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:3 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:3 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:3 
+DEBUG_HMPIComm_ node_rank init()  rank:3 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:3 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:3 
+DEBUG_HMPIComm_ node_rank init()  rank:0 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:0 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:0 
+DEBUG_HMPIComm_ node_rank init()  rank:1 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:1 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:1 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+DEBUG_HMPIComm_create 
+DEBUG_HMPIComm_create 
+--------------------------------------------------------------------------------
+DEBUG_HMPIComm_create 
+DEBUG_HMPIComm_create 
+DEBUG_  HMPI_COMM_CREATE comm good rank:1  
+DEBUG_ NEW_HMPI_COMM_CREATE comm NULL! return from HMPI_Comm_create() 
+DEBUG_  HMPI_COMM_CREATE comm good rank:3  
+DEBUG_ NEW_HMPI_COMM_CREATE comm NULL! return from HMPI_Comm_create() 
+DEBUG_  HMPI_COMM_CREATE comm good rank:0  
+DEBUG_  NEW_HMPI_COMM_CREATE comm good   
+DEBUG_ NEW_HMPI_COMM_CREATE comm good MY_rank: :0 
+DEBUG_HMPIComm_create init_communicator() [after] 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:0 
+DEBUG_HMPIComm_ node_rank init()  rank:0 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:0 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:0 
+DEBUG_  HMPI_COMM_CREATE comm good rank:2  
+DEBUG_  NEW_HMPI_COMM_CREATE comm good   
+DEBUG_ NEW_HMPI_COMM_CREATE comm good MY_rank: :1 
+DEBUG_HMPIComm_create init_communicator() [after] 
+DEBUG_ HELLO INIT_COMM comm good   
+DEBUG_HMPIComm_ init_communcitor(c) [inside]  
+DEBUG_HMPIComm_ init_communcitor(c) [after] rank:1 
+DEBUG_HMPIComm_ node_rank init()  rank:1 
+DEBUG_ INIT_NODE_COMM Node_comm is good...  rank:1 
+DEBUG_HMPIComm_  node_rank init()  [after] rank:1 
+HMPI_SENDRECV()  source: 0 
+HMPI_SENDRECV()  after Irecv() 
+HMPI_SENDRECV()  after Send() 
+HMPI_SENDRECV()  source: 1 
+HMPI_SENDRECV()  after Irecv() 

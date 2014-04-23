@@ -1,0 +1,2694 @@
+TACC: Starting up job 1906373
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1906373.EgKSDiIl 
+params:  6442450944 2
+params:  6442450944 2
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+-----rank: 1  size:2  procsSize:1 .
+---------------------------------------------------------------------------
+rank: 0  size:2  procsSize:1 .
+Active comm good
+unicom start
+Active comm good
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+  Unidirectional          2                    32            2.002         7.992
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                    64            3.083        10.381
+unicom start
+unicom -2 
+unicom -1
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2                   128            6.066        10.550
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                   256           12.342        10.371
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                   512           22.841        11.208
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                  1024           40.634        12.600
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+  Unidirectional          2                  2048           75.403        13.580
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+unicom -1
+  Unidirectional          2                  4096          144.831        14.141
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                  8192          272.350        15.039
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2                 16384          434.164        18.868
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                 32768          943.172        17.371
+unicom start
+unicom -2 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                 65536         1013.188        32.341
+unicom start
+unicom -2 
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+unicom 5
+unicom 5
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                131072         1219.295        53.749
+unicom start
+unicom -2 
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+  Unidirectional          2                262144         1246.414       105.159
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2                524288          722.204       362.978
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               1048576          749.926       699.120
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               2097152          792.766      1322.680
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+unicom start
+unicom -2 
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               4194304          812.279      2581.811
+unicom start
+unicom -2 
+unicom -1
+unicom -1
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 0
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 4
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+unicom 1
+unicom 2
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 5
+unicom 3
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+unicom 5
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+genric barrier 2
+genric barrier return() 
+done with final barrier! 
+  Unidirectional          2               8388608          822.264      5100.920
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+Active comm good
+generic_barrier() --> curr  comm good
+Active comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                    32           10.461         6.118
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                    64           19.943         6.418
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                   128           32.917         7.777
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+genric barrier return() 
+  Bidirectional           2                   256           62.902         8.140
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                   512          129.601         7.901
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                  1024          264.468         7.744
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                  2048          618.871         6.618
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                  4096         1128.769         7.257
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier return() 
+  Bidirectional           2                  8192         1641.650         9.980
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier return() 
+  Bidirectional           2                 16384         2520.891        12.999
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier return() 
+  Bidirectional           2                 32768         3550.477        18.458
+generic_barrier() --> curr  comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                 65536         4773.015        27.461
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                131072         4947.852        52.981
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                262144         1036.913       505.624
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2                524288          817.426      1282.778
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2               1048576          831.887      2520.957
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2               2097152          838.864      4999.981
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+  Bidirectional           2               4194304          837.856     10011.997
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :0 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:1 
+genric barrier 2
+genric barrier return() 
+generic_barrier() --> curr  comm good
+after comm_rank()!  :rank :1 size:2  
+after weird loop !  
+genric barrier 2 [before] destination:0 
+genric barrier 2
+genric barrier return() 
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+  Bidirectional           2               8388608          830.263     20207.100
+HMPI comm_free() 
+HMPI comm net_comm NOT NULL  
+HMPI comm node_comm NOT NULL  
+HMPI comm comm NOT NULL  
+
+Max Unidirectional Bandwith :        1246.41 for message size of  262144 bytes
+Max  Bidirectional Bandwith :        4947.85 for message size of  131072 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c557-904-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c557-904-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c557-904-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c557-904-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000477
+Ticks for minimum sample            306
+
+ 
+TACC: Shutdown complete. Exiting.

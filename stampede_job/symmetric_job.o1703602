@@ -1,0 +1,19 @@
+TACC: Starting up job 1703602
+TACC: Starting parallel tasks...
+  /opt/apps/intel13/impi/4.1.0.030/intel64/bin/mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.1703602.2FDZZ0Vp 
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2              11.694
+Fatal error in MPI_Group_incl: Invalid rank, error stack:
+MPI_Group_incl(156)..............: MPI_Group_incl(group=0x88000000, n=3, ranks=0x7b2300, new_group=0x7ffff54eaa34) failed
+MPIR_Group_check_valid_ranks(251): Invalid rank in rank array at index 2; value is 6381720 but must be in the range 0 to 2
+Fatal error in MPI_Group_incl: Invalid rank, error stack:
+MPI_Group_incl(156)..............: MPI_Group_incl(group=0x88000000, n=3, ranks=0xc0789eb0, new_group=0x7fff38772ec0) failed
+MPIR_Group_check_valid_ranks(251): Invalid rank in rank array at index 2; value is -1067360104 but must be in the range 0 to 2
+Fatal error in MPI_Group_incl: Invalid rank, error stack:
+MPI_Group_incl(156)..............: MPI_Group_incl(group=0x88000000, n=3, ranks=0x789eb0, new_group=0x7fff9058bb40) failed
+MPIR_Group_check_valid_ranks(251): Invalid rank in rank array at index 2; value is 6381720 but must be in the range 0 to 2
+TACC: MPI job exited with code: 1
+ 
+TACC: Shutdown complete. Exiting.

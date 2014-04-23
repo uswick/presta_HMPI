@@ -1,0 +1,1847 @@
+Experiment Title : INTRA SMP 60 ranks (MIC) - 1 node with com_u
+No of Total Runs : 20
+MIC procs per node : 2  OMP_NUM_THREADS: 2  MIC_OMP_NUM_THREADS : 60
+
+***************************************************
+Experiment 1
+***************************************************
+
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.JtloufXT -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.3sSwLdt8  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START FREE 1 rank [0] bufsize [4096] 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632350008.139
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632350024.910
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.825WjAWO -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.jAY8PIMe  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632354967.229
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632354991.199
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.2Qe4ZeIo -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.zlHsU5um  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632359864.691
+START 
+START Comm buffsize 8192 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632359887.500
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.VYO92rFs -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.YuUyjjnO  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+  Unidirectional          2         0                  4096            0.000  13958632364868.750
+START 
+START 
+START Comm buffsize 8192 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632364890.891
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.S6Pg6Bn8 -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.biEHSk2R  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632369950.160
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632369974.740
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.kIhsIewe -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.6eVPKCpd  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+  Unidirectional          2         0                  4096            0.000  13958632375070.781
+START 
+START 
+START Comm buffsize 8192 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632375093.430
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.kMnYBLPk -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.Fp3y9OYe  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+  Unidirectional          2         0                  4096            0.000  13958632380150.400
+START 
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632380172.830
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001192
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.OWL1m3NV -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.gMMyYpJw  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+  Unidirectional          2         0                  4096            0.000  13958632385244.689
+START 
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632385266.600
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.LUuiBsgM -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.5ulzxbO1  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632390250.672
+START 
+START Comm buffsize 8192 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632390274.031
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.WAUPOLbv -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.DVPw2ohv  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632395345.582
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632395369.861
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.8gKX4B6Y -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.bfZ33iMv  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632400375.521
+START 
+START Comm buffsize 8192 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632400398.281
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.gGYh4PK1 -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.HonXCfi3  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632405361.371
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632405386.000
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.pIaeJAwX -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.zAnw3H54  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632410446.041
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632410467.789
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.1TJR7auM -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.E7IkDpYS  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+  Unidirectional          2         0                  4096            0.000  13958632415448.639
+START 
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632415470.400
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000596
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.IICmzjCh -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.UTcsewIC  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632420443.941
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632420468.781
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.T0WCMUD6 -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.Ph8jmadk  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+  Unidirectional          2         0                  4096            0.000  13958632425463.070
+START 
+START 
+START Comm buffsize 8192 
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632425485.422
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000477
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.O7regz3v -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.RNhxuGep  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632430449.031
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632430472.432
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.88k3Ukjr -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.LwUwNhQY  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632435446.762
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632435470.189
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.FqRKDgid -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.46FFa37m  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632440554.410
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632440577.801
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.fEaHiPLq -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.843ijx9S  
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 6397952 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+map addr : 6393856 
+params: map_addr : 6393856 sm_region: 6393856 brk : 16112525312 limit : 32218652672 total_size : 32212254720  offset : 4096  ranks : 2 local_size : 16106127360 
+
+Unidirectional and Bidirectional Communication Test
+
+  Test            Processes  Message Size (bytes)   Bandwidth (MB)  Op time (us)
+--------------------------------------------------------------------------------
+START 
+START 
+START Comm buffsize 4096 
+START Comm buffsize 4096 
+START FREE 1 rank [1] bufsize [4096] 
+FINISHED FREE rank [1] bufsize [4096]
+After Barrier 
+START FREE 1 rank [0] bufsize [4096] 
+FINISHED FREE rank [0] bufsize [4096]
+After Barrier 
+START 
+  Unidirectional          2         0                  4096            0.000  13958632445546.949
+START 
+START Comm buffsize 8192 
+START FREE 1 rank [0] bufsize [8192] 
+FINISHED FREE rank [0] bufsize [8192]
+START Comm buffsize 8192 
+START FREE 1 rank [1] bufsize [8192] 
+FINISHED FREE rank [1] bufsize [8192]
+After Barrier 
+After Barrier 
+  Unidirectional          2         0                  8192            0.000  13958632445568.818
+
+Max Unidirectional Bandwith :           0.00 for message size of    8192 bytes
+Max  Bidirectional Bandwith :           0.00 for message size of       0 bytes
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample    99999000000
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+***************************************************
+Experiment 2
+***************************************************
+
+
+
+****************  task 0 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.sdhsQX1D -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.SAA6YOow  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.159
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002861
+Ticks for minimum sample            316
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 1 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.B0ruLZiW -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.a5joxWVU  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.150
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            315
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 2 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.tqbFjkiK -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.hrR07M4w  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.312
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001192
+Ticks for minimum sample            331
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 3 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.m1HmXKHW -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.AMmn6gtu  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.231
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            323
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 4 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.M5Ly6ABo -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.GOs9exs4  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.099
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            310
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 5 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.0yVjzM9z -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.JZUeBisD  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.130
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            313
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 6 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.LiU6qkdU -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.1cdTPAUA  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.080
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000596
+Ticks for minimum sample            308
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 7 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.HZ2AqFFZ -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.5I21guNg  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.440
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            344
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 8 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.wy9bpzFC -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.LEQP4BLX  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.228
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            323
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 9 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.IjXxSaTh -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.nMZoOwLk  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.490
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000477
+Ticks for minimum sample            349
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 10 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.sD0aAzZH -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.KKdyGaZB  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.140
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample            314
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 11 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.JE4BgyoG -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.1gTvuLxb  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.130
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            313
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 12 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.GORewEgr -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.pDsNZTIp  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.202
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            320
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 13 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.CCb3ZBZD -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.6etdgpch  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.040
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample            304
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 14 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.5N2BXUoS -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.O0rSl7rP  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.200
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001192
+Ticks for minimum sample            320
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 15 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.GtD5XHWH -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.e18udQ0B  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.450
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000002146
+Ticks for minimum sample            345
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 16 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.R9z8ouqG -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.Doa5xcv1  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.328
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            333
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 17 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.BU66TThO -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.k7fA00Sx  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               2.890
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            289
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 18 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.FhH0h7VC -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.htk0fLfN  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.390
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000000954
+Ticks for minimum sample            339
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 19 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.WqYpIePF -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.Q0FW6sLs  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.121
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            312
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
+****************  task 20 Starting ****************
+TACC: Starting up job 3071065
+TACC: Starting parallel tasks...
+  mpiexec.hydra -iface br0 -configfile /home1/02636/uswickra/.slurm/config_file.3071065.WdnG5M1E -machinefile /home1/02636/uswickra/.slurm/job.3071065.hostlist.Bku36UKY  
+params:  32212254720 2
+params:  32212254720 2
+MPI Bidirectional latency test (Send/Recv)
+             Processes    Max Latency (us)
+------------------------------------------
+                     2               3.262
+
+Test Parameters
+---------------
+Operations per measurement :       50
+Process pair allocation    :    block
+
+
+Rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu)
+Rank id    1 (c560-004-mic0.stampede.tacc.utexas.edu) communicated with rank id    0 (c560-004-mic0.stampede.tacc.utexas.edu)
+
+
+MPI_Wtick returns           0.000001000
+MPI_Wtime overhead          0.000001907
+Ticks for minimum sample            326
+
+ 
+TACC: Shutdown complete. Exiting.
+************************* done ********************
+***************************************************
+
+
