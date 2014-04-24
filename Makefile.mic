@@ -21,7 +21,7 @@ def: $(EXES)
 msg: $(MSG)
 
 .c.o:
-	$(CC) $(CFLAGS) $(INCDIR) -I$(INCDIR) $(LIBS) -openmp -D__USE_GNU -D_GNU_SOURCE lib-mic/libhmpiMIC.a -c $<
+	$(CC) $(CFLAGS) $(INCDIR) -I$(INCDIR) $(LIBS) -O3 -openmp -D__USE_GNU -D_GNU_SOURCE lib-mic/libhmpiMIC.a -c $<
 
 com: com.c util.o
 	$(CC) $(CFLAGS) $(LDFLAGS) -o com.mic com.c util.o -I$(INCDIR) $(LIBS) lib-mic/libhmpiMIC.a
